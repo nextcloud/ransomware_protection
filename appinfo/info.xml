@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<info>
+	<id>ransomware_protection</id>
+	<name>Ransomware protection</name>
+	<summary><![CDATA[This app prevents uploading files with known ransomware file endings]]></summary>
+	<description><![CDATA[This app prevents uploading files with known ransomware file endings.
+
+⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way.]]></description>
+	<licence>AGPL</licence>
+	<author>Joas Schilling</author>
+	<version>0.5.0</version>
+	<namespace>RansomwareProtection</namespace>
+
+	<category>files</category>
+	<category>monitoring</category>
+
+	<website>https://github.com/nextcloud/ransomware_protection</website>
+	<bugs>https://github.com/nextcloud/ransomware_protection/issues</bugs>
+	<repository type="git">https://github.com/nextcloud/ransomware_protection.git</repository>
+
+	<dependencies>
+		<nextcloud min-version="12" max-version="13" />
+	</dependencies>
+
+	<types>
+		<logging/>
+	</types>
+
+	<settings>
+		<admin>OCA\RansomwareProtection\Settings\Admin</admin>
+	</settings>
+</info>
