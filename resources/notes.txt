@@ -1,0 +1,328 @@
+YOUR_FILES_ARE_LOCKED.txt
+read_this_file.txt
+FILES_BACK.txt
+README_.TXT
+How to decrypt your files.txt
+ransomed.html
+README HOW TO DECRYPT YOUR FILES.HTML
+^Unlock_files_(.{5})\.html$
+Read Me (How Decrypt) !!!!.txt
+ПРОЧТИ_МЕНЯ.txt
+Decryption Instructions.txt
+.How_To_Decrypt.txt
+.Contact_Here_To_Recover_Your_Files.txt
+.Where_my_files.txt
+\.Read_Me\.Txt$
+^([a-fA-F0-9]{32})\.txt$
+.How_To_Get_Back.txt
+!!!!!readme!!!!!.htm
+Help Decrypt.html
+HOW TO DECRYPT.txt
+recover.bmp
+Hacked_Read_me_to_decrypt_files.html
+YourID.txt
+MENSAGEM.txt
+HOW_OPEN_FILES.html
+#_HOW_TO_FIX_!.hta
+BUYUNLOCKCODE.txt
+!Recovery_(.*)\.html$
+!Recovery_(.*)\.txt$
+# DECRYPT MY FILES #.html
+# DECRYPT MY FILES #.txt
+# DECRYPT MY FILES #.vbs
+# README.hta
+_(.*)_README\.jpg$
+_(.*)_README\.hta$
+_HELP_DECRYPT_([A-Z0-9]{4-8})_\.jpg$
+_HELP_DECRYPT_([A-Z0-9]{4-8})_\.hta$
+_HELP_HELP_HELP_(.*)\.jpg$
+_HELP_HELP_HELP_(.*)\.hta$
+_HOW_TO_DECRYPT_([A-Z0-9]{4-8})_\.jpg$
+_HOW_TO_DECRYPT_([A-Z0-9]{4-8})_\.hta$
+YOUR_FILES_ARE_ENCRYPTED.HTML
+YOUR_FILES_ARE_ENCRYPTED.TXT
+CHIP_FILES.txt
+DALE_FILES.TXT
+Warning警告.html
+wallpaper.jpg
+!!!-WARNING-!!!.html
+!!!-WARNING-!!!.txt
+HOW_TO_FIX_!.txt
+SHTODELATVAM.txt
+Instructionaga.txt
+README.BMP
+READ_THIS_TO_DECRYPT.html
+How decrypt files.hta
+OKSOWATHAPPENDTOYOURFILES.TXT
+HOW_DECRYPT.TXT
+HOW_DECRYPT.HTML
+HOW_DECRYPT.URL
+READ IF YOU WANT YOUR FILES BACK.html
+README!!!.txt
+GetYouFiles.txt
+crjoker.html
+^@WARNING_FILES_ARE_ENCRYPTED\.([A-F0-9]{8})\.txt
+HELP_YOUR_FILES.html
+HELP_YOUR_FILES.txt
+INSTRUCTION RESTORE FILE.TXT
+!Where_are_my_files!.html
+LEER_INMEDIATAMENTE.txt
+# RESTORING FILES #.HTML
+# RESTORING FILES #.TXT
+ATTENTION.url
+HOW TO DECRYPT FILES.txt
+DECRYPT_INSTRUCTION.HTML
+DECRYPT_INSTRUCTION.TXT
+DECRYPT_INSTRUCTION.URL
+INSTALL_TOR.URL
+HELP_DECRYPT.TXT
+HELP_DECRYPT.PNG
+HELP_DECRYPT.URL
+HELP_DECRYPT.HTML
+HELP_YOUR_FILES.HTML
+HELP_YOUR_FILES.PNG
+de_crypt_readme.bmp
+de_crypt_readme.html
+de_crypt_readme.txt
+README_FOR_DECRYPT.txt
+AllFilesAreLocked (.*)\.bmp$
+DecryptAllFiles (.*)\.txt$
+你的檔案被我們加密啦!!!.txt
+Your files encrypted by our friends !!! txt
+README.jpg
+Info.hta
+unlock-everybody.txt
+Digisom Readme(\d+)\.txt$
+cryptinfo.txt
+decrypting.txt
+README_TO_RECURE_YOUR_FILES.txt
+HOW TO DECODE FILES!!!.txt
+КАК РАСШИФРОВАТЬ ФАЙЛЫ!!!.txt
+qwer.html
+qwer2.html
+locked.bmp
+How to recover.enc
+enigma.hta
+enigma_encr.txt
+enigma_info.txt
+READ ME FOR DECRYPT.txt
+HOW_OPEN_FILES.hta
+DECRYPT_YOUR_FILES.HTML
+^RESTORE-FILES!(.*)
+Help to decrypt.txt
+-READ_ME\.html$
+help-file-decrypt.enc
+pronk.txt
+fs0ciety.html
+How to restore files.hta
+UNLOCK_FILES_INSTRUCTIONS.html
+UNLOCK_FILES_INSTRUCTIONS.txt
+DecryptFile.txt
+Your files have been crypted.html
+help_dcfile.txt
+DECRYPT_INFORMATION.html
+UNIQUE_ID_DO_NOT_REMOVE
+_Adatok_visszaallitasahoz_utasitasok.txt
+_locky_recover_instructions.txt
+README_DECRYPT_HYRDA_ID_([\w]{8})\.txt$
+Important_Read_Me.html
+readme_liesmich_encryptor_raas.txt
+Comment débloquer mes fichiers.txt
+filename.Instructions_Data_Recovery.txt
+INSTRUCCIONES.txt
+How Decrypt Files.txt
+DECRYPT_YOUR_FILES.txt
+how_decrypt.gif
+how_decrypt.html
+RANSOM_NOTE.txt
+_HELP_YOUR_FILES.html
+README_ALL.html
+KryptoLocker_README.txt
+READ_IT.hTmL
+@__help__@
+How to decrypt LeChiffre files.html
+LEAME.txt
+RESTORE_CORUPTED_FILES.HTML
+_Locky_recover_instructions.txt
+_Locky_recover_instructions.bmp
+_HELP_instructions.txt
+_HELP_instructions.bmp
+_HOWDO_text.html
+_WHAT_is.html
+_INSTRUCTION.html
+DesktopOSIRIS.htm
+DesktopOSIRIS.bmp
+OSIRIS-([0-9]{4})\.htm$
+DECRYPT_ReadMe1.TXT
+DECRYPT_ReadMe.TXT
+_DECRYPT_INFO_([a-z]{4,6})\.html$
+_HELP_Recover_Files_.html
+!!! Readme For Decrypt !!!.txt
+ReadMeFilesDecrypt!!!.txt
+CreatesReadThisFileImportant.txt
+(\d{5})-MATRIX-README\.RTF$
+YOUR_FILES_ARE_DEAD.HTA
+MERRY_I_LOVE_YOU_BRUCE.HTA
+where_are_your_files.txt
+readme_your_files_have_been_encrypted.txt
+(\d+)-(\d+)-(\d{4})-INFECTION\.TXT$
+IMPORTANT.README
+INSTRUCTION_FOR_HELPING_FILE_RECOVERY.TXT
+RESTORE_YOUR_FILES.txt
+decrypt explanations.html
+ATTENTION.RTF
+Decrypted.txt
+!_RECOVERY_HELP_!.txt
+HELP_ME_PLEASE.txt
+Recupere seus arquivos. Leia-me!.txt
+Learn how to recover your files.txt
+!!_RECOVERY_instructions_!!.html
+!!_RECOVERY_instructions_!!.txt
+HOW_TO_RESTORE_FILES.txt
+desk.bmp
+how to get data.txt
+HOW TO DECRYPT YOU FILES.txt
+IMPORTANT READ ME.txt
+File Decrypt Help.html
+README!.txt
+!!!!!ATENÇÃO!!!!!.html
+Your files are locked !.txt
+Your files are locked !!.txt
+Your files are locked !!!.txt
+Your files are locked !!!!.txt
+winclwp.jpg
+Important!.txt
+READ_ME_TO_DECRYPT.txt
+restore_your_files.html
+restore_your_files.txt
+README.png
+DECRYPT_INSTRUCTION.html
+!_HOW_TO_RESTORE_(.*)\.TXT$
+!_HOW_TO_RESTORE_(.*)\.html$
+!_HOW_TO_RESTORE_(.*)\.txt$
+@_USE_TO_FIX_JJnY.txt
+ПАРОЛЬ.txt
+Ransomware.txt
+DECRYPTION INSTRUCTIONS.txt
+rtext.txt
+!!!README!!!(.*)\.rtf$
+YOUR_FILES.url
+fud.bmp
+paycrypt.bmp
+strongcrypt.bmp
+maxcrypt.bmp
+VictemKey_0_5
+VictemKey_5_30
+VictemKey_30_100
+VictemKey_100_300
+VictemKey_300_700
+VictemKey_700_2000
+VictemKey_2000_3000
+VictemKey_3000
+zXz.html
+RarVault.htm
+decypt_your_files.html
+# !!!HELP_FILE!!! #.txt
+README_HOW_TO_UNLOCK.TXT
+README_HOW_TO_UNLOCK.HTML
+!Recovery_(.{3})\.html$
+HELP_DECRYPT_YOUR_FILES.html
+(.{3})-READ-FOR-HELLPP\.html$
+000-PLEASE-READ-WE-HELP.html
+CHECK-IT-HELP-FILES.html
+WHERE-YOUR-FILES.html
+HELP-ME-ENCED-FILES.html
+WE-MUST-DEC-FILES.html
+000-No-PROBLEM-WE-DEC-FILES.html
+TRY-READ-ME-TO-DEC.html
+000-IF-YOU-WANT-DEC-FILES.html
+LET-ME-TRY-DEC-FILES.html
+001-READ-FOR-DECRYPT-FILES.html
+READ-READ-READ.html
+IF_WANT_FILES_BACK_PLS_READ.html
+READ_READ_DEC_FILES.html
+RESTORE_ALL_DATA.html
+HELP_DECRYPT_FILES.html
+!satana!.txt
+HOW_TO_DECRYPT_YOUR_FILES_(.{3})\.html$
+HOW_TO_DECRYPT_YOUR_FILES_(.{3})\.txt$
+文件解密帮助.txt
+_RECOVER_INSTRUCTIONS.ini
+_HOW_TO_Decrypt.bmp
+DECRYPTION_HOWTO.Notepad
+ThxForYurTyme.txt
+Como descriptografar os seus arquivos.txt
+HELP_TO_SAVE_FILES.txt
+Howto_RESTORE_FILES.html
+_how_recover(.{3,4})\.txt$
+_how_recover(.{3,4})\.html$
+help_recover_instructions(.{3,4})\.BMP$
+help_recover_instructions(.{3,4})\.html$
+help_recover_instructions(.{3,4})\.txt$
+_H_e_l_p_RECOVER_INSTRUCTIONS(.{3,4})\.txt$
+_H_e_l_p_RECOVER_INSTRUCTIONS(.{3,4})\.html$
+_H_e_l_p_RECOVER_INSTRUCTIONS(.{3,4})\.png$
+Recovery(.{6})\.txt$
+Recovery(.{6})\.html$
+RESTORE_FILES_(.{5})\.TXT$
+restore_files_(.{5})\.bmp$
+HELP_RESTORE_FILES_(.{5})\.TXT$
+help_restore_files_(.{5})\.bmp$
+HOWTO_RECOVER_FILES_(.{5})\.TXT$
+howto_recover_files_(.{5})\.txt$
+HELP_TO_SAVE_FILES.bmp
+RECOVER(.{5})\.html$
+RECOVER(.{5})\.png$
+RECOVER(.{5})\.txt$
+Recovery+(.{5}).txt$
+Recovery+(.{5}).html$
+RESTORE_FILES_(.{5}).TXT$
+restore_files_(.{5}).bmp$
+HELP_RESTORE_FILES_(.{5}).TXT$
+help_restore_files_(.{5}).bmp$
+HOWTO_RECOVER_FILES_(.{5}).TXT$
+howto_recover_files_(.{5}).txt$
+help_to_save_files.bmp
+HOW_TO_RESTORE_FILES.html
+DECRYPT_INSTRUCTIONS.html
+DESIFROVANI_POKYNY.html
+INSTRUCCIONES_DESCIFRADO.html
+ISTRUZIONI_DECRITTAZIONE.html
+ENTSCHLUSSELN_HINWEISE.html
+ONTSLEUTELINGS_INSTRUCTIES.html
+INSTRUCTIONS_DE_DECRYPTAGE.html
+SIFRE_COZME_TALIMATI.html
+wie_zum_Wiederherstellen_von_Dateien.txt
+Payment_Instructions.jpg
+tox.html
+!!! HOW TO DECRYPT FILES !!!.txt
+README(\d+)\.txt$
+nomoreransom_note_original.txt
+What happen to my files.txt
+Beni Oku.txt
+DOSYALARINIZA ULAŞMAK İÇİN AÇINIZ.html
+README_DECRYPT_UMBRE_ID_(.*)\.jpg$
+README_DECRYPT_UMBRE_ID_(.*)\.txt$
+default32643264.bmp
+default432643264.jpg
+Files encrypted.txt
+READTHISNOW!!!.txt
+Hellothere.txt
+YOUGOTHACKED.TXT
+ReadMe-(.{3})\.html$
+READ_ME_!.txt
+VAULT.txt
+xort.txt
+trun.txt
+VAULT.hta
+How to decrypt your data.txt
+@Please_Read_Me@.txt
+HOW_TO_UNLOCK_FILES_README_(.*)\.txt$
+YOUR FILES ARE ENCRYPTED!.txt
+Xhelp.jpg
+HOW_CAN_I_DECRYPT_MY_FILES.txt
+HOW TO DECRYPT FILES.TXT
+# HELP_DECRYPT_YOUR_FILES #.TXT
+how.txt
+ZINO_NOTE.TXT
+Take_Seriously (Your saving grace).txt

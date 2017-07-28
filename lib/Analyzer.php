@@ -37,6 +37,16 @@ class Analyzer {
 	/** @var string[] */
 	protected $extensionsRegex;
 
+	/** @var string[] */
+	protected $notesPlain;
+	/** @var string[] */
+	protected $notesRegex;
+
+	/** @var string[] */
+	protected $notesBiasedPlain;
+	/** @var string[] */
+	protected $notesBiasedRegex;
+
 	/** @var IConfig */
 	protected $config;
 
@@ -60,11 +70,15 @@ class Analyzer {
 		$this->appManager = $appManager;
 	}
 
-	protected function parseExtensions() {
-		$pathToList = $this->appManager->getAppPath('ransomware_protection') . 'resources/extensions.txt';
-		$extensions = explode("\n", file_get_contents($pathToList));
+	protected function parseResources() {
+		$resourcesPath = $this->appManager->getAppPath('ransomware_protection') . 'resources/';
 
+		$extensions = explode("\n", file_get_contents($resourcesPath . 'extensions.txt'));
 		foreach ($extensions as $ext) {
+			if (empty($ext)) {
+				continue;
+			}
+
 			if (strpos($ext, '^') === 0 || substr($ext, -1) === '$') {
 				$this->extensionsRegex[] = $ext;
 				continue;
@@ -72,6 +86,37 @@ class Analyzer {
 
 			$this->extensionsPlain[] = $ext;
 			$this->extensionsPlainLength[$ext] = strlen($ext);
+		}
+
+		$notes = explode("\n", file_get_contents($resourcesPath . 'notes.txt'));
+		foreach ($notes as $note) {
+			if (empty($note)) {
+				continue;
+			}
+
+			if (strpos($note, '^') === 0 || substr($note, -1) === '$') {
+				$this->notesRegex[] = $note;
+				continue;
+			}
+
+			$this->notesPlain[] = $note;
+		}
+
+		$this->notesBiasedRegex = $this->notesBiasedPlain = [];
+		if ($this->config->getAppValue('ransomware_protection', 'check-all', 'no') === 'yes') {
+			$notes = explode("\n", file_get_contents($resourcesPath . 'notes-biased.txt'));
+			foreach ($notes as $note) {
+				if (empty($note)) {
+					continue;
+				}
+
+				if (strpos($note, '^') === 0 || substr($note, -1) === '$') {
+					$this->notesBiasedRegex[] = $note;
+					continue;
+				}
+
+				$this->notesBiasedPlain[] = $note;
+			}
 		}
 	}
 
@@ -96,35 +141,60 @@ class Analyzer {
 		$filePath = $this->translatePath($storage, $path);
 		$fileName = basename($filePath);
 
-		foreach ($this->extensionsPlain as $ext) {
-			if (substr($fileName, $this->extensionsPlainLength[$ext]) === $ext) {
+		$this->checkExtension($fileName, $this->extensionsPlain, $this->extensionsRegex, $this->extensionsPlainLength);
+		$this->checkNotes($fileName, $this->notesPlain, $this->notesRegex);
+		if ($this->config->getAppValue('ransomware_protection', 'check-all', 'no') === 'yes') {
+			$this->checkNotes($fileName, $this->notesBiasedPlain, $this->notesBiasedRegex);
+		}
+	}
+
+	/**
+	 * Check if a file name matches the prefix/extension
+	 *
+	 * @param string $name
+	 * @param string[] $plain
+	 * @param string[] $regex
+	 * @param int[] $plainLengths
+	 * @throws ForbiddenException
+	 */
+	protected function checkExtension($name, array $plain, array $regex, array $plainLengths) {
+		foreach ($plain as $ext) {
+			if (strpos($ext, '.') === 0 || strpos($ext, '_') === 0) {
+				if (isset($plainLengths[$ext]) && substr($name, $plainLengths[$ext]) === $ext) {
+					throw new ForbiddenException('Ransomware file detected', true);
+				}
+			} else if (strpos($name, $ext) !== false) {
 				throw new ForbiddenException('Ransomware file detected', true);
 			}
 		}
 
-		foreach ($this->extensionsRegex as $ext) {
-			if (preg_match('/' . $ext . '/', $fileName) === 1) {
+		foreach ($regex as $ext) {
+			if (preg_match('/' . $ext . '/', $name) === 1) {
 				throw new ForbiddenException('Ransomware file detected', true);
 			}
 		}
 	}
 
 	/**
-	 * Check if a file name matches the prefix/extension
+	 * Check if a file name matches the info/notes file
+	 *
 	 * @param string $name
-	 * @param string $ext
-	 * @return bool
+	 * @param string[] $plain
+	 * @param string[] $regex
+	 * @throws ForbiddenException
 	 */
-	protected function checkExtension($name, $ext) {
-		if (strpos($ext, '^') === 0 || substr($ext, -1) === '$') {
-			return preg_match('/' . $ext . '/', $name) === 1;
+	protected function checkNotes($name, array $plain, array $regex) {
+		foreach ($plain as $note) {
+			if ($name === $note) {
+				throw new ForbiddenException('Ransomware file detected', true);
+			}
 		}
 
-		if (strpos($ext, '.') === 0 || strpos($ext, '_') === 0) {
-			return substr($name, 0 - strlen($ext)) === $ext;
+		foreach ($regex as $note) {
+			if (preg_match('/' . $note . '/', $name) === 1) {
+				throw new ForbiddenException('Ransomware file detected', true);
+			}
 		}
-
-		return strpos($name, $ext) !== false;
 	}
 
 	/**
