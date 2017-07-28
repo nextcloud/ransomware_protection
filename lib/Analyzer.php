@@ -27,6 +27,7 @@ use OCP\AppFramework\Utility\ITimeFactory;
 use OCP\Files\ForbiddenException;
 use OCP\Files\Storage\IStorage;
 use OCP\IConfig;
+use OCP\ILogger;
 
 class Analyzer {
 
@@ -56,6 +57,15 @@ class Analyzer {
 	/** @var IAppManager */
 	protected $appManager;
 
+	/** @var ILogger */
+	protected $logger;
+
+	/** @var Striker */
+	protected $striker;
+
+	/** @var string */
+	protected $userId;
+
 	/** @var int */
 	protected $nestingLevel = 0;
 
@@ -63,11 +73,17 @@ class Analyzer {
 	 * @param IConfig $config
 	 * @param ITimeFactory $time
 	 * @param IAppManager $appManager
+	 * @param ILogger $logger
+	 * @param Striker $striker
+	 * @param string $userId
 	 */
-	public function __construct(IConfig $config, ITimeFactory $time, IAppManager $appManager) {
+	public function __construct(IConfig $config, ITimeFactory $time, IAppManager $appManager, ILogger $logger, Striker $striker, $userId) {
 		$this->config = $config;
 		$this->time = $time;
 		$this->appManager = $appManager;
+		$this->logger = $logger;
+		$this->striker = $striker;
+		$this->userId = $userId;
 	}
 
 	protected function parseResources() {
@@ -126,12 +142,12 @@ class Analyzer {
 	 * @throws ForbiddenException
 	 */
 	public function checkPath(IStorage $storage, $path) {
-		if ($this->nestingLevel !== 0 || !$this->isBlockablePath($storage, $path) || $this->isCreatingSkeletonFiles()) {
+		if ($this->userId === null || $this->nestingLevel !== 0 || !$this->isBlockablePath($storage, $path) || $this->isCreatingSkeletonFiles()) {
 			// Allow creating skeletons and theming
 			return;
 		}
 
-		if ($this->config->getUserValue(\OC_User::getUser(), 'ransomware_protection', 'disabled_until', 0) < $this->time->getTime()) {
+		if ($this->config->getUserValue($this->userId, 'ransomware_protection', 'disabled_until', 0) < $this->time->getTime()) {
 			// Protection is currently disabled for the user
 			return;
 		}
@@ -141,10 +157,10 @@ class Analyzer {
 		$filePath = $this->translatePath($storage, $path);
 		$fileName = basename($filePath);
 
-		$this->checkExtension($fileName, $this->extensionsPlain, $this->extensionsRegex, $this->extensionsPlainLength);
-		$this->checkNotes($fileName, $this->notesPlain, $this->notesRegex);
+		$this->checkExtension($fileName, $filePath, $this->extensionsPlain, $this->extensionsRegex, $this->extensionsPlainLength);
+		$this->checkNotes($fileName, $filePath, $this->notesPlain, $this->notesRegex);
 		if ($this->config->getAppValue('ransomware_protection', 'check-all', 'no') === 'yes') {
-			$this->checkNotes($fileName, $this->notesBiasedPlain, $this->notesBiasedRegex);
+			$this->checkNotes($fileName, $filePath, $this->notesBiasedPlain, $this->notesBiasedRegex);
 		}
 	}
 
@@ -152,25 +168,26 @@ class Analyzer {
 	 * Check if a file name matches the prefix/extension
 	 *
 	 * @param string $name
+	 * @param string $path
 	 * @param string[] $plain
 	 * @param string[] $regex
 	 * @param int[] $plainLengths
 	 * @throws ForbiddenException
 	 */
-	protected function checkExtension($name, array $plain, array $regex, array $plainLengths) {
+	protected function checkExtension($name, $path, array $plain, array $regex, array $plainLengths) {
 		foreach ($plain as $ext) {
 			if (strpos($ext, '.') === 0 || strpos($ext, '_') === 0) {
 				if (isset($plainLengths[$ext]) && substr($name, $plainLengths[$ext]) === $ext) {
-					throw new ForbiddenException('Ransomware file detected', true);
+					$this->striker->handleMatch('extension', $path, $ext);
 				}
 			} else if (strpos($name, $ext) !== false) {
-				throw new ForbiddenException('Ransomware file detected', true);
+				$this->striker->handleMatch('extension', $path, $ext);
 			}
 		}
 
 		foreach ($regex as $ext) {
 			if (preg_match('/' . $ext . '/', $name) === 1) {
-				throw new ForbiddenException('Ransomware file detected', true);
+				$this->striker->handleMatch('extension', $path, $ext);
 			}
 		}
 	}
@@ -179,20 +196,21 @@ class Analyzer {
 	 * Check if a file name matches the info/notes file
 	 *
 	 * @param string $name
+	 * @param string $path
 	 * @param string[] $plain
 	 * @param string[] $regex
 	 * @throws ForbiddenException
 	 */
-	protected function checkNotes($name, array $plain, array $regex) {
+	protected function checkNotes($name, $path, array $plain, array $regex) {
 		foreach ($plain as $note) {
 			if ($name === $note) {
-				throw new ForbiddenException('Ransomware file detected', true);
+				$this->striker->handleMatch('note file', $path, $note);
 			}
 		}
 
 		foreach ($regex as $note) {
 			if (preg_match('/' . $note . '/', $name) === 1) {
-				throw new ForbiddenException('Ransomware file detected', true);
+				$this->striker->handleMatch('note file', $path, $note);
 			}
 		}
 	}
