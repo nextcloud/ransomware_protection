@@ -28,6 +28,7 @@ use OCP\Files\ForbiddenException;
 use OCP\Files\Storage\IStorage;
 use OCP\IConfig;
 use OCP\ILogger;
+use OCP\Notification\IManager;
 
 class Striker {
 
@@ -41,6 +42,9 @@ class Striker {
 	/** @var ITimeFactory */
 	protected $time;
 
+	/** @var IManager */
+	protected $notifications;
+
 	/** @var ILogger */
 	protected $logger;
 
@@ -50,12 +54,14 @@ class Striker {
 	/**
 	 * @param IConfig $config
 	 * @param ITimeFactory $time
+	 * @param IManager $notifications
 	 * @param ILogger $logger
 	 * @param string $userId
 	 */
-	public function __construct(IConfig $config, ITimeFactory $time, ILogger $logger, $userId) {
+	public function __construct(IConfig $config, ITimeFactory $time, IManager $notifications, ILogger $logger, $userId) {
 		$this->config = $config;
 		$this->time = $time;
+		$this->notifications = $notifications;
 		$this->logger = $logger;
 		$this->userId = $userId;
 	}
@@ -86,7 +92,11 @@ class Striker {
 
 		if ($strikeType === self::FIFTH_STRIKE) {
 			// Block the user for 1 hour
-			$this->config->setUserValue($this->userId, 'ransomware_protection', 'client_blocked', '[]');
+			$this->config->setUserValue($this->userId, 'ransomware_protection', 'client_blocked', $this->time->getTime() + 3600);
+		}
+
+		if ($strikeType === self::FIRST_STRIKE) {
+			$this->notifyUser($path, $pattern);
 		}
 
 		throw new ForbiddenException('Ransomware file detected', true);
@@ -127,6 +137,21 @@ class Striker {
 		array_unshift($lastStrikes, $newStrike);
 
 		$this->config->setUserValue($this->userId, 'ransomware_protection', 'last_strikes', json_encode($lastStrikes));
+	}
+
+	protected function notifyUser($path, $pattern) {
+		$notification = $this->notifications->createNotification();
+
+		$notification->setApp('ransomware_protection')
+			->setDateTime(new \DateTime())
+			->setObject('strike', '1')
+			->setSubject('upload_blocked', [
+				$path,
+				$pattern,
+			])
+			->setUser($this->userId);
+		$this->notifications->notify($notification);
+
 	}
 
 	/**

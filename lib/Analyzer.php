@@ -154,13 +154,21 @@ class Analyzer {
 
 		$this->nestingLevel++;
 
-		$filePath = $this->translatePath($storage, $path);
-		$fileName = basename($filePath);
+		$filePath = $path;
+		if (property_exists($storage, 'mountPoint')) {
+			/** @var StorageWrapper $storage */
+			$filePath = $storage->mountPoint . $path;
+		}
 
-		$this->checkExtension($fileName, $filePath, $this->extensionsPlain, $this->extensionsRegex, $this->extensionsPlainLength);
-		$this->checkNotes($fileName, $filePath, $this->notesPlain, $this->notesRegex);
+		// '', admin, 'files', 'path/to/file.txt'
+		$segment = explode('/', $filePath, 4);
+		$userPath = $segment[3];
+		$fileName = basename($userPath);
+
+		$this->checkExtension($fileName, $userPath, $this->extensionsPlain, $this->extensionsRegex, $this->extensionsPlainLength);
+		$this->checkNotes($fileName, $userPath, $this->notesPlain, $this->notesRegex);
 		if ($this->config->getAppValue('ransomware_protection', 'check-all', 'no') === 'yes') {
-			$this->checkNotes($fileName, $filePath, $this->notesBiasedPlain, $this->notesBiasedRegex);
+			$this->checkNotes($fileName, $userPath, $this->notesBiasedPlain, $this->notesBiasedRegex);
 		}
 	}
 
