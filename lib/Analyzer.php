@@ -213,7 +213,7 @@ class Analyzer {
 	protected function checkExtension($name, $path, array $plain, array $regex, array $plainLengths) {
 		foreach ($plain as $ext) {
 			if (strpos($ext, '.') === 0 || strpos($ext, '_') === 0) {
-				if (isset($plainLengths[$ext]) && substr($name, $plainLengths[$ext]) === $ext) {
+				if (isset($plainLengths[$ext]) && substr($name, 0 - $plainLengths[$ext]) === $ext) {
 					$this->striker->handleMatch('extension', $path, $ext);
 				}
 			} else if (strpos($name, $ext) !== false) {

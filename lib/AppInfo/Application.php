@@ -25,6 +25,7 @@ namespace OCA\RansomwareProtection\AppInfo;
 
 use OC\Files\Filesystem;
 use OCA\RansomwareProtection\Analyzer;
+use OCA\RansomwareProtection\Notification\Notifier;
 use OCA\RansomwareProtection\StorageWrapper;
 use OCP\AppFramework\App;
 use OCP\Files\Storage\IStorage;
@@ -42,6 +43,7 @@ class Application extends App {
 	public function register() {
 		Util::connectHook('OC_Filesystem', 'preSetup', $this, 'addStorageWrapper');
 		\OCP\App::registerPersonal('ransomware_protection', 'personal');
+		$this->registerNotificationNotifier();
 	}
 
 	/**
@@ -70,5 +72,17 @@ class Application extends App {
 		}
 
 		return $storage;
+	}
+
+	protected function registerNotificationNotifier() {
+		$this->getContainer()->getServer()->getNotificationManager()->registerNotifier(function() {
+			return $this->getContainer()->query(Notifier::class);
+		}, function() {
+			$l = $this->getContainer()->getServer()->getL10NFactory()->get('ransomware_protection');
+			return [
+				'id' => 'ransomware_protection',
+				'name' => $l->t('Ransomware protection'),
+			];
+		});
 	}
 }

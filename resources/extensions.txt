@@ -206,7 +206,6 @@ keybtc@inbox_com
 .RMCM1
 ^Lock\.
 .fuck
-\.([a-zA-Z0-9]{4})$
 .KEYZ
 .KEYH0LES
 .mole
