@@ -55,7 +55,7 @@ class CacheWrapper extends Wrapper  {
 	protected function formatCacheEntry($entry) {
 		if (isset($entry['path'], $entry['permissions'])) {
 			try {
-				$this->analyzer->checkPath($this->storage, $entry['path']);
+				$this->analyzer->checkPath($this->storage, $entry['path'], Analyzer::READING);
 			} catch (ForbiddenException $e) {
 				$entry['permissions'] &= $this->mask;
 			}

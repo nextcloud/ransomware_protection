@@ -67,12 +67,13 @@ class Striker {
 	}
 
 	/**
+	 * @param int $mode
 	 * @param string $case
 	 * @param string $path
 	 * @param string $pattern
 	 * @throws ForbiddenException
 	 */
-	public function handleMatch($case, $path, $pattern) {
+	public function handleMatch($mode, $case, $path, $pattern) {
 
 		$lastStrikes = $this->config->getUserValue($this->userId, 'ransomware_protection', 'last_strikes', '[]');
 		$lastStrikes = json_decode($lastStrikes, true);
@@ -84,19 +85,23 @@ class Striker {
 		} else {
 			$this->addStrikeLog($case, $path, $pattern);
 
-			$this->updateLastStrikes($lastStrikes, [
-				'path' => $path,
-				'time' => $this->time->getTime(),
-			]);
+			if ($mode === Analyzer::WRITING) {
+				$this->updateLastStrikes($lastStrikes, [
+					'path' => $path,
+					'time' => $this->time->getTime(),
+				]);
+			}
 		}
 
-		if ($strikeType === self::FIFTH_STRIKE) {
-			// Block the user for 1 hour
-			$this->config->setUserValue($this->userId, 'ransomware_protection', 'client_blocked', $this->time->getTime() + 3600);
-		}
+		if ($mode === Analyzer::WRITING) {
+			if ($strikeType === self::FIFTH_STRIKE) {
+				// Block the user for 1 hour
+				$this->config->setUserValue($this->userId, 'ransomware_protection', 'client_blocked', $this->time->getTime() + 3600);
+			}
 
-		if ($strikeType === self::FIRST_STRIKE) {
-			$this->notifyUser($path, $pattern);
+			if ($strikeType === self::FIRST_STRIKE) {
+				$this->notifyUser($path, $pattern);
+			}
 		}
 
 		throw new ForbiddenException('Ransomware file detected', true);

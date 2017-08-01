@@ -31,7 +31,9 @@ use OCP\ILogger;
 
 class Analyzer {
 
-	const READING_CACHE = 1;
+	const READING = 1;
+	const WRITING = 2;
+	const DELETE = 3;
 
 	/** @var string[] */
 	protected $extensionsPlain = [];
@@ -166,9 +168,10 @@ class Analyzer {
 	/**
 	 * @param IStorage $storage
 	 * @param string $path
+	 * @param int $mode
 	 * @throws ForbiddenException
 	 */
-	public function checkPath(IStorage $storage, $path) {
+	public function checkPath(IStorage $storage, $path, $mode) {
 		if ($this->userId === null || $this->nestingLevel !== 0 || !$this->isBlockablePath($storage, $path) || $this->isCreatingSkeletonFiles()) {
 			// Allow creating skeletons and theming
 			return;
@@ -193,16 +196,19 @@ class Analyzer {
 		$fileName = basename($userPath);
 
 		$this->ensureResourcesAreLoaded();
-		$this->checkExtension($fileName, $userPath, $this->extensionsPlain, $this->extensionsRegex, $this->extensionsPlainLength);
-		$this->checkNotes($fileName, $userPath, $this->notesPlain, $this->notesRegex);
+		$this->checkExtension($mode, $fileName, $userPath, $this->extensionsPlain, $this->extensionsRegex, $this->extensionsPlainLength);
+		$this->checkNotes($mode, $fileName, $userPath, $this->notesPlain, $this->notesRegex);
 		if ($this->config->getAppValue('ransomware_protection', 'notes_include_biased', 'no') === 'yes') {
-			$this->checkNotes($fileName, $userPath, $this->notesBiasedPlain, $this->notesBiasedRegex);
+			$this->checkNotes($mode, $fileName, $userPath, $this->notesBiasedPlain, $this->notesBiasedRegex);
 		}
+
+		$this->nestingLevel--;
 	}
 
 	/**
 	 * Check if a file name matches the prefix/extension
 	 *
+	 * @param int $mode
 	 * @param string $name
 	 * @param string $path
 	 * @param string[] $plain
@@ -210,20 +216,20 @@ class Analyzer {
 	 * @param int[] $plainLengths
 	 * @throws ForbiddenException
 	 */
-	protected function checkExtension($name, $path, array $plain, array $regex, array $plainLengths) {
+	protected function checkExtension($mode, $name, $path, array $plain, array $regex, array $plainLengths) {
 		foreach ($plain as $ext) {
 			if (strpos($ext, '.') === 0 || strpos($ext, '_') === 0) {
 				if (isset($plainLengths[$ext]) && substr($name, 0 - $plainLengths[$ext]) === $ext) {
-					$this->striker->handleMatch('extension', $path, $ext);
+					$this->striker->handleMatch($mode, 'extension', $path, $ext);
 				}
 			} else if (strpos($name, $ext) !== false) {
-				$this->striker->handleMatch('extension', $path, $ext);
+				$this->striker->handleMatch($mode, 'extension', $path, $ext);
 			}
 		}
 
 		foreach ($regex as $ext) {
 			if (preg_match('/' . $ext . '/', $name) === 1) {
-				$this->striker->handleMatch('extension', $path, $ext);
+				$this->striker->handleMatch($mode, 'extension', $path, $ext);
 			}
 		}
 	}
@@ -231,22 +237,23 @@ class Analyzer {
 	/**
 	 * Check if a file name matches the info/notes file
 	 *
+	 * @param int $mode
 	 * @param string $name
 	 * @param string $path
 	 * @param string[] $plain
 	 * @param string[] $regex
 	 * @throws ForbiddenException
 	 */
-	protected function checkNotes($name, $path, array $plain, array $regex) {
+	protected function checkNotes($mode, $name, $path, array $plain, array $regex) {
 		foreach ($plain as $note) {
 			if ($name === $note) {
-				$this->striker->handleMatch('note file', $path, $note);
+				$this->striker->handleMatch($mode, 'note file', $path, $note);
 			}
 		}
 
 		foreach ($regex as $note) {
 			if (preg_match('/' . $note . '/', $name) === 1) {
-				$this->striker->handleMatch('note file', $path, $note);
+				$this->striker->handleMatch($mode, 'note file', $path, $note);
 			}
 		}
 	}

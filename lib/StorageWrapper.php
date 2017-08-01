@@ -41,40 +41,30 @@ class StorageWrapper extends Wrapper {
 		$this->mountPoint = $parameters['mountPoint'];
 	}
 
-	/**
-	 * @param string $path
-	 * @throws ForbiddenException
-	 */
-	protected function checkPath($path) {
-		$this->analyzer->checkPath($this, $path);
-	}
-
 	/*
 	 * Storage wrapper methods
 	 */
 
-	/**
-	 * see http://php.net/manual/en/function.mkdir.php
-	 *
-	 * @param string $path
-	 * @return bool
-	 */
-	public function mkdir($path) {
-		$this->checkPath($path);
-		return $this->storage->mkdir($path);
-	}
-
-	/**
-	 * see http://php.net/manual/en/function.rmdir.php
-	 *
-	 * @param string $path
-	 * @return bool
-	 */
-	public function rmdir($path) {
-		$this->checkPath($path);
-		return $this->storage->rmdir($path);
-	}
-
+//	/**
+//	 * see http://php.net/manual/en/function.mkdir.php
+//	 *
+//	 * @param string $path
+//	 * @return bool
+//	 */
+//	public function mkdir($path) {
+//		return $this->storage->mkdir($path);
+//	}
+//
+//	/**
+//	 * see http://php.net/manual/en/function.rmdir.php
+//	 *
+//	 * @param string $path
+//	 * @return bool
+//	 */
+//	public function rmdir($path) {
+//		return $this->storage->rmdir($path);
+//	}
+//
 //	/**
 //	 * see http://php.net/manual/en/function.opendir.php
 //	 *
@@ -145,7 +135,7 @@ class StorageWrapper extends Wrapper {
 	 */
 	public function isCreatable($path) {
 		try {
-			$this->checkPath($path);
+			$this->analyzer->checkPath($this, $path, Analyzer::WRITING);
 		} catch (\OCP\Files\ForbiddenException $e) {
 			return false;
 		}
@@ -160,7 +150,7 @@ class StorageWrapper extends Wrapper {
 	 */
 	public function isReadable($path) {
 		try {
-			$this->checkPath($path);
+			$this->analyzer->checkPath($this, $path, Analyzer::READING);
 		} catch (\OCP\Files\ForbiddenException $e) {
 			return false;
 		}
@@ -175,7 +165,7 @@ class StorageWrapper extends Wrapper {
 	 */
 	public function isUpdatable($path) {
 		try {
-			$this->checkPath($path);
+			$this->analyzer->checkPath($this, $path, Analyzer::WRITING);
 		} catch (\OCP\Files\ForbiddenException $e) {
 			return false;
 		}
@@ -190,7 +180,7 @@ class StorageWrapper extends Wrapper {
 	 */
 	public function isDeletable($path) {
 		try {
-			$this->checkPath($path);
+			$this->analyzer->checkPath($this, $path, Analyzer::DELETE);
 		} catch (\OCP\Files\ForbiddenException $e) {
 			return false;
 		}
@@ -245,7 +235,7 @@ class StorageWrapper extends Wrapper {
 	 * @return string
 	 */
 	public function file_get_contents($path) {
-		$this->checkPath($path);
+		$this->analyzer->checkPath($this, $path, Analyzer::READING);
 		return $this->storage->file_get_contents($path);
 	}
 
@@ -257,7 +247,7 @@ class StorageWrapper extends Wrapper {
 	 * @return bool
 	 */
 	public function file_put_contents($path, $data) {
-		$this->checkPath($path);
+		$this->analyzer->checkPath($this, $path, Analyzer::WRITING);
 		return $this->storage->file_put_contents($path, $data);
 	}
 
@@ -268,7 +258,7 @@ class StorageWrapper extends Wrapper {
 	 * @return bool
 	 */
 	public function unlink($path) {
-		$this->checkPath($path);
+		$this->analyzer->checkPath($this, $path, Analyzer::DELETE);
 		return $this->storage->unlink($path);
 	}
 
@@ -280,8 +270,7 @@ class StorageWrapper extends Wrapper {
 	 * @return bool
 	 */
 	public function rename($path1, $path2) {
-		$this->checkPath($path1);
-		$this->checkPath($path2);
+		$this->analyzer->checkPath($this, $path2, Analyzer::WRITING);
 		return $this->storage->rename($path1, $path2);
 	}
 
@@ -293,8 +282,7 @@ class StorageWrapper extends Wrapper {
 	 * @return bool
 	 */
 	public function copy($path1, $path2) {
-		$this->checkPath($path1);
-		$this->checkPath($path2);
+		$this->analyzer->checkPath($this, $path2, Analyzer::WRITING);
 		return $this->storage->copy($path1, $path2);
 	}
 
@@ -306,7 +294,25 @@ class StorageWrapper extends Wrapper {
 	 * @return resource
 	 */
 	public function fopen($path, $mode) {
-		$this->checkPath($path);
+		$analyzeMode = Analyzer::READING;
+		switch ($mode) {
+			case 'r+':
+			case 'rb+':
+			case 'w+':
+			case 'wb+':
+			case 'x+':
+			case 'xb+':
+			case 'a+':
+			case 'ab+':
+			case 'w':
+			case 'wb':
+			case 'x':
+			case 'xb':
+			case 'a':
+			case 'ab':
+			$analyzeMode = Analyzer::WRITING;
+		}
+		$this->analyzer->checkPath($this, $path, $analyzeMode);
 		return $this->storage->fopen($path, $mode);
 	}
 
@@ -362,7 +368,7 @@ class StorageWrapper extends Wrapper {
 	 * @return bool
 	 */
 	public function touch($path, $mtime = null) {
-		$this->checkPath($path);
+		$this->analyzer->checkPath($this, $path, Analyzer::WRITING);
 		return $this->storage->touch($path, $mtime);
 	}
 
@@ -524,7 +530,7 @@ class StorageWrapper extends Wrapper {
 	 * @return array
 	 */
 	public function getDirectDownload($path) {
-		$this->checkPath($path);
+		$this->analyzer->checkPath($this, $path, Analyzer::READING);
 		return $this->storage->getDirectDownload($path);
 	}
 
@@ -567,7 +573,7 @@ class StorageWrapper extends Wrapper {
 			return $this->copy($sourceInternalPath, $targetInternalPath);
 		}
 
-		$this->checkPath($targetInternalPath);
+		$this->analyzer->checkPath($this, $targetInternalPath, Analyzer::WRITING);
 		return $this->storage->copyFromStorage($sourceStorage, $sourceInternalPath, $targetInternalPath);
 	}
 
@@ -582,7 +588,7 @@ class StorageWrapper extends Wrapper {
 			return $this->rename($sourceInternalPath, $targetInternalPath);
 		}
 
-		$this->checkPath($targetInternalPath);
+		$this->analyzer->checkPath($this, $targetInternalPath, Analyzer::WRITING);
 		return $this->storage->moveFromStorage($sourceStorage, $sourceInternalPath, $targetInternalPath);
 	}
 
