@@ -13,6 +13,11 @@
 
 	<category>files</category>
 	<category>monitoring</category>
+	<screenshot>https://github.com/nextcloud/ransomware_protection/raw/master/docs/user-notification.png</screenshot>
+	<screenshot>https://github.com/nextcloud/ransomware_protection/raw/master/docs/admin-settings.png</screenshot>
+	<screenshot>https://github.com/nextcloud/ransomware_protection/raw/master/docs/admin-notification.png</screenshot>
+	<screenshot>https://github.com/nextcloud/ransomware_protection/raw/master/docs/user-active-protection.png</screenshot>
+	<screenshot>https://github.com/nextcloud/ransomware_protection/raw/master/docs/user-paused-protection.png</screenshot>
 
 	<website>https://github.com/nextcloud/ransomware_protection</website>
 	<bugs>https://github.com/nextcloud/ransomware_protection/issues</bugs>
