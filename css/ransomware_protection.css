@@ -1,0 +1,20 @@
+#ransomware_protection div.custom-list {
+	width: 43%;
+	padding-right: 5%;
+	display: inline-block;
+}
+
+#ransomware_protection div.custom-list textarea {
+	width: 100%;
+	min-height: 150px;
+}
+
+#ransomware_protection span.icon {
+	display: inline-block;
+}
+
+#ransomware_protection span.icon.hidden {
+	display: none;
+}
+
+

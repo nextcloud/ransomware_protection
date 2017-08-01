@@ -31,22 +31,24 @@ use OCP\ILogger;
 
 class Analyzer {
 
+	const READING_CACHE = 1;
+
 	/** @var string[] */
-	protected $extensionsPlain;
+	protected $extensionsPlain = [];
 	/** @var int[] */
-	protected $extensionsPlainLength;
+	protected $extensionsPlainLength = [];
 	/** @var string[] */
-	protected $extensionsRegex;
+	protected $extensionsRegex = [];
 
 	/** @var string[] */
-	protected $notesPlain;
+	protected $notesPlain = [];
 	/** @var string[] */
-	protected $notesRegex;
+	protected $notesRegex = [];
 
 	/** @var string[] */
-	protected $notesBiasedPlain;
+	protected $notesBiasedPlain = [];
 	/** @var string[] */
-	protected $notesBiasedRegex;
+	protected $notesBiasedRegex = [];
 
 	/** @var IConfig */
 	protected $config;
@@ -86,10 +88,24 @@ class Analyzer {
 		$this->userId = $userId;
 	}
 
+	protected function ensureResourcesAreLoaded() {
+		if (empty($this->extensionsPlain)) {
+			$this->parseResources();
+		}
+	}
+
 	protected function parseResources() {
-		$resourcesPath = $this->appManager->getAppPath('ransomware_protection') . 'resources/';
+		$resourcesPath = $this->appManager->getAppPath('ransomware_protection') . '/resources/';
+
+		$extensionExclusions = $this->config->getAppValue('ransomware_protection', 'extension_exclusions', '[]');
+		$extensionExclusions = json_decode($extensionExclusions, true);
+		$extensionAdditions = $this->config->getAppValue('ransomware_protection', 'extension_additions', '[]');
+		$extensionAdditions = json_decode($extensionAdditions, true);
 
 		$extensions = explode("\n", file_get_contents($resourcesPath . 'extensions.txt'));
+		$extensions = array_diff($extensions, $extensionExclusions);
+		$extensions = array_merge($extensions, $extensionAdditions);
+
 		foreach ($extensions as $ext) {
 			if (empty($ext)) {
 				continue;
@@ -104,7 +120,16 @@ class Analyzer {
 			$this->extensionsPlainLength[$ext] = strlen($ext);
 		}
 
+
+		$noteExclusions = $this->config->getAppValue('ransomware_protection', 'notefile_exclusions', '[]');
+		$noteExclusions = json_decode($noteExclusions, true);
+		$noteAdditions = $this->config->getAppValue('ransomware_protection', 'notefile_additions', '[]');
+		$noteAdditions = json_decode($noteAdditions, true);
+
 		$notes = explode("\n", file_get_contents($resourcesPath . 'notes.txt'));
+		$notes = array_diff($notes, $noteExclusions);
+		$notes = array_merge($notes, $noteAdditions);
+
 		foreach ($notes as $note) {
 			if (empty($note)) {
 				continue;
@@ -119,8 +144,10 @@ class Analyzer {
 		}
 
 		$this->notesBiasedRegex = $this->notesBiasedPlain = [];
-		if ($this->config->getAppValue('ransomware_protection', 'check-all', 'no') === 'yes') {
+		if ($this->config->getAppValue('ransomware_protection', 'notes_include_biased', 'no') === 'yes') {
 			$notes = explode("\n", file_get_contents($resourcesPath . 'notes-biased.txt'));
+			$notes = array_diff($notes, $noteExclusions);
+
 			foreach ($notes as $note) {
 				if (empty($note)) {
 					continue;
@@ -147,7 +174,7 @@ class Analyzer {
 			return;
 		}
 
-		if ($this->config->getUserValue($this->userId, 'ransomware_protection', 'disabled_until', 0) < $this->time->getTime()) {
+		if ($this->config->getUserValue($this->userId, 'ransomware_protection', 'disabled_until', 0) >= $this->time->getTime()) {
 			// Protection is currently disabled for the user
 			return;
 		}
@@ -165,9 +192,10 @@ class Analyzer {
 		$userPath = $segment[3];
 		$fileName = basename($userPath);
 
+		$this->ensureResourcesAreLoaded();
 		$this->checkExtension($fileName, $userPath, $this->extensionsPlain, $this->extensionsRegex, $this->extensionsPlainLength);
 		$this->checkNotes($fileName, $userPath, $this->notesPlain, $this->notesRegex);
-		if ($this->config->getAppValue('ransomware_protection', 'check-all', 'no') === 'yes') {
+		if ($this->config->getAppValue('ransomware_protection', 'notes_include_biased', 'no') === 'yes') {
 			$this->checkNotes($fileName, $userPath, $this->notesBiasedPlain, $this->notesBiasedRegex);
 		}
 	}

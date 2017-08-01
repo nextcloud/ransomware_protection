@@ -41,6 +41,7 @@ class Application extends App {
 	 */
 	public function register() {
 		Util::connectHook('OC_Filesystem', 'preSetup', $this, 'addStorageWrapper');
+		\OCP\App::registerPersonal('ransomware_protection', 'personal');
 	}
 
 	/**

@@ -21,11 +21,7 @@
  *
  */
 
-return [
-	'ocs' => [
-		['name' => 'Api#pauseForAnHour', 'url' => '/api/{apiVersion}/protection', 'verb' => 'DELETE', 'requirements' => ['apiVersion' => 'v1']],
-		['name' => 'Api#reenableProtection', 'url' => '/api/{apiVersion}/protection', 'verb' => 'POST', 'requirements' => ['apiVersion' => 'v1']],
-		['name' => 'Api#requestHelp', 'url' => '/api/{apiVersion}/help', 'verb' => 'POST', 'requirements' => ['apiVersion' => 'v1']],
-		['name' => 'Api#imHelping', 'url' => '/api/{apiVersion}/help/{victim}', 'verb' => 'DELETE', 'requirements' => ['apiVersion' => 'v1']],
-	],
-];
+$app = new \OCA\RansomwareProtection\AppInfo\Application();
+/** @var OCA\RansomwareProtection\Controller\PersonalController $controller */
+$controller = $app->getContainer()->query(\OCA\RansomwareProtection\Controller\PersonalController::class);
+return $controller->displayPanel()->render();

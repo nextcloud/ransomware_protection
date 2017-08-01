@@ -99,6 +99,22 @@ class ApiController extends OCSController {
 	 *
 	 * @return DataResponse
 	 */
+	public function reenableProtection() {
+		$user = $this->userSession->getUser();
+		if (!$user instanceof IUser) {
+			return new DataResponse([], Http::STATUS_FORBIDDEN);
+		}
+
+		$this->config->setUserValue($user->getUID(), 'ransomware_protection', 'disabled_until', 0);
+
+		return new DataResponse();
+	}
+
+	/**
+	 * @NoAdminRequired
+	 *
+	 * @return DataResponse
+	 */
 	public function requestHelp() {
 		$user = $this->userSession->getUser();
 		if (!$user instanceof IUser) {

@@ -1,4 +1,3 @@
-<?php
 /**
  * @copyright Copyright (c) 2017 Joas Schilling <coding@schilljs.com>
  *
@@ -21,11 +20,15 @@
  *
  */
 
-return [
-	'ocs' => [
-		['name' => 'Api#pauseForAnHour', 'url' => '/api/{apiVersion}/protection', 'verb' => 'DELETE', 'requirements' => ['apiVersion' => 'v1']],
-		['name' => 'Api#reenableProtection', 'url' => '/api/{apiVersion}/protection', 'verb' => 'POST', 'requirements' => ['apiVersion' => 'v1']],
-		['name' => 'Api#requestHelp', 'url' => '/api/{apiVersion}/help', 'verb' => 'POST', 'requirements' => ['apiVersion' => 'v1']],
-		['name' => 'Api#imHelping', 'url' => '/api/{apiVersion}/help/{victim}', 'verb' => 'DELETE', 'requirements' => ['apiVersion' => 'v1']],
-	],
-];
+$(document).ready(function() {
+	$('#ransomware_protection_reenable').on('click', function() {
+		$.ajax({
+			type: 'POST',
+			url: OC.linkToOCS('apps/ransomware_protection/api/v1', 2) + 'protection',
+			success: function () {
+				$('#ransomware_protection_paused').addClass('hidden');
+				$('#ransomware_protection_protected').removeClass('hidden');
+			}
+		});
+	});
+});

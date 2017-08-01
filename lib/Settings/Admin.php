@@ -43,14 +43,19 @@ class Admin implements ISettings {
 	 * @return TemplateResponse
 	 */
 	public function getForm() {
-		$adminGroups = $this->config->getAppValue('announcementcenter', 'admin_groups', '["admin"]');
-		$adminGroups = implode('|', json_decode($adminGroups, true));
-		return new TemplateResponse('announcementcenter', 'admin', [
-			'adminGroups' => $adminGroups,
-			'createActivities' => $this->config->getAppValue('announcementcenter', 'create_activities', 'yes') === 'yes',
-			'createNotifications' => $this->config->getAppValue('announcementcenter', 'create_notifications', 'yes') === 'yes',
-			'allowComments' => $this->config->getAppValue('announcementcenter', 'allow_comments', 'yes') === 'yes',
+		return new TemplateResponse('ransomware_protection', 'admin', [
+			'notesIncludeBiased' => $this->config->getAppValue('ransomware_protection', 'notes_include_biased', 'no') === 'yes',
+			'extensionAdditions' => $this->getCustomList('extension_additions'),
+			'noteFileAdditions' => $this->getCustomList('notefile_additions'),
+			'extensionExclusions' => $this->getCustomList('extension_exclusions'),
+			'noteFileExclusions' => $this->getCustomList('notefile_exclusions'),
 		], 'blank');
+	}
+
+	protected function getCustomList($list) {
+		$config = $this->config->getAppValue('ransomware_protection', $list, '[]');
+		$data = json_decode($config, true);
+		return implode("\n", $data);
 	}
 
 	/**
