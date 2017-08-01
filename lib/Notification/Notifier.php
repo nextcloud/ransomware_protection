@@ -79,26 +79,29 @@ class Notifier implements INotifier {
 			case 'upload_blocked':
 				$params = $notification->getSubjectParameters();
 
-				$notification->setParsedSubject($l->t('File “%1$s” could not be uploaded because it matched “%2$s” which is identified as a ransomware file.', $params))
+				$notification->setParsedSubject($l->t('File “%1$s” could not be uploaded!', $params))
 					->setParsedMessage(
 						$l->t(
-							'The file you tried to upload matches the naming pattern of a ransomware/virus. '
-							. 'If you are sure that your device is not affected, you can temporarily disable the protection.'
-							. 'Otherwise you can request help from your admin, so they reach out to you.'
+							'The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”.'
+							. ' If you are sure that your device is not affected, you can temporarily disable the protection.'
+							. ' Otherwise you can request help from your admin, so they reach out to you.',
+							$params
 						)
-					);
+					)
+					->setIcon($this->urlGenerator->imagePath('ransomware_protection', 'app-dark.svg'));
 
 				$pauseAction = $notification->createAction();
 				$pauseAction->setLabel('pause')
-					->setParsedLabel($l->t('Temporarily disable protection'))
-					->setLink($this->urlGenerator->linkToRouteAbsolute('ransomware_protection.Api.pauseForAnHour'), 'DELETE');
-				$notification->addAction($pauseAction);
+					->setParsedLabel($l->t('Pause protection'))
+					->setLink($this->urlGenerator->getAbsoluteURL('ocs/v2.php/apps/ransomware_protection/api/v1/protection'), 'DELETE');
+				$notification->addParsedAction($pauseAction);
 
 				$helpAction = $notification->createAction();
 				$helpAction->setLabel('help')
 					->setParsedLabel($l->t('I need help!'))
-					->setLink($this->urlGenerator->linkToRouteAbsolute('ransomware_protection.Api.requestHelp'), 'POST');
-				$notification->addAction($helpAction);
+					->setLink($this->urlGenerator->getAbsoluteURL('ocs/v2.php/apps/ransomware_protection/api/v1/help'), 'POST')
+					->setPrimary(true);
+				$notification->addParsedAction($helpAction);
 
 				return $notification;
 
@@ -114,20 +117,23 @@ class Notifier implements INotifier {
 					->setRichSubject(
 						'User {user} may be infected with ransomware and is asking for your help.', [
 							'user' => [
+								'type' => 'user',
 								'id' => $victim->getUID(),
 								'name' => $victim->getDisplayName(),
 							]
 						]
-					);
+					)
+					->setIcon($this->urlGenerator->imagePath('ransomware_protection', 'app-dark.svg'));
 
 				$imHelpingAction = $notification->createAction();
 				$imHelpingAction->setLabel('help')
 					->setParsedLabel($l->t('I will help'))
 					->setLink(
-						$this->urlGenerator->linkToRouteAbsolute('ransomware_protection.Api.imHelping', ['victim' => $victim->getUID()]),
+						$this->urlGenerator->getAbsoluteURL('ocs/v2.php/apps/ransomware_protection/api/v1/help/' . $victim->getUID()),
 						'DELETE'
-					);
-				$notification->addAction($imHelpingAction);
+					)
+					->setPrimary(true);
+				$notification->addParsedAction($imHelpingAction);
 
 				return $notification;
 

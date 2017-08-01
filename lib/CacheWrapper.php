@@ -49,7 +49,6 @@ class CacheWrapper extends Wrapper  {
 		$this->mask &= ~Constants::PERMISSION_READ;
 		$this->mask &= ~Constants::PERMISSION_CREATE;
 		$this->mask &= ~Constants::PERMISSION_UPDATE;
-		$this->mask &= ~Constants::PERMISSION_DELETE;
 	}
 
 	protected function formatCacheEntry($entry) {

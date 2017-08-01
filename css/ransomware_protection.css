@@ -17,4 +17,6 @@
 	display: none;
 }
 
-
+.nav-icon-ransomware-protection {
+	background-image: url('../img/app-dark.svg');
+}
