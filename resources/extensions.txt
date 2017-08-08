@@ -94,7 +94,6 @@
 .dharma
 .wallet
 .zzzzz
-.html
 .ded
 .Locked-by-Mafia
 .deria

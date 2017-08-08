@@ -44,7 +44,6 @@ YOUR_FILES_ARE_ENCRYPTED.TXT
 CHIP_FILES.txt
 DALE_FILES.TXT
 Warning警告.html
-wallpaper.jpg
 !!!-WARNING-!!!.html
 !!!-WARNING-!!!.txt
 HOW_TO_FIX_!.txt
