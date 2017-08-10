@@ -23,6 +23,7 @@ namespace OCA\RansomwareProtection;
 
 use OC\Files\Storage\Wrapper\Wrapper;
 use OCP\Files\ForbiddenException;
+use OCP\Files\Storage\IStorage;
 
 class StorageWrapper extends Wrapper {
 
@@ -136,7 +137,7 @@ class StorageWrapper extends Wrapper {
 	public function isCreatable($path) {
 		try {
 			$this->analyzer->checkPath($this, $path, Analyzer::WRITING);
-		} catch (\OCP\Files\ForbiddenException $e) {
+		} catch (ForbiddenException $e) {
 			return false;
 		}
 		return $this->storage->isCreatable($path);
@@ -151,7 +152,7 @@ class StorageWrapper extends Wrapper {
 	public function isReadable($path) {
 		try {
 			$this->analyzer->checkPath($this, $path, Analyzer::READING);
-		} catch (\OCP\Files\ForbiddenException $e) {
+		} catch (ForbiddenException $e) {
 			return false;
 		}
 		return $this->storage->isReadable($path);
@@ -166,7 +167,7 @@ class StorageWrapper extends Wrapper {
 	public function isUpdatable($path) {
 		try {
 			$this->analyzer->checkPath($this, $path, Analyzer::WRITING);
-		} catch (\OCP\Files\ForbiddenException $e) {
+		} catch (ForbiddenException $e) {
 			return false;
 		}
 		return $this->storage->isUpdatable($path);
@@ -181,7 +182,7 @@ class StorageWrapper extends Wrapper {
 	public function isDeletable($path) {
 		try {
 			$this->analyzer->checkPath($this, $path, Analyzer::DELETE);
-		} catch (\OCP\Files\ForbiddenException $e) {
+		} catch (ForbiddenException $e) {
 			return false;
 		}
 		return $this->storage->isDeletable($path);
@@ -563,12 +564,12 @@ class StorageWrapper extends Wrapper {
 //	}
 
 	/**
-	 * @param \OCP\Files\Storage $sourceStorage
+	 * @param IStorage $sourceStorage
 	 * @param string $sourceInternalPath
 	 * @param string $targetInternalPath
 	 * @return bool
 	 */
-	public function copyFromStorage(\OCP\Files\Storage $sourceStorage, $sourceInternalPath, $targetInternalPath) {
+	public function copyFromStorage(IStorage $sourceStorage, $sourceInternalPath, $targetInternalPath) {
 		if ($sourceStorage === $this) {
 			return $this->copy($sourceInternalPath, $targetInternalPath);
 		}
@@ -578,12 +579,12 @@ class StorageWrapper extends Wrapper {
 	}
 
 	/**
-	 * @param \OCP\Files\Storage $sourceStorage
+	 * @param IStorage $sourceStorage
 	 * @param string $sourceInternalPath
 	 * @param string $targetInternalPath
 	 * @return bool
 	 */
-	public function moveFromStorage(\OCP\Files\Storage $sourceStorage, $sourceInternalPath, $targetInternalPath) {
+	public function moveFromStorage(IStorage $sourceStorage, $sourceInternalPath, $targetInternalPath) {
 		if ($sourceStorage === $this) {
 			return $this->rename($sourceInternalPath, $targetInternalPath);
 		}
