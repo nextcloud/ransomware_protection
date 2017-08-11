@@ -35,6 +35,7 @@ class Striker {
 	const FIRST_STRIKE = 1;
 	const ALREADY_STRIKED = 2;
 	const FIFTH_STRIKE = 3;
+	const EXTERNAL_STRIKE = 4;
 
 	/** @var IConfig */
 	protected $config;
@@ -157,7 +158,6 @@ class Striker {
 			])
 			->setUser($this->userId);
 		$this->notifications->notify($notification);
-
 	}
 
 	/**
