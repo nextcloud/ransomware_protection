@@ -8,7 +8,6 @@
 .unavailable
 .disappeared
 .Alcatraz
-.bin
 .encrypt
 .amba
 .angelamerkel
@@ -162,7 +161,6 @@
 .uk-dealer@sigaint.org
 .gefickt
 .nemo-hacks.at.sigaint.org
-.css
 .kencf
 .crypted_file
 .karma
@@ -219,7 +217,6 @@ _nullbyte
 .cbf
 .LOL!
 .OMG!
-.EXE
 \.encrypted\.(.*)$
 .padcrypt
 .sexy
@@ -316,7 +313,6 @@ _ryp
 .micro
 .xxx
 .ttt
-.mp3
 .Encrypted
 .toxcrypt
 .braincrypt
@@ -342,7 +338,6 @@ _ryp
 .Venusf
 .Venusp
 .vindows
-.exe
 .CrySiS
 .decryptformoney@india.com.xtbl
 .DHARMA
