@@ -77,10 +77,16 @@ class Notifier implements INotifier {
 		switch ($notification->getSubject()) {
 			// Deal with known subjects
 			case 'upload_blocked':
+			case 'clients_blocked':
 				$params = $notification->getSubjectParameters();
 
-				$notification->setParsedSubject($l->t('File “%1$s” could not be uploaded!', $params))
-					->setParsedMessage(
+				if ($notification->getSubject() === 'upload_blocked') {
+					$notification->setParsedSubject($l->t('File “%1$s” could not be uploaded!', $params));
+				} else {
+					$notification->setParsedSubject($l->t('Your sync clients are currently blocked from further uploads'));
+				}
+
+				$notification->setParsedMessage(
 						$l->t(
 							'The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”.'
 							. ' If you are sure that your device is not affected, you can temporarily disable the protection.'

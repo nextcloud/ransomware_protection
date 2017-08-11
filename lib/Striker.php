@@ -97,10 +97,11 @@ class Striker {
 			if ($strikeType === self::FIFTH_STRIKE) {
 				// Block the user for 1 hour
 				$this->config->setUserValue($this->userId, 'ransomware_protection', 'client_blocked', $this->time->getTime() + 3600);
+				$this->notifyUser($path, $pattern, $strikeType);
 			}
 
 			if ($strikeType === self::FIRST_STRIKE) {
-				$this->notifyUser($path, $pattern);
+				$this->notifyUser($path, $pattern, $strikeType);
 			}
 		}
 
@@ -144,13 +145,13 @@ class Striker {
 		$this->config->setUserValue($this->userId, 'ransomware_protection', 'last_strikes', json_encode($lastStrikes));
 	}
 
-	protected function notifyUser($path, $pattern) {
+	protected function notifyUser($path, $pattern, $strikeType) {
 		$notification = $this->notifications->createNotification();
 
 		$notification->setApp('ransomware_protection')
 			->setDateTime(new \DateTime())
-			->setObject('strike', '1')
-			->setSubject('upload_blocked', [
+			->setObject('strike', (string) $strikeType)
+			->setSubject($strikeType === self::FIRST_STRIKE ? 'upload_blocked' : 'clients_blocked', [
 				$path,
 				$pattern,
 			])
