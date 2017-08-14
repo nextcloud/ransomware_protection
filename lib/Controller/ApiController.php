@@ -91,6 +91,12 @@ class ApiController extends OCSController {
 			->setUser($user->getUID());
 		$this->notificationManager->markProcessed($notification);
 
+		$notification = $this->notificationManager->createNotification();
+		$notification->setApp('ransomware_protection')
+			->setSubject('clients_blocked')
+			->setUser($user->getUID());
+		$this->notificationManager->markProcessed($notification);
+
 		return new DataResponse([], Http::STATUS_ACCEPTED);
 	}
 

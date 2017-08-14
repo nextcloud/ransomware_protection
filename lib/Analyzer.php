@@ -28,6 +28,7 @@ use OCP\Files\ForbiddenException;
 use OCP\Files\Storage\IStorage;
 use OCP\IConfig;
 use OCP\ILogger;
+use OCP\IRequest;
 
 class Analyzer {
 
@@ -73,7 +74,11 @@ class Analyzer {
 	/** @var int */
 	protected $nestingLevel = 0;
 
+	/** @var IRequest */
+	protected $request;
+
 	/**
+	 * @param IRequest $request
 	 * @param IConfig $config
 	 * @param ITimeFactory $time
 	 * @param IAppManager $appManager
@@ -81,7 +86,8 @@ class Analyzer {
 	 * @param Striker $striker
 	 * @param string $userId
 	 */
-	public function __construct(IConfig $config, ITimeFactory $time, IAppManager $appManager, ILogger $logger, Striker $striker, $userId) {
+	public function __construct(IRequest $request, IConfig $config, ITimeFactory $time, IAppManager $appManager, ILogger $logger, Striker $striker, $userId) {
+		$this->request = $request;
 		$this->config = $config;
 		$this->time = $time;
 		$this->appManager = $appManager;
@@ -177,9 +183,22 @@ class Analyzer {
 			return;
 		}
 
+		if (!$this->request->isUserAgent([
+			IRequest::USER_AGENT_CLIENT_DESKTOP,
+			IRequest::USER_AGENT_CLIENT_ANDROID,
+			IRequest::USER_AGENT_CLIENT_IOS,
+		])) {
+			// Not a sync client
+			return;
+		}
+
 		if ($this->config->getUserValue($this->userId, 'ransomware_protection', 'disabled_until', 0) >= $this->time->getTime()) {
 			// Protection is currently disabled for the user
 			return;
+		}
+
+		if ($this->config->getUserValue($this->userId, 'ransomware_protection', 'clients_blocked', 0) >= $this->time->getTime()) {
+			throw new ForbiddenException('Sync clients blocked by ransomware protection', true);
 		}
 
 		$this->nestingLevel++;
