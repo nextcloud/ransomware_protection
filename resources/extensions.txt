@@ -363,3 +363,5 @@ _ryp
 .ZINO
 .zorro
 .zyklon
+.diabolo6
+.lukitus
