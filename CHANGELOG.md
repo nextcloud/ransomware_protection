@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ## 1.0.2 – 2017-08-29
 ### Added
+ - Add extension `.diabolo6` and `.lukitus` against Diablo6 [#7](https://github.com/nextcloud/ransomware_protection/issues/7)
  - Add extension `.kk` against Syncrypt [#8](https://github.com/nextcloud/ransomware_protection/issues/8)
 
 ## 1.0.1 – 2017-08-14
