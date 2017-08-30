@@ -138,7 +138,7 @@ class Striker {
 		$thirtyMinutesAgo = $this->time->getTime() - 30 * 60;
 
 		$lastStrikes = array_filter($lastStrikes, function($strike) use ($thirtyMinutesAgo) {
-			return $strike['time'] <= $thirtyMinutesAgo;
+			return $strike['time'] > $thirtyMinutesAgo;
 		});
 
 		array_unshift($lastStrikes, $newStrike);
