@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.0.3 – 2017-09-01
+### Fixed
+ - Correctly remove old strikes and block the client after 5 new strikes [#12](https://github.com/nextcloud/ransomware_protection/issues/12) (Patch by [Jakub Augustynowicz](https://github.com/pingwiniasty))
+
 ## 1.0.2 – 2017-08-29
 ### Added
  - Add extension `.diabolo6` and `.lukitus` against Diablo6 [#7](https://github.com/nextcloud/ransomware_protection/issues/7)
