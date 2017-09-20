@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.0.4 – 2017-09-20
+### Added
+ - Add extension `.ykcol` against Locky [#15](https://github.com/nextcloud/ransomware_protection/issues/15)
+ 
 ## 1.0.3 – 2017-09-01
 ### Fixed
  - Correctly remove old strikes and block the client after 5 new strikes [#12](https://github.com/nextcloud/ransomware_protection/issues/12) (Patch by [Jakub Augustynowicz](https://github.com/pingwiniasty))

@@ -366,3 +366,4 @@ _ryp
 .diabolo6
 .lukitus
 .kk
+.ykcol
