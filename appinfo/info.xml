@@ -8,7 +8,7 @@
 ⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way.]]></description>
 	<licence>AGPL</licence>
 	<author>Joas Schilling</author>
-	<version>1.1.0</version>
+	<version>1.1.1</version>
 	<namespace>RansomwareProtection</namespace>
 
 	<category>files</category>
