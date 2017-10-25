@@ -367,3 +367,4 @@ _ryp
 .lukitus
 .kk
 .ykcol
+install_flash_player.exe
