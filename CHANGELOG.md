@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.0.5 - 2017-10-25
+### Added
+  - Add extension `install_flash_player.exe` against Bad Rabbit
+
 ## 1.0.4 – 2017-09-20
 ### Added
  - Add extension `.ykcol` against Locky [#15](https://github.com/nextcloud/ransomware_protection/issues/15)
