@@ -1,9 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## 1.0.5 - 2017-10-25
+## 1.0.5 - 2017-10-26
 ### Added
-  - Add extension `install_flash_player.exe` against Bad Rabbit
+  - Add extension `install_flash_player.exe` against Bad Rabbit (Patch by [mr-bolle](https://github.com/mr-bolle))
 
 ## 1.0.4 – 2017-09-20
 ### Added
