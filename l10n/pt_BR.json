@@ -1,0 +1,24 @@
+{ "translations": {
+    "Ransomware protection" : "Proteção contra Ransomware",
+    "File “%1$s” could not be uploaded!" : "O arquivo “%1$s” não pôde ser enviado!",
+    "Your sync clients are currently blocked from further uploads" : "Seus clientes de sincronização estão bloqueados para futuros envios",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "O arquivo “%1$s” que você tentou enviar tem o padrão do ransomware/vírus “%2$s”. Se você tem certeza de que seu dispositivo não está afetado, pode desativar temporariamente a proteção. Caso contrário, você pode solicitar ajuda ao administrador, para que ele verifique.",
+    "Pause protection" : "Pausar a proteção",
+    "I need help!" : "Preciso de ajuda!",
+    "User %s may be infected with ransomware and is asking for your help." : "O usuário %s pode estar infectado com um ransomware e está pedindo sua ajuda.",
+    "I will help" : "Irei ajudar",
+    "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Incluir arquivos de anotação com nomes não óbvios, por exemplo ReadMe.TxT, info.html",
+    "Additional extension patterns" : "Padrões de extensão adicionais",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Um padrão por linha. Se o padrão é uma expressão regular, ele deve começar com ^ ou terminar com $. Ponto inicial ou sublinhado em padrões de expressão não regulares significa que o nome deve terminar com a string fornecida.",
+    "Additional note file patterns" : "Padrões de arquivo de anotação adicionais",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "Um padrão por linha. Se o padrão é uma expressão regular, ele deve começar com ^ ou terminar com $, caso contrário o nome deve corresponder completamente.",
+    "Exclude extension patterns" : "Excluir padrões de extensão",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Um padrão por linha. Copie a string exata do arquivo de recursos. Isso ajuda a manter suas exclusões enquanto atualiza o aplicativo.",
+    "Ignore extension patterns" : "Ignorar os padrões de extensão",
+    "Exclude note file patterns" : "Excluir os padrões de arquivo de anotação",
+    "Ignore note file patterns" : "Ignorar os padrões de arquivo de anotação",
+    "Protection is currently active" : "A proteção está ativa",
+    "Protection is currently paused until: <strong>%s</strong>" : "A proteção está pausada até: <strong>%s</strong>",
+    "Re-enable protection now" : "Reativar a proteção agora"
+},"pluralForm" :"nplurals=2; plural=(n > 1);"
+}

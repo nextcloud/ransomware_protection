@@ -1,0 +1,24 @@
+{ "translations": {
+    "Ransomware protection" : "თავდაცვა ვირუსებისგან",
+    "File “%1$s” could not be uploaded!" : "ფაილი “%1$s” ვერ აიტვირთა!",
+    "Your sync clients are currently blocked from further uploads" : "თქვენი სინქ. კლიენტები ამჟამად შემდეგი ატვირთვებისთვის დაბლოკილია",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "“%1$s” ფაილი რომლის ატვირთვაც სცადეთ ემთხვევა ვირუსის დასახელების მოდელს “%2$s”. თუ დარწმუნებული ხართ, რომ თქვენი მოწყობილობას არაფერი დაემართა, დროებით შეგიძლიათ გათიშოთ თავდაცვა. სხვა შემთხვევაში შეგიძლიათ სთხოვოთ დახმარება თქვენს ადმინისტრატორს.",
+    "Pause protection" : "თავდაცვის პაუზა",
+    "I need help!" : "მჭირდება დახმარება!",
+    "User %s may be infected with ransomware and is asking for your help." : "მომხმარებელი %s სავარაუდოდ ინფიცირებულია ვირუსით და გთხოვთ დახმარებას.",
+    "I will help" : "დაგეხმარებით",
+    "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "მოიცვას ჩანაწერების ფაილები არა-აშკარა სახელებით, მაგ.: ReadMe.TxT, info.html",
+    "Additional extension patterns" : "დამატებითი გაფართოების ნიმუშები",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "ერთი ნიმუში თითო ხაზზე. თუ ნიმუში რეგულარული გამოსახულებაა ის უნდა იწყებოდეს ^-ით ან მთავრდებოდეს $-ით. წერტილები ან ხაზგასმები არა-რეგულარულ გამოსახულებებზე ნიშნავს, რომ სახელი უნდა დასრულდეს მოცემული ტექსტით.",
+    "Additional note file patterns" : "დამატებითი ჩანაწერების ფაილების ნიმუშები",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "ერთი ნიმუში თითო ხაზზე. თუ ნიმუში რეგულარული გამოსახულებაა ის უნდა იწყებოდეს ^-ით ან მთავრდებოდეს $-ით, სხვა შემთხვევაში სახელი უნდა იყოს სრული დამთხვევა.",
+    "Exclude extension patterns" : "გაფართოებების ნიმუშების გამოტოვება",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "ერთი ნიმუში თითო ხაზზე. დააკოპირეთ ზუსტი ტექსტი რესურსის ფაილიდან. ეს აპლიკაციის განახლებისას გვეხმარება თქვენი გამონაკლისების შენარჩუნებაში.",
+    "Ignore extension patterns" : "არ მიექცეს ყურადღება გაფართოების ნიმუშებს",
+    "Exclude note file patterns" : "ჩანაწერების ფაილების ნიმუშების გამოტოვება",
+    "Ignore note file patterns" : "არ მიექცეს ყურადღება ჩანაწერების ფაილების ნიმუშებს",
+    "Protection is currently active" : "ამჟამად თავდაცვა აქტიურია",
+    "Protection is currently paused until: <strong>%s</strong>" : "თავდაცვა ამჟამად შეჩერებულია <strong>%s</strong>-მდე",
+    "Re-enable protection now" : "თავდაცვის ხელახალი გააქტიურება."
+},"pluralForm" :"nplurals=1; plural=0;"
+}
