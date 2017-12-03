@@ -1,0 +1,25 @@
+OC.L10N.register(
+    "ransomware_protection",
+    {
+    "Ransomware protection" : "Protezione ransomware",
+    "File “%1$s” could not be uploaded!" : "Il file \"%1$s\" non può essere caricato!",
+    "Your sync clients are currently blocked from further uploads" : "I tuoi client di sincronizzazione sono attualmente bloccati da ulteriori caricamenti.",
+    "Pause protection" : "Sospendi la protezione",
+    "I need help!" : "Ho bisogno d'aiuto!",
+    "User %s may be infected with ransomware and is asking for your help." : "L'utente %s potrebbe essere infetto con un ransomware e chiede il tuo aiuto.",
+    "I will help" : "Lo aiuterò",
+    "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Includi file di note con nomi non ovvi, ad es. ReadMe.TxT, info.html",
+    "Additional extension patterns" : "Modelli di estensione aggiuntivi",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Un modello per riga. Se il modello è un'espressione regolare deve iniziare con ^ o finire con $. Il punto iniziale o un underscore in modelli di espressione non regolare significano che il nome deve terminare con la stringa specificata.",
+    "Additional note file patterns" : "Modelli di file di note aggiuntivi",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "Un modello per riga. Se il modello è un'espressione regolare deve iniziare con ^ o terminare con $, altrimenti il nome deve essere una corrispondenza completa.",
+    "Exclude extension patterns" : "Escludi modelli di estensione",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Un modello per riga. Copia una stringa esatta dal file dele risorse. Ciò ti aiuta a mantenere le tue esclusioni durante l'aggiornamento dell'applicazione.",
+    "Ignore extension patterns" : "Ignora modelli di estensione",
+    "Exclude note file patterns" : "Escludi modelli di file di note",
+    "Ignore note file patterns" : "Ignora modelli di file di note",
+    "Protection is currently active" : "La protezione è attualmente attiva",
+    "Protection is currently paused until: <strong>%s</strong>" : "La protezione è attualmente sospesa fino a: <strong>%s</strong>",
+    "Re-enable protection now" : "Riabilita la protezione subito"
+},
+"nplurals=2; plural=(n != 1);");
