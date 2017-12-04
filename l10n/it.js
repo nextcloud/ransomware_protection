@@ -4,6 +4,7 @@ OC.L10N.register(
     "Ransomware protection" : "Protezione ransomware",
     "File “%1$s” could not be uploaded!" : "Il file \"%1$s\" non può essere caricato!",
     "Your sync clients are currently blocked from further uploads" : "I tuoi client di sincronizzazione sono attualmente bloccati da ulteriori caricamenti.",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "Il file \"%1$s\" che hai provato a caricare corrisponde al modello di nome di un ransomware/virus \"%2$s\". Se sei sicuro che il tuo dispositivo non sia infetto, puoi disabilitare temporaneamente la protezione. Altrimenti, puoi richiedere aiuto al tuo amministratore.",
     "Pause protection" : "Sospendi la protezione",
     "I need help!" : "Ho bisogno d'aiuto!",
     "User %s may be infected with ransomware and is asking for your help." : "L'utente %s potrebbe essere infetto con un ransomware e chiede il tuo aiuto.",
