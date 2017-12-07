@@ -1,0 +1,24 @@
+{ "translations": {
+    "Ransomware protection" : "Pahavara kaitse",
+    "File “%1$s” could not be uploaded!" : "Faili “%1$s” ei saa üles laadida!",
+    "Your sync clients are currently blocked from further uploads" : "Teie sünkroonimisprogrammidel on praegu täiendavad üleslaadimised blokeeritud",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "Faili “%1$s” nimi mida üritasite üles laadida kattub pahavara/viiruse nimemustriga “%2$s”. Kui olete kindel, et teie seade ei ole nakatunud, saate ajutiselt kaitse peatada. Vastasel juhul võite paluda abi oma administraatorilt, kes selle ühe vaataks.",
+    "Pause protection" : "Peata kaitse",
+    "I need help!" : "Ma vajan abi!",
+    "User %s may be infected with ransomware and is asking for your help." : "Kasutaja %s võib olla pahavaraga nakatanud ja palub teie abi.",
+    "I will help" : "Ma aitan",
+    "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Kaasa lisafailid millel pole ilmseid pahavara nimesid, nt. ReadMe.TxT, info.html",
+    "Additional extension patterns" : "Täiendavad faililaiendite mustrid",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Üks muster rea kohta. Kui muster on regulaaravaldis, peab see algama ^ või lõppema $. Mitte-regulaaravaldist alustav punkt või alakriips tähendab seda, et nimi peab lõppema antud stringiga.",
+    "Additional note file patterns" : "Lisamärkuste faili mustrid",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "Üks muster rea kohta. Kui muster on regulaaravaldis, peab see algama ^ või lõppema $, vastasel juhul peab faili nimi täpsel kattuma.",
+    "Exclude extension patterns" : "Välista faililaiendite mustrid",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Üks muster rea kohta. Kopeerige täpne string ressursifailist. See aitab säilitada teie erandeid rakenduse värskendamisel.",
+    "Ignore extension patterns" : "Ignoreeri faililaiendite mustreid",
+    "Exclude note file patterns" : "Välista lisamärkuste faili mustrid",
+    "Ignore note file patterns" : "Ignoreeri lisamärkuste faili mustreid",
+    "Protection is currently active" : "Kaitse on hetkel aktiivne",
+    "Protection is currently paused until: <strong>%s</strong>" : "Kaitse on hetkel peatatud kuni: <strong>%s</strong>",
+    "Re-enable protection now" : "Lülita kaitse uuesti sisse"
+},"pluralForm" :"nplurals=2; plural=(n != 1);"
+}
