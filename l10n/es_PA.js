@@ -1,0 +1,26 @@
+OC.L10N.register(
+    "ransomware_protection",
+    {
+    "Ransomware protection" : "Protección contra Ransomware",
+    "File “%1$s” could not be uploaded!" : "¡El archivo \"%1$s\" no pudo ser cargado!",
+    "Your sync clients are currently blocked from further uploads" : "Tus clientes de sincronización están actualmente bloqueados de otras cargas",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "El archivo \"%1$s\" que intentaste cargar coincide con el patrón de nombre de un virus/ransomware \"%2$s\". Si estás seguro de que tu dispositivo no está afectado, puedes deshabilitar temporalmente la protección. De lo contrario puedes solicitar ayuda de tu administrador, para que te puedan contactar.",
+    "Pause protection" : "Pausar la protección",
+    "I need help!" : "¡Necesito ayuda!",
+    "User %s may be infected with ransomware and is asking for your help." : "El usuario %s puede estar infectado con ransomware y está pidiendo tu ayuda.",
+    "I will help" : "Ayudaré",
+    "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Incluir archivos de notas con nombres no-obvios, ej Leerme.TxT, info.html",
+    "Additional extension patterns" : "Patrones de extensiones adicionales",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Un patrón por línea. Si el patrón es una expresión reglular debe iniciar con ^ o terminar con $. Un punto o guión bajo al inicio en un patrón que no sea una expresión regular significa que el nombre tiene que terminar con esa cadena. ",
+    "Additional note file patterns" : "Patrones adicionales de archivo de notas",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "Un patrón por línea. Si el patrón es una expresión regular, debe empezar con ^ o terminar con $ de lo contrario el nombre debe ser una coincidencia exacta.",
+    "Exclude extension patterns" : "Excluir patrones de extensión",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Un patrón por línea. Copia la cadena exacta del archivo de recursos. Esto ayuda a mantener tus exclusiones mientras actualizas la aplciación.",
+    "Ignore extension patterns" : "Excluir patrones de extensión",
+    "Exclude note file patterns" : "Excluir patrones de archivo de notas",
+    "Ignore note file patterns" : "Ignorar patrones de archivo de notas",
+    "Protection is currently active" : "La protección está actualmente activa",
+    "Protection is currently paused until: <strong>%s</strong>" : "La protección esta actualmente suspendida hasta: <strong>%s</strong>",
+    "Re-enable protection now" : "Volver a habilitar la protección ahora"
+},
+"nplurals=2; plural=(n != 1);");
