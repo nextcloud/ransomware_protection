@@ -11,6 +11,7 @@ OC.L10N.register(
     "I will help" : "Jeg vil hjelpe",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Inkluder notisfiler med ikke åpenbare navn, f.eks ReadMe.TxT, info.html",
     "Additional extension patterns" : "Flere mønstre for filendelse",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Et mønster per linje. Hvis det er et regulært uttrykk, må det starte med ^ eller slutte med $. Innledende dott eller understrek på ikke-regulære uttrykk betyr at navnet må slutte med gitt streng.",
     "Additional note file patterns" : "Flere mønstre for notisfiler",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "Et mønster per linje. Hvis det er et regulært uttrykk, må det starte med ^ eller slutte med $, ellers må navnet samsvare helt.",
     "Exclude extension patterns" : "Mønstre for filendelse som ekskluderes",
