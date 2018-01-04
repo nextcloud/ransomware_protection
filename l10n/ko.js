@@ -1,0 +1,26 @@
+OC.L10N.register(
+    "ransomware_protection",
+    {
+    "Ransomware protection" : "랜섬웨어 보호",
+    "File “%1$s” could not be uploaded!" : "파일 “%1$s”을(를) 업로드할 수 없습니다!",
+    "Your sync clients are currently blocked from further uploads" : "동기화 클라이언트에서 업로드가 차단됨",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "업로드하려고 하는 파일 “%1$s”의 이름 패턴이 랜섬웨어/바이러스 “%2$s”의 패턴과 일치합니다. 장치가 감염되지 않았음이 확실하다면 임시로 보호를 끌 수 있습니다. 그렇지 않으면 시스템 관리자에게 연락하여 도움을 요청하십시오.",
+    "Pause protection" : "보호 일시 정지",
+    "I need help!" : "도움이 필요합니다!",
+    "User %s may be infected with ransomware and is asking for your help." : "%s 사용자가 랜섬웨어에 감염되었을 수도 있으며 귀하의 도움이 필요합니다.",
+    "I will help" : "도와 줄 수 있습니다",
+    "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "특이한 이름을 사용하는 메모 파일 포함, 예: ReadMe.TxT, info.html",
+    "Additional extension patterns" : "추가 확장자 패턴",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "한 줄에 하나씩 입력하십시오. 패턴이 정규 표현식이라면 ^ 문자로 시작하거나 $ 문자로 끝나야 합니다. 정규 표현식이 아닌 패턴의 맨 첫 글자가 점이나 밑줄이라면 해당 문자열로 끝나는 이름과 일치합니다.",
+    "Additional note file patterns" : "추가 메모 파일 패턴",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "한 줄에 하나씩 입력하십시오. 패턴이 정규 표현식이라면 ^ 문자로 시작하거나 $ 문자로 끝나야 합니다. 그렇지 않은 경우 해당 문자열과 완전히 일치해야 합니다.",
+    "Exclude extension patterns" : "제외할 확장자 패턴",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "한 줄에 하나씩 입력하십시오. 자원 파일에 있는 문자열을 그대로 입력하면 앱을 업데이트하더라도 제외 목록을 유지할 수 있습니다.",
+    "Ignore extension patterns" : "무시할 확장자 패턴",
+    "Exclude note file patterns" : "제외할 메모 파일 패턴",
+    "Ignore note file patterns" : "무시할 메모 파일 패턴",
+    "Protection is currently active" : "보호 기능이 활성화됨",
+    "Protection is currently paused until: <strong>%s</strong>" : "다음 시간까지 보호 기능이 일시 정지됨: <strong>%s</strong>",
+    "Re-enable protection now" : "지금 보호 다시 시작"
+},
+"nplurals=1; plural=0;");
