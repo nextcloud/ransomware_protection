@@ -1,8 +1,8 @@
 OC.L10N.register(
     "ransomware_protection",
     {
-    "Ransomware protection" : "Protección ransomware",
-    "File “%1$s” could not be uploaded!" : "¡El archivo “%1$s” no pudo ser subido!",
+    "Ransomware protection" : "Protección contra secuestro de archivos (ransomware)",
+    "File “%1$s” could not be uploaded!" : "¡No se ha podido subir el archivo “%1$s”!",
     "Your sync clients are currently blocked from further uploads" : "Tus clientes de sincronización están bloqueados y no pueden subir",
     "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "El archivo “%1$s” que intentaste subir coincide con el patrón de nombrado de un ransomware/virus “%2$s”. Si estás seguro de que tu dispositivo no está afectado, puedes deshabilitar temporalmente la protección. O puedes pedir ayuda a tu administrador, para que te contacte.",
     "Pause protection" : "Pausar protección",
