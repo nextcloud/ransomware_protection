@@ -1,5 +1,6 @@
 { "translations": {
     "Ransomware protection" : "Ochrana pred ransomvérom",
+    "File “%1$s” could not be uploaded!" : "Súbor “%1$s” sa nedá nahrať!",
     "Pause protection" : "Pozastaviť ochranu",
     "I need help!" : "Potrebujem pomoc!",
     "User %s may be infected with ransomware and is asking for your help." : "Používateľ %s je možno infikovaný ransomvérom a žiada vás o pomoc.",
