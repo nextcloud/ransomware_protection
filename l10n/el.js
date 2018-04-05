@@ -6,6 +6,7 @@ OC.L10N.register(
     "Your sync clients are currently blocked from further uploads" : "Οι συγχρονισμένοι πελάτες σας έχουν, προς το παρόν, μπλοκαριστεί ",
     "Pause protection" : "Διάλειμμα προστασίας",
     "I need help!" : "Χρειάζομαι βοήθεια",
-    "I will help" : "Θα βοηθήσω"
+    "I will help" : "Θα βοηθήσω",
+    "Protection is currently active" : "Η προστασία είναι ενεργοποιημένη"
 },
 "nplurals=2; plural=(n != 1);");
