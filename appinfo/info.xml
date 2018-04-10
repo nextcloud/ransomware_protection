@@ -13,6 +13,7 @@
 
 	<category>files</category>
 	<category>monitoring</category>
+	<category>security</category>
 	<screenshot>https://github.com/nextcloud/ransomware_protection/raw/master/docs/user-notification.png</screenshot>
 	<screenshot>https://github.com/nextcloud/ransomware_protection/raw/master/docs/admin-settings.png</screenshot>
 	<screenshot>https://github.com/nextcloud/ransomware_protection/raw/master/docs/admin-notification.png</screenshot>
