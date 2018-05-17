@@ -7,5 +7,5 @@
     "I will help" : "Ja pomôžem",
     "Protection is currently active" : "Ochrana je teraz aktívna",
     "Protection is currently paused until: <strong>%s</strong>" : "Ochrana je pozastavená do: <strong>%s</strong>"
-},"pluralForm" :"nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+},"pluralForm" :"nplurals=4; plural=(n % 1 == 0 ? 4: n==1 ? 1: n % 1 == 0 && n>=2 && n<=4 ? 3);"
 }
