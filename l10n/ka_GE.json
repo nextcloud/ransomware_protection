@@ -20,5 +20,5 @@
     "Protection is currently active" : "ამჟამად თავდაცვა აქტიურია",
     "Protection is currently paused until: <strong>%s</strong>" : "თავდაცვა ამჟამად შეჩერებულია <strong>%s</strong>-მდე",
     "Re-enable protection now" : "თავდაცვის ხელახალი გააქტიურება."
-},"pluralForm" :"nplurals=2; plural=(n==1);"
+},"pluralForm" :"nplurals=2; plural=(n!=1);"
 }

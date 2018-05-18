@@ -23,4 +23,4 @@ OC.L10N.register(
     "Protection is currently paused until: <strong>%s</strong>" : "თავდაცვა ამჟამად შეჩერებულია <strong>%s</strong>-მდე",
     "Re-enable protection now" : "თავდაცვის ხელახალი გააქტიურება."
 },
-"nplurals=2; plural=(n==1);");
+"nplurals=2; plural=(n!=1);");
