@@ -1,8 +1,8 @@
 OC.L10N.register(
     "ransomware_protection",
     {
-    "Ransomware protection" : "Ochrana před ransomware",
-    "File “%1$s” could not be uploaded!" : "Soubor “%1$s” nelze nahrát!",
+    "Ransomware protection" : "Ochrana před kybernetickým vydíráním",
+    "File “%1$s” could not be uploaded!" : "Soubor „%1$s“ nelze nahrát!",
     "Pause protection" : "Pozastavení ochrany",
     "I need help!" : "Potřebuji pomoci!",
     "I will help" : "Pomohu",
