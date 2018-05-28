@@ -6,6 +6,7 @@ OC.L10N.register(
     "Pause protection" : "Pozastavení ochrany",
     "I need help!" : "Potřebuji pomoci!",
     "I will help" : "Pomohu",
+    "This app prevents uploading files with known ransomware file endings" : "Tato aplikace zabrání nahrání souborů s koncovkami, u kterých je známo, že značí vyděračský software",
     "Protection is currently active" : "Ochrana je v současné době aktivní",
     "Re-enable protection now" : "Opětovné zapnutí ochrany"
 },
