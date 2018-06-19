@@ -7,6 +7,8 @@
     "I need help!" : "¡Necesito ayuda!",
     "User %s may be infected with ransomware and is asking for your help." : "El usuario %s podría estar infectado con ransomware y te pide ayuda.",
     "I will help" : "Te ayudaré",
+    "This app prevents uploading files with known ransomware file endings" : "Esta app impide subir archivos con archivos conocidos de ransomware",
+    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Esta app impide subir archivos conocidos de ransomware\n\n⚠️ Ni el desarrollador ni Nextcloud GmbH dan ninguna garantía de que tus archivos no puedan ser afectados de otra forma.",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Incluir archivos de notas con nombres no obvios, como ReadMe.TxT, info.html",
     "Additional extension patterns" : "Patrones de extensión adicionales",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Un patrón por línea. Si el patrón es una expresión regular, tiene que comenzar con ^ o terminar con $. Punto o guión bajo en patrones de expresión no regular significa que el nombre tiene que terminar con el texto dado.",
