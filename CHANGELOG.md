@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.0.6 - 2018-06-22
+### Added
+  - Add extension `.wkgdiba` against Cryptolocker (Patch by [dienteperro](https://github.com/dienteperro))
+
 ## 1.0.5 - 2017-10-26
 ### Added
   - Add extension `install_flash_player.exe` against Bad Rabbit (Patch by [mr-bolle](https://github.com/mr-bolle))
