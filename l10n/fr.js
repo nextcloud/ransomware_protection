@@ -9,6 +9,8 @@ OC.L10N.register(
     "I need help!" : "J'ai besoin d'aide!",
     "User %s may be infected with ransomware and is asking for your help." : "L'utilisateur %s pourrait être infecté par un logiciel d'extorsion et demande votre aide.",
     "I will help" : "Je vais aider",
+    "This app prevents uploading files with known ransomware file endings" : "Cette application empêche le téléversement de fichiers avec des extensions de fichiers connues pour faire partie de rançongiciels ( logiciel d'extorsion ou ransomware)",
+    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Cette application empêche le téléchargement de fichiers avec des extensions de fichiers connues comme faisant partie de rançongiciel.\n\n⚠️ Ni le développeur ni Nextcloud GmbH ne garantissent que vos fichiers ne peuvent pas être affectés d'une autre manière.",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Inclure les fichiers texte avec des noms pas évidents, tels quel ReadMe.TxT, info.html",
     "Additional extension patterns" : "Modèles supplémentaires d'extension",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Un modèle par ligne. Si le modèle est une expression régulière, il doit commencer par ^ ou se terminer par $. Pour les modèles d'expression non-régulière, un point ou un trait de soulignement au début signifie que le nom doit se terminer par la chaîne de caractères.",
