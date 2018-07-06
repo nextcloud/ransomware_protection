@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## 1.0.6 - 2018-06-22
+## 1.1.1 - 2018-07-06
 ### Added
   - Allow folders to have blocked names, since they can not be dangerous [#30](https://github.com/nextcloud/ransomware_protection/issues/30)
   - Add extension `.wkgdiba` against Cryptolocker (Patch by [dienteperro](https://github.com/dienteperro))
