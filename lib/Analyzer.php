@@ -215,10 +215,17 @@ class Analyzer {
 		$fileName = basename($userPath);
 
 		$this->ensureResourcesAreLoaded();
-		$this->checkExtension($mode, $fileName, $userPath, $this->extensionsPlain, $this->extensionsRegex, $this->extensionsPlainLength);
-		$this->checkNotes($mode, $fileName, $userPath, $this->notesPlain, $this->notesRegex);
-		if ($this->config->getAppValue('ransomware_protection', 'notes_include_biased', 'no') === 'yes') {
-			$this->checkNotes($mode, $fileName, $userPath, $this->notesBiasedPlain, $this->notesBiasedRegex);
+
+		try {
+			$this->checkExtension($mode, $fileName, $userPath, $this->extensionsPlain, $this->extensionsRegex, $this->extensionsPlainLength);
+			$this->checkNotes($mode, $fileName, $userPath, $this->notesPlain, $this->notesRegex);
+			if ($this->config->getAppValue('ransomware_protection', 'notes_include_biased', 'no') === 'yes') {
+				$this->checkNotes($mode, $fileName, $userPath, $this->notesBiasedPlain, $this->notesBiasedRegex);
+			}
+		} catch (ForbiddenException $e) {
+			if ($storage->getMimeType($path) !== 'httpd/unix-directory') {
+				throw $e;
+			}
 		}
 
 		$this->nestingLevel--;
