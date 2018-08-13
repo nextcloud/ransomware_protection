@@ -9,6 +9,8 @@ OC.L10N.register(
     "I need help!" : "Ik heb hulp nodig!",
     "User %s may be infected with ransomware and is asking for your help." : "Gebruiker %s zou geïnfecteerd kunnen zijn met ransomware en vraagt je om hulp.",
     "I will help" : "Ik zal helpen",
+    "This app prevents uploading files with known ransomware file endings" : "Deze app voorkomt het uploaden van bestanden met bekende ransomware extensies",
+    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Deze app voorkomt uploaden van bestanden met bekende ransomwareextensies.\n\n⚠️ Noch de ontwikkelaars, noch Nextcloud GmbH kunnen enige garantie geven dat je bestanden niet op een andere manier geïnfecteerd kunnen worden.",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Notitiebestanden opnemen met niet voor de hand liggende namen, bijv. ReadMe.TxT, info.html",
     "Additional extension patterns" : "Aanvullende extensiepatronen",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Een patroon per regel. Als het patroon een reguliere expressie is moet het beginnen met ^ of eindigen met $. Een niet-reguliere expressie beginnend met een punt of underscore houdt in dat de naam moet eindigen met de opgegeven tekenreeks.",
