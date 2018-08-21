@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Ransomware protection" : "Ochrana před kybernetickým vydíráním",
     "File “%1$s” could not be uploaded!" : "Soubor „%1$s“ nelze nahrát!",
+    "Your sync clients are currently blocked from further uploads" : "Vaši synchronizační klienti jsou nyní blokováni z dalších nahrání",
     "Pause protection" : "Pozastavení ochrany",
     "I need help!" : "Potřebuji pomoci!",
     "User %s may be infected with ransomware and is asking for your help." : "Uživatel %s může být infikován ransomwarem a žádá vás o pomoc.",
