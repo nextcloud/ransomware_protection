@@ -11,6 +11,7 @@ OC.L10N.register(
     "This app prevents uploading files with known ransomware file endings" : "Tato aplikace zabrání nahrání souborů s koncovkami, u kterých je známo, že značí vyděračský software",
     "Additional extension patterns" : "Dodatečné vzory přípon",
     "Protection is currently active" : "Ochrana je v současné době aktivní",
+    "Protection is currently paused until: <strong>%s</strong>" : "Ochrana je nyní pozastavena dokud: <strong>%s</strong>",
     "Re-enable protection now" : "Opětovné zapnutí ochrany"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;");
