@@ -8,7 +8,7 @@
 ⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way.]]></description>
 	<licence>AGPL</licence>
 	<author>Joas Schilling</author>
-	<version>1.1.1</version>
+	<version>1.2.0</version>
 	<namespace>RansomwareProtection</namespace>
 
 	<category>files</category>
@@ -25,7 +25,7 @@
 	<repository type="git">https://github.com/nextcloud/ransomware_protection.git</repository>
 
 	<dependencies>
-		<nextcloud min-version="13" max-version="13" />
+		<nextcloud min-version="14" max-version="14" />
 	</dependencies>
 
 	<types>
