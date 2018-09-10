@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.2.0 - 2018-09-10
+### Added
+  - Nextcloud 14 support
+
 ## 1.1.2 - 2018-09-10
 ### Added
   - Add extension `.CRAB` against GandCrab
