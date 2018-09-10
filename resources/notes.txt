@@ -325,3 +325,4 @@ HOW TO DECRYPT FILES.TXT
 how.txt
 ZINO_NOTE.TXT
 Take_Seriously (Your saving grace).txt
+CRAB-DECRYPT.txt

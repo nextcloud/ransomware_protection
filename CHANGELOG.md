@@ -1,10 +1,18 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.2 - 2018-09-10
+### Added
+  - Add extension `.CRAB` against GandCrab
+
 ## 1.1.1 - 2018-07-06
 ### Added
   - Allow folders to have blocked names, since they can not be dangerous [#30](https://github.com/nextcloud/ransomware_protection/issues/30)
   - Add extension `.wkgdiba` against Cryptolocker (Patch by [dienteperro](https://github.com/dienteperro))
+
+## 1.1.0 - 2017-11-20
+### Added
+  - Nextcloud 13 support
 
 ## 1.0.5 - 2017-10-26
 ### Added
