@@ -369,3 +369,4 @@ _ryp
 .ykcol
 install_flash_player.exe
 .wkgdiba
+.CRAB
