@@ -4,7 +4,7 @@ OC.L10N.register(
     "Ransomware protection" : "Zsarolóprogram védelem",
     "File “%1$s” could not be uploaded!" : "„%1$s” fájlt nem lehet feltölteni!",
     "Your sync clients are currently blocked from further uploads" : "A szinkronizálási klienseid jelenleg nem tölthetnek fel",
-    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "A fájl “%1$s”, amit felölteni szerettél volna egy zsaroló vírus/vírus fájlnév illeszkedést tartalmaz “%2$s”. Ha biztos vagy benne, hogy az eszköz nem fertőzött, átmenetileg kikapcsolhatod a védelmet. Egyébként segítséget kérhetsz egy admintól.",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "A fájl “%1$s”, amit feltölteni szerettél volna egy zsaroló vírus/vírus fájlnév illeszkedést tartalmaz “%2$s”. Ha biztos vagy benne, hogy az eszköz nem fertőzött, átmenetileg kikapcsolhatod a védelmet. Egyébként segítséget kérhetsz egy rendszergazdától.",
     "Pause protection" : "Védelem szüneteltetése",
     "I need help!" : "Segítségre van szükségem!",
     "User %s may be infected with ransomware and is asking for your help." : "%s felhasználó zsarolóvírus fertőzött lehet, a segítségedet kéri.",
