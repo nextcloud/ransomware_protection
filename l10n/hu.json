@@ -7,6 +7,8 @@
     "I need help!" : "Segítségre van szükségem!",
     "User %s may be infected with ransomware and is asking for your help." : "%s felhasználó zsarolóvírus fertőzött lehet, a segítségedet kéri.",
     "I will help" : "Segítek",
+    "This app prevents uploading files with known ransomware file endings" : "Ez az alkalmazás megakadályozza azon fájlok feltöltését amelyek ismert zsarolóvirusokkal végződnek",
+    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Ez az alkalmazás megakadályozza azon fájlok feltöltését amelyek ismert zsarolóvirusokkal végződnek.\n\n⚠️ Sem a fejlesztő, sem a Nextcloud GmbH nem ad semilyen garanciát, hogy a fájljaid nem fertőződhettek meg más módon.",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "A segítségfájlokat ne szokványos néven add hozzá. Pl.: ReadMe.TxT, info.html",
     "Additional extension patterns" : "Kiegészítő kiterjesztés minták",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Egy minta egy sorban. Ha egy minta reguláris kifejezés ^-vel kell kezdődjön, és $-al kell végződjön. Kezdő pont vagy alsó vonás esetén a nem reguláris kifejezés minták a a szöveg végére kell illesztendők.",
