@@ -1,6 +1,18 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.3.0 - 2018-12-04
+### Added
+  - Nextcloud 15 support
+
+## 1.2.0 - 2018-09-10
+### Added
+  - Nextcloud 14 support
+
+## 1.1.2 - 2018-09-10
+### Added
+  - Add extension `.CRAB` against GandCrab
+
 ## 1.1.1 - 2018-07-06
 ### Added
   - Allow folders to have blocked names, since they can not be dangerous [#30](https://github.com/nextcloud/ransomware_protection/issues/30)
