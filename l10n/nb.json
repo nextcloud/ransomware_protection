@@ -13,7 +13,7 @@
     "Additional note file patterns" : "Flere mønstre for notisfiler",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "Et mønster per linje. Hvis det er et regulært uttrykk, må det starte med ^ eller slutte med $, ellers må navnet samsvare helt.",
     "Exclude extension patterns" : "Mønstre for filendelse som ekskluderes",
-    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Ett mønster per linje. Kopier eksakt streng fra ressursfilen. Dette hjelper til med å beholde utelatelsene dine mens programmet oppgraderes.",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Ett mønster per linje. Kopier eksakt streng fra ressursfilen. Dette hjelper til med å beholde utelatelsene dine mens appen oppdateres.",
     "Ignore extension patterns" : "Mønstre for filendelse som ignoreres",
     "Exclude note file patterns" : "Mønstre for notisfil som ekskluderes.",
     "Ignore note file patterns" : "Mønstre for notisfil som ignoreres.",
