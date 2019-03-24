@@ -1,0 +1,28 @@
+OC.L10N.register(
+    "ransomware_protection",
+    {
+    "Ransomware protection" : "Protekto kontraŭ elaĉeta programaro",
+    "File “%1$s” could not be uploaded!" : "Dosiero „%1$s“ ne alŝuteblis!",
+    "Your sync clients are currently blocked from further uploads" : "Viaj sinkronigaj klientoj nun ne plu rajtas alŝuti",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "La dosiero „%1$s“, kiun vi provis alŝuti, kongruas kun nommodelo de viruso aŭ elaĉeta programo „%2$s“. Se vi certas, ke via aparato ne estas infektita, vi povas dumtempe malŝalti tiun protekton. Aliokaze, vi povas serĉi helpon ĉe via administranto.",
+    "Pause protection" : "Paŭzigi protekton",
+    "I need help!" : "Mi bezonas helpon!",
+    "User %s may be infected with ransomware and is asking for your help." : "Uzanto %s eble estas infektita per elaĉeta programo kaj ŝi aŭ li petas helpon de vi.",
+    "I will help" : "Mi helpos",
+    "This app prevents uploading files with known ransomware file endings" : "Tiu aplikaĵo malhelpas alŝuton de dosieroj kun konataj dosiersufiksoj de elaĉeta programaro",
+    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Tiu aplikaĵo malhelpas alŝuton de dosieroj kun konataj dosiersufiksoj de elaĉeta programaro\n\n⚠️ Nek la programisto nek Nextcloud GmbH garantias, ke viaj dosieroj ne estos infektitaj per alia maniero.",
+    "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Inkluzivigi notodosierojn kun ne klaraj nomoj, ekz. ReadMe.TxT, info.html",
+    "Additional extension patterns" : "Pliaj sufiksaj modeloj",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Po unu modelo linie. Se la modelo estas regulesprimo, ĝi devas komenciĝi per ^ aŭ fini per $. Antaŭira punkto aŭ substreko ĉe ne regulesprimaj modeloj montras, ke la nomo devas fini per la tajpita ĉeno.",
+    "Additional note file patterns" : "Pliaj notodosieraj modeloj",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "Po unu modelo linie. Se la modelo estas regulesprimo, ĝi devas komenciĝi per ^ aŭ fini per $; alie la nomo plene kongruu.",
+    "Exclude extension patterns" : "Ekskluzivotaj modeloj de sufiksoj",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Po unu modelo linie. Kopiu la ekzaktan ĉenon el la risurcodosiero. Tio helpas gardi viajn esceptaĵojn dum la aplikaĵa ĝisdatigo.",
+    "Ignore extension patterns" : "Ignorotaj modeloj de sufiksoj",
+    "Exclude note file patterns" : "Ekskluzivotaj modeloj de notodosieroj",
+    "Ignore note file patterns" : "Ignorotaj modeloj de notodosieroj",
+    "Protection is currently active" : "Protekto estas aktiva",
+    "Protection is currently paused until: <strong>%s</strong>" : "Protekto estas nun paŭzigita ĝis: <strong>%s</strong>",
+    "Re-enable protection now" : "Re-ŝalti protekton nun"
+},
+"nplurals=2; plural=(n != 1);");
