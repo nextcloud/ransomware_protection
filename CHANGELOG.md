@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.4.0 - 2019-04-01
+### Added
+  - Nextcloud 16 support
+
 ## 1.3.0 - 2018-12-04
 ### Added
   - Nextcloud 15 support
