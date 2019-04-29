@@ -1,0 +1,26 @@
+{ "translations": {
+    "Ransomware protection" : "Protecció contra ransomware (programari maliciós de rescat)",
+    "File “%1$s” could not be uploaded!" : "El fitxer “%1$s” no s'ha pogut carregar!",
+    "Your sync clients are currently blocked from further uploads" : "Els vostres clients de sincronització estan blocats per impedir carregar fitxers",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "El fitxer \"%1$s\" que heu intentat carregar coincideix amb el patró de denominació d’un ransomware/virus \"%2$s\". Si esteu segur que el vostre dispositiu no ha estat afectat, podeu desactivar temporalment la protecció. En cas contrari, podeu sol·licitar ajuda del vostre administrador.",
+    "Pause protection" : "Atura la protecció",
+    "I need help!" : "Necessito ajuda!",
+    "User %s may be infected with ransomware and is asking for your help." : "L'usuari %s pot estar infectat amb ransomware i està demanant la vostra ajuda.",
+    "I will help" : "Ajudaré",
+    "This app prevents uploading files with known ransomware file endings" : "Aquesta aplicació impedeix carregar fitxers amb terminacions conegudes de fitxers ransomware",
+    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Aquesta aplicació impedeix carregar fitxers amb terminacions conegudes de fitxers ransomware\n\n⚠️ Ni el desenvolupador ni Nextcloud GmbH garanteixen que els vostres fitxers no es poden veure afectats d'una altra manera.",
+    "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Inclou fitxers de notes amb noms no obvis, p. ex. ReadMe.TxT, info.html",
+    "Additional extension patterns" : "Patrons addicionals d’extensió",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Un patró per línia. Si el patró és una expressió regular ha de començar amb ^ o acabar amb $. El punt inicial o subratllat en patrons d'expressió no regulars significa que el nom ha de finalitzar amb la cadena indicada.",
+    "Additional note file patterns" : "Patrons de fitxers de notes addicionals",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "Un patró per línia. Si el patró és una expressió regular ha de començar amb ^ o acabar amb $ en cas contrari el nom ha de coincidir exactament.",
+    "Exclude extension patterns" : "Exclou els patrons d’extensió",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Un patró per línia. Copieu la cadena exacta del fitxer de recursos. Això ajuda a mantenir les vostres exclusions mentre actualitzeu l’aplicació.",
+    "Ignore extension patterns" : "Ignora els patrons d’extensió",
+    "Exclude note file patterns" : "Exclou els patrons de fitxers de notes",
+    "Ignore note file patterns" : "Ignora els patrons de fitxers de notes",
+    "Protection is currently active" : "La protecció està activa",
+    "Protection is currently paused until: <strong>%s</strong>" : "La protecció està actualment en pausa fins: <strong>%s</strong>",
+    "Re-enable protection now" : "Reactiva la protecció ara"
+},"pluralForm" :"nplurals=2; plural=(n != 1);"
+}
