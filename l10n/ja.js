@@ -1,0 +1,28 @@
+OC.L10N.register(
+    "ransomware_protection",
+    {
+    "Ransomware protection" : "ランサムウェア保護",
+    "File “%1$s” could not be uploaded!" : "ファイル “%1$s” はアップロードできませんでした！",
+    "Your sync clients are currently blocked from further uploads" : "あなたの同期クライアントは現在これ以上のアップロードをブロックされています",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "あなたがアップロードしようとしたファイル “%1$s” は、ランサムウェア/ウィルスの命名パターン “%2$s” に一致しました。あなたのデバイスが侵害されていないと確信する場合は、保護を一時的に無効にすることができます。そうでない場合は、管理者があなたに連絡するよう支援を要請することができます。",
+    "Pause protection" : "保護を一時停止",
+    "I need help!" : "助けが必要です！",
+    "User %s may be infected with ransomware and is asking for your help." : "ユーザー %s はランサムウェアに感染している可能性があり、あなたの助けを求めています。",
+    "I will help" : "助ける",
+    "This app prevents uploading files with known ransomware file endings" : "このアプリは、既知のランサムウェアファイルの拡張子を持つファイルがアップロードされることを防ぎます",
+    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "このアプリは、既知のランサムウェアファイルの拡張子を持つファイルがアップロードされることを防ぎます。\n\n⚠️ ファイルが他の方法で侵害されないことを開発者または Nextcloud GmbH が保証するものではありません。",
+    "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "明らかではない名前のノートファイルを含める、例えば ReadMe.TxT, info.html など",
+    "Additional extension patterns" : "追加の拡張子パターン",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "1 行ごとに 1 パターン。パターンが正規表現の場合は、 ^ で始まるか $ で終わる必要があります。正規表現ではないパターンでは、先頭のドットまたはアンダースコアは、与えられた文字列で名前が終わる必要があることを意味します。",
+    "Additional note file patterns" : "追加のノートファイルパターン",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "1 行ごとに 1 パターン。パターンが正規表現の場合は、 ^ で始まるか $ で終わる必要があります。そうでなければ、名前は完全一致する必要があります。",
+    "Exclude extension patterns" : "除外する拡張子パターン",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "1 行ごとに 1 パターン。リソースファイルから正確な文字列をコピーしてください。これはアプリのアップデートの際に除外パターンを保持することに役立ちます。",
+    "Ignore extension patterns" : "無視する拡張子パターン",
+    "Exclude note file patterns" : "除外するノートファイルパターン",
+    "Ignore note file patterns" : "無視するノートファイルパターン",
+    "Protection is currently active" : "保護は現在動作中です",
+    "Protection is currently paused until: <strong>%s</strong>" : "保護は現在一時停止中です: <strong>%s</strong> まで",
+    "Re-enable protection now" : "今すぐ保護を有効化する"
+},
+"nplurals=1; plural=0;");
