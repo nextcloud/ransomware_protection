@@ -75,14 +75,6 @@ class Application extends App {
 	}
 
 	protected function registerNotificationNotifier() {
-		$this->getContainer()->getServer()->getNotificationManager()->registerNotifier(function() {
-			return $this->getContainer()->query(Notifier::class);
-		}, function() {
-			$l = $this->getContainer()->getServer()->getL10NFactory()->get('ransomware_protection');
-			return [
-				'id' => 'ransomware_protection',
-				'name' => $l->t('Ransomware protection'),
-			];
-		});
+		$this->getContainer()->getServer()->getNotificationManager()->registerNotifierService(Notifier::class);
 	}
 }
