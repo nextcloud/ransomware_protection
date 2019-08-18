@@ -7,7 +7,7 @@ OC.L10N.register(
     "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "Het bestand “%1$s” dat je probeerde te uploaden komt overeen met met het naampatroon van ransomware/virus “%2$s”. Indien je er zeker van bent dat je apparaat niet aangetast is, kun je tijdelijk de bescherming uitschakelen. Anders kun je een verzoek voor hulp indienen bij jouw beheerder, zodat die contact met je opneemt.",
     "Pause protection" : "Pauzeer bescherming",
     "I need help!" : "Ik heb hulp nodig!",
-    "User %s may be infected with ransomware and is asking for your help." : "Gebruiker %s zou geïnfecteerd kunnen zijn met ransomware en vraagt je om hulp.",
+    "User %s may be infected with ransomware and is asking for your help." : "Gebruiker %s zou geïnfecteerd kunnen zijn met ransomware en vraagt je om hulp.",
     "I will help" : "Ik zal helpen",
     "This app prevents uploading files with known ransomware file endings" : "Deze app voorkomt het uploaden van bestanden met bekende ransomware extensies",
     "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Deze app voorkomt uploaden van bestanden met bekende ransomwareextensies.\n\n⚠️ Noch de ontwikkelaars, noch Nextcloud GmbH kunnen enige garantie geven dat je bestanden niet op een andere manier geïnfecteerd kunnen worden.",
