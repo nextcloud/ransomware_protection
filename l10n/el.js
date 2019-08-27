@@ -7,6 +7,9 @@ OC.L10N.register(
     "Pause protection" : "Διάλειμμα προστασίας",
     "I need help!" : "Χρειάζομαι βοήθεια",
     "I will help" : "Θα βοηθήσω",
-    "Protection is currently active" : "Η προστασία είναι ενεργοποιημένη"
+    "Additional extension patterns" : "Πρόσθετα μοτίβα επέκτασης",
+    "Exclude extension patterns" : "Εξαίρεση μοτίβων επέκτασης",
+    "Protection is currently active" : "Η προστασία είναι ενεργοποιημένη",
+    "Re-enable protection now" : "Ενεργοποιήστε ξανά την προστασία τώρα"
 },
 "nplurals=2; plural=(n != 1);");
