@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.5.1 - 2019-11-15
+### Added
+  - Add extension `.NEXTCRY` against Nextcry
+
 ## 1.5.0 - 2019-08-26
 ### Added
   - Nextcloud 17 support
