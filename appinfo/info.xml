@@ -6,9 +6,9 @@
 	<description><![CDATA[This app prevents uploading files with known ransomware file endings.
 
 ⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way.]]></description>
-	<licence>AGPL</licence>
+	<version>1.3.1</version>
+	<licence>agpl</licence>
 	<author>Joas Schilling</author>
-	<version>1.3.0</version>
 	<namespace>RansomwareProtection</namespace>
 
 	<category>files</category>
