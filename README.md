@@ -1,6 +1,10 @@
 # Ransomware protection app
 
-This app prevents uploading files with known ransomware file endings.
+This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.
+
+⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.
+
+⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way.
 
 ## How the app works
 
