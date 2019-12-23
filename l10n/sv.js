@@ -11,7 +11,7 @@ OC.L10N.register(
     "I will help" : "Jag hjälper",
     "This app prevents uploading files with known ransomware file endings" : "Den här appen förhindrar uppladdning av filer med kända ransomware-filändelser",
     "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Den här appen förhindrar uppladdning av filer med kända ransomware-filändelser.\n\n⚠️ Varken utvecklaren eller Nextcloud GmbH ger någon garanti för att dina filer inte kan påverkas på ett annat sätt.",
-    "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Inkludera anteckningar med ej uppenbara namn, t.ex. ReadMe.TxT, info.html",
+    "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Inkludera anteckningar med icke-uppenbara namn, t.ex. ReadMe.TxT, info.html",
     "Additional extension patterns" : "Ytterligare tilläggsmönster",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Ett mönster per rad. Om mönstret är ett regulärt uttryck måste det starta med ^ eller sluta med . Startande punkt eller markstreck på icke-regulära uttryck innebär att namnet måste sluta med den givna strängen. ",
     "Additional note file patterns" : "Ytterligare mönster för anteckningsfiler",
