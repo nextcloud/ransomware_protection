@@ -7,7 +7,7 @@ OC.L10N.register(
     "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "Soubor „%1$s“, který jste se pokusili nahrát, odpovídá vzorcům ransomware/viru „%2$s“. Pokud jste si naprosto jistí, že vaše zařízení není infikováno, můžete ochranu dočasně vypnout. V opačném případě požádejte o pomoc svého správce systémů.",
     "Pause protection" : "Pozastavení ochrany",
     "I need help!" : "Potřebuji pomoc!",
-    "User %s may be infected with ransomware and is asking for your help." : "Uživatel %s může být infikován ransomwarem a žádá vás o pomoc.",
+    "User %s may be infected with ransomware and is asking for your help." : "Uživatel %s může být infikován(a) ransomwarem a žádá vás o pomoc.",
     "I will help" : "Pomohu",
     "This app prevents uploading files with known ransomware file endings" : "Tato aplikace brání nahrání souborů s koncovkami, u kterých je známo, že značí software, používaný pro kybernetické vydírání",
     "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Tato aplikace zabraňuje nahrávání souborů o příponách kterých je známo, že obsahují vyděračský software (ransomware).\n\n⚠️ Ani vývojář, ani společnost Nextcloud GmbH nezaručuje, že vaše soubory nemohou být postiženy jiným způsobem.",
