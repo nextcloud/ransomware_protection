@@ -7,7 +7,7 @@
 	<description><![CDATA[This app prevents uploading files with known ransomware file endings.
 
 ⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way.]]></description>
-	<version>1.6.0</version>
+	<version>1.7.0</version>
 	<licence>agpl</licence>
 	<author>Joas Schilling</author>
 	<namespace>RansomwareProtection</namespace>
@@ -31,7 +31,7 @@
 	<screenshot>https://github.com/nextcloud/ransomware_protection/raw/master/docs/user-paused-protection.png</screenshot>
 
 	<dependencies>
-		<nextcloud min-version="18" max-version="18" />
+		<nextcloud min-version="19" max-version="19" />
 	</dependencies>
 
 	<commands>
