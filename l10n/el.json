@@ -15,7 +15,12 @@
     "Additional note file patterns" : "Πρόσθετες επεκτέσεις αρχείων σημειώσεων",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "Ένα μοτίβο ανά γραμμή. Αν το πρότυπο είναι κανονική έκφραση, πρέπει να ξεκινήσει με ^ ή να τερματίσει με $ αλλιώς πρέπει να ταιριάζει ακριβώς το όνομα.",
     "Exclude extension patterns" : "Εξαίρεση μοτίβων επέκτασης",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Ένα μοτίβο ανά γραμμή. Αντιγράψτε την ακριβή συμβολοσειρά από το αρχικό αρχείο. Αυτό βοηθά στη διατήρηση των εξαιρέσεων κατά την ενημέρωση της εφαρμογής.",
+    "Ignore extension patterns" : "Αγνόηση μοτίβων επέκτασης",
+    "Exclude note file patterns" : "Εξαίρεση των μοτίβων αρχείων σημειώσεων",
+    "Ignore note file patterns" : "Αγνόηση των μοτίβων αρχείων σημειώσεων",
     "Protection is currently active" : "Η προστασία είναι ενεργοποιημένη",
+    "Protection is currently paused until: <strong>%s</strong>" : "Η προστασία είναι προς το παρόν σε παύση έως: <strong>%s</strong>",
     "Re-enable protection now" : "Ενεργοποιήστε ξανά την προστασία τώρα"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
