@@ -10,7 +10,6 @@ OC.L10N.register(
     "User %s may be infected with ransomware and is asking for your help." : "%s felhasználó zsarolóprogrammal fertőzött lehet, és segítséget kér.",
     "I will help" : "Segítek",
     "This app prevents uploading files with known ransomware file endings" : "Ez az alkalmazás megakadályozza azon fájlok feltöltését, amelyek ismert zsarolóprogramokra jellemző fájlnév végződésekkel rendelkeznek.",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Ez az alkalmazás megakadályozza azon fájlok feltöltését, amelyek ismert zsarolóprogramokra jellemző fájlnév végződésekkel rendelkeznek.\n\n⚠️ Sem a fejlesztő, sem a Nextcloud GmbH nem ad semmiféle garanciát, hogy a fájljai nem fertőződhettek meg más módon.",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Azon jegyzetfájlok bele vétele, melyek nem szokványos névvel rendelkeznek, például: ReadMe.TxT, info.html",
     "Additional extension patterns" : "További kiterjesztésminták",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Soronként egy minta. Ha a minta reguláris kifejezés, akkor ^-vel kell kezdődjön, vagy $-al kell végződjön. A kezdő pont vagy alsó vonás esetén a nem reguláris kifejezésminták esetén azt jelenti, hogy a névnek a megadott karakterlánccal kell végződnie.",
@@ -23,6 +22,7 @@ OC.L10N.register(
     "Ignore note file patterns" : "Mellőzendő feljegyzésfájl-minták",
     "Protection is currently active" : "A védelem jelenleg aktív",
     "Protection is currently paused until: <strong>%s</strong>" : "A védelem szüneteltetve eddig: <strong>%s</strong>",
-    "Re-enable protection now" : "A védelem újraengedélyezése"
+    "Re-enable protection now" : "A védelem újraengedélyezése",
+    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Ez az alkalmazás megakadályozza azon fájlok feltöltését, amelyek ismert zsarolóprogramokra jellemző fájlnév végződésekkel rendelkeznek.\n\n⚠️ Sem a fejlesztő, sem a Nextcloud GmbH nem ad semmiféle garanciát, hogy a fájljai nem fertőződhettek meg más módon."
 },
 "nplurals=2; plural=(n != 1);");
