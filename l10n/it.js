@@ -10,7 +10,6 @@ OC.L10N.register(
     "User %s may be infected with ransomware and is asking for your help." : "L'utente %s potrebbe essere infetto con un ransomware e chiede il tuo aiuto.",
     "I will help" : "Lo aiuterò",
     "This app prevents uploading files with known ransomware file endings" : "Questa applicazione impedisce di caricare file di ransomware conosciuti",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Questa applicazione impedisce il caricamento di file con ransomware conosciuti.\n\n⚠️ Né lo sviluppatore, né Nextcloud GmbH fornisce alcuna garanzia che i tuoi file non possano essere infettati in altro modo.",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Includi file di note con nomi non ovvi, ad es. ReadMe.TxT, info.html",
     "Additional extension patterns" : "Modelli di estensione aggiuntivi",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Un modello per riga. Se il modello è un'espressione regolare deve iniziare con ^ o finire con $. Il punto iniziale o un underscore in modelli di espressione non regolare significano che il nome deve terminare con la stringa specificata.",
@@ -23,6 +22,7 @@ OC.L10N.register(
     "Ignore note file patterns" : "Ignora modelli di file di note",
     "Protection is currently active" : "La protezione è attualmente attiva",
     "Protection is currently paused until: <strong>%s</strong>" : "La protezione è attualmente sospesa fino a: <strong>%s</strong>",
-    "Re-enable protection now" : "Riabilita la protezione subito"
+    "Re-enable protection now" : "Riabilita la protezione subito",
+    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Questa applicazione impedisce il caricamento di file con ransomware conosciuti.\n\n⚠️ Né lo sviluppatore, né Nextcloud GmbH fornisce alcuna garanzia che i tuoi file non possano essere infettati in altro modo."
 },
 "nplurals=2; plural=(n != 1);");

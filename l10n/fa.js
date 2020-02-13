@@ -10,7 +10,6 @@ OC.L10N.register(
     "User %s may be infected with ransomware and is asking for your help." : "کاربر %s ممکن است به باج افزار آلوده شده و از شما درخواست کمک کند.",
     "I will help" : "من کمک خواهم کرد",
     "This app prevents uploading files with known ransomware file endings" : "این برنامه مانع بارگذاری پرونده ها با پایان نامه های معروف ransomware می شود",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "این برنامه مانع بارگذاری پرونده ها با پایان نامه های معروف ransomware می شود.\n\n⚠️ نه توسعه دهنده و نه نکست کلود GmbH هیچ تضمینی در مورد اینکه پرونده های شما تحت تأثیر قرار نمی گیرند ، تضمین نمی کنند.",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "شامل پرونده های توجه داشته باشید با نام های نامشخص ، به عنوان مثال ReadMe.TxT ، info.html",
     "Additional extension patterns" : "الگوهای پسوند اضافی",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "یک الگوی در هر خط. اگر این الگوی یک عبارت معمولی است باید از ^ شروع شود یا با $ پایان یابد. نقطه برجسته یا تأکید بر الگوهای بیان غیر منظم بدان معنی است که نام باید با رشته داده شده پایان یابد.",
@@ -23,6 +22,7 @@ OC.L10N.register(
     "Ignore note file patterns" : "الگوهای پرونده توجه را نادیده بگیرید",
     "Protection is currently active" : "حمایت در حال حاضر فعال است",
     "Protection is currently paused until: <strong>%s</strong>" : "محافظت در حال حاضر متوقف شده است: <strong>%s</strong>",
-    "Re-enable protection now" : "اکنون دوباره محافظت کنید"
+    "Re-enable protection now" : "اکنون دوباره محافظت کنید",
+    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "این برنامه مانع بارگذاری پرونده ها با پایان نامه های معروف ransomware می شود.\n\n⚠️ نه توسعه دهنده و نه نکست کلود GmbH هیچ تضمینی در مورد اینکه پرونده های شما تحت تأثیر قرار نمی گیرند ، تضمین نمی کنند."
 },
 "nplurals=2; plural=(n > 1);");

@@ -10,7 +10,6 @@ OC.L10N.register(
     "User %s may be infected with ransomware and is asking for your help." : "Ο χρήστης %s ίσως μολύνθηκε με ransomware και ζητάει την βοήθειά σας.",
     "I will help" : "Θα βοηθήσω",
     "This app prevents uploading files with known ransomware file endings" : "Η εφαρμογή αποτρέπει τον διαμοιρασμό αρχείων με γνωστά ransomware",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Η εφαρμογή αποτρέπει τον διαμοιρασμό αρχείων με γνωστά ransomware\n\n⚠️ Κανείς από τους προγραμματιστές ή την Nextcloud Gmbh δεν μπορεί να εγγυηθεί πως τα αρχεία σας δεν θα μολυνθούν από άλλο τρόπο.",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Περιλαμβάνονται αρχεία σημειώσεων με μη προφανή ονόματα, π.χ. ReadMe.TxT, info.html",
     "Additional extension patterns" : "Πρόσθετα μοτίβα επέκτασης",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Ένα μοτίβο ανά γραμμή. Αν το πρότυπο είναι κανονική έκφραση, πρέπει να ξεκινήσει με ^ ή να τερματίσει με $. Η πρώτη τελεία ή κάτω παύλα σε μη κανονικά μοτίβα έκφρασης σημαίνει ότι το όνομα πρέπει να τελειώνει με τη δεδομένη συμβολοσειρά.",
@@ -23,6 +22,7 @@ OC.L10N.register(
     "Ignore note file patterns" : "Αγνόηση των μοτίβων αρχείων σημειώσεων",
     "Protection is currently active" : "Η προστασία είναι ενεργοποιημένη",
     "Protection is currently paused until: <strong>%s</strong>" : "Η προστασία είναι προς το παρόν σε παύση έως: <strong>%s</strong>",
-    "Re-enable protection now" : "Ενεργοποιήστε ξανά την προστασία τώρα"
+    "Re-enable protection now" : "Ενεργοποιήστε ξανά την προστασία τώρα",
+    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Η εφαρμογή αποτρέπει τον διαμοιρασμό αρχείων με γνωστά ransomware\n\n⚠️ Κανείς από τους προγραμματιστές ή την Nextcloud Gmbh δεν μπορεί να εγγυηθεί πως τα αρχεία σας δεν θα μολυνθούν από άλλο τρόπο."
 },
 "nplurals=2; plural=(n != 1);");
