@@ -10,7 +10,6 @@ OC.L10N.register(
     "User %s may be infected with ransomware and is asking for your help." : "Корисник %s је можда заражен софтвер за уцењивање и тражи помоћ од Вас.",
     "I will help" : "Помоћи ћу",
     "This app prevents uploading files with known ransomware file endings" : "Ова апликација не дозвољава отпремање фајлова са завршетком имена фајла који је познат као софтвер за уцењивање.",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Ова апликација не дозвољава отпремање фајлова са завршетком имена фајла који је познат као софтвер за уцењивање.\n\n⚠️ Ни програмер ни Nextcloud GmbH не даје гаранције да Ваши фајлови неће бити утицано на неки други начин.",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Укључије белешке са чудним именима, нпр. ReadMe.TxT, info.html",
     "Additional extension patterns" : "Додатни шаблони за екстензије",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Један шаблон по линији. Ако је шаблон регуларни израз, треба да почиње са ^  или да завршава са $. Тачка на почетку или доња црта на шаблонима који нису регуларни изрази значи да име мора да завршава са датом ниском.",
@@ -23,6 +22,7 @@ OC.L10N.register(
     "Ignore note file patterns" : "Игнориши шаблоне фајлова белешки",
     "Protection is currently active" : "Заштита је тренутно укључена",
     "Protection is currently paused until: <strong>%s</strong>" : "Заштита је тренутно паузирана до: <strong>%s</strong>",
-    "Re-enable protection now" : "Поново сад укључи заштиту"
+    "Re-enable protection now" : "Поново сад укључи заштиту",
+    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Ова апликација не дозвољава отпремање фајлова са завршетком имена фајла који је познат као софтвер за уцењивање.\n\n⚠️ Ни програмер ни Nextcloud GmbH не даје гаранције да Ваши фајлови неће бити утицано на неки други начин."
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);");
