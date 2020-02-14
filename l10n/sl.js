@@ -2,6 +2,7 @@ OC.L10N.register(
     "ransomware_protection",
     {
     "Ransomware protection" : "Zaščita Ransomware",
+    "Your sync clients are currently blocked from further uploads" : "Nameščeni odjemalci za usklajevanje so trenutno blokirani za nadaljnje pošiljanje",
     "I need help!" : "Potrebujem pomoč!",
     "I will help" : "Želim pomagati.",
     "Re-enable protection now" : "Ponovno omogoči zaščito"
