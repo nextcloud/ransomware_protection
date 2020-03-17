@@ -17,7 +17,7 @@ OC.L10N.register(
     "Additional note file patterns" : "Modelli di file di note aggiuntivi",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "Un modello per riga. Se il modello è un'espressione regolare deve iniziare con ^ o terminare con $, altrimenti il nome deve essere una corrispondenza completa.",
     "Exclude extension patterns" : "Escludi modelli di estensione",
-    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Un modello per riga. Copia una stringa esatta dal file dele risorse. Ciò ti aiuta a mantenere le tue esclusioni durante l'aggiornamento dell'applicazione.",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Un modello per riga. Copia una stringa esatta dal file delle risorse. Ciò ti aiuta a mantenere le tue esclusioni durante l'aggiornamento dell'applicazione.",
     "Ignore extension patterns" : "Ignora modelli di estensione",
     "Exclude note file patterns" : "Escludi modelli di file di note",
     "Ignore note file patterns" : "Ignora modelli di file di note",
