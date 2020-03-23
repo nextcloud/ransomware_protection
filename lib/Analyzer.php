@@ -224,6 +224,7 @@ class Analyzer {
 			}
 		} catch (ForbiddenException $e) {
 			if ($storage->getMimeType($path) !== 'httpd/unix-directory') {
+				$this->nestingLevel--;
 				throw $e;
 			}
 		}
