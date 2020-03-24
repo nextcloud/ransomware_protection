@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.6.1 - 2020-03-24
+### Fixed
+  - Fix an issue with exceptions being thrown in nested calls [#64](https://github.com/nextcloud/ransomware_protection/issues/64)
+
+## 1.6.0 - 2020-01-17
+### Added
+  - Nextcloud 18 support
+
 ## 1.5.0 - 2019-08-26
 ### Added
   - Nextcloud 17 support
