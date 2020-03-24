@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.5.2 - 2020-03-24
+### Fixed
+  - Fix an issue with exceptions being thrown in nested calls [#66](https://github.com/nextcloud/ransomware_protection/issues/66)
+
 ## 1.5.1 - 2019-11-15
 ### Added
   - Add extension `.NEXTCRY` against Nextcry
