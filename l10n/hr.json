@@ -8,7 +8,7 @@
     "User %s may be infected with ransomware and is asking for your help." : "Korisnik %s je možda zaražen ransomwareom i traži pomoć.",
     "I will help" : "Ja ću mu pomoći",
     "This app prevents uploading files with known ransomware file endings" : "Ova aplikacija sprječava otpremanje datoteka koje imaju poznate završetke, nalik ransomwareu",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Ova aplikacija sprječava otpremanje datoteka koje imaju poznate završetke, nalik ransomwareu.\n\n⚠ Ni razvojni programeri ni Nextcloud GmbH ne daju nikakvo jamstvo da vaše datoteke neće biti zahvaćene na neki drugi način.",
+    "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Ova aplikacija sprječava klijente Nextcloud Sync da otpremaju datoteke koje imaju poznate završetke nalik ransomwareu.\n\n⚠ Ova aplikacija ne zamjenjuje redovite sigurnosne kopije. Sprječava zaražene klijente da otpremaju i prepisuju datoteke na vašem poslužitelju Nextclouda. Aplikacija vam ne može pomoći u slučaju da je poslužitelj izravno zaražen ransomwareom.\n\n⚠️ Ni razvojni programeri ni Nextcloud GmbH ne daju nikakvo jamstvo da vaše datoteke neće biti zahvaćene na neki drugi način.",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Uključite datoteke bilješki s netipičnim nazivima, npr. ReadMe.TxT, info.html",
     "Additional extension patterns" : "Dodatni obrasci proširenja",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Jedan obrazac po liniji. Ako je obrazac pravilan izraz, mora početi s ^ ili završiti s $. Vodeća točka ili podvlaka na obrascima neregularnih izraza znače da naziv mora završiti zadanim nizom znakova.",
@@ -21,6 +21,7 @@
     "Ignore note file patterns" : "Zanemari obrasce datoteka bilješki",
     "Protection is currently active" : "Zaštita je trenutno aktivna",
     "Protection is currently paused until: <strong>%s</strong>" : "Zaštita je trenutno pauzirana do: <strong>%s</strong>",
-    "Re-enable protection now" : "Ponovno omogućite zaštitu"
+    "Re-enable protection now" : "Ponovno omogućite zaštitu",
+    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Ova aplikacija sprječava otpremanje datoteka koje imaju poznate završetke, nalik ransomwareu.\n\n⚠ Ni razvojni programeri ni Nextcloud GmbH ne daju nikakvo jamstvo da vaše datoteke neće biti zahvaćene na neki drugi način."
 },"pluralForm" :"nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;"
 }

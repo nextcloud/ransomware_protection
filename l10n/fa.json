@@ -1,0 +1,26 @@
+{ "translations": {
+    "Ransomware protection" : "محافظت از باج افزار",
+    "File “%1$s” could not be uploaded!" : "فایل “%1$s” بارگیری نشد!",
+    "Your sync clients are currently blocked from further uploads" : "مشتری های همگام سازی شما در حال حاضر از آپلودهای بیشتر مسدود شده اند",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "پرونده“%1$s” سعی کردید بارگذاری کنید با الگوی نام بردن از باج افزار / ویروس“%2$s”. اگر مطمئن هستید که دستگاه شما تحت تأثیر قرار نگرفته است ، می توانید به طور موقت محافظت را غیرفعال کردن. در غیر این صورت می توانید از مدیر خود درخواست کمک کنید ، بنابراین آنها به شما کمک می کنند.",
+    "Pause protection" : "مکث محافظت",
+    "I need help!" : "من به کمک نیاز دارم!",
+    "User %s may be infected with ransomware and is asking for your help." : "کاربر %s ممکن است به باج افزار آلوده شده و از شما درخواست کمک کند.",
+    "I will help" : "من کمک خواهم کرد",
+    "This app prevents uploading files with known ransomware file endings" : "این برنامه مانع بارگذاری پرونده ها با پایان نامه های معروف ransomware می شود",
+    "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "شامل پرونده های توجه داشته باشید با نام های نامشخص ، به عنوان مثال ReadMe.TxT ، info.html",
+    "Additional extension patterns" : "الگوهای پسوند اضافی",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "یک الگوی در هر خط. اگر این الگوی یک عبارت معمولی است باید از ^ شروع شود یا با $ پایان یابد. نقطه برجسته یا تأکید بر الگوهای بیان غیر منظم بدان معنی است که نام باید با رشته داده شده پایان یابد.",
+    "Additional note file patterns" : "الگوهای پرونده یادداشت اضافی",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "یک الگوی در هر خط. اگر الگوی یک عبارت معمولی است باید از ^ شروع شود یا با $ پایان یابد در غیر این صورت نام باید یک بازی کاملاً کامل کردن.",
+    "Exclude extension patterns" : "الگوهای الحاق را رد کنید",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "یک الگوی در هر خط. رشته دقیق را از پرونده منبع کپی کردن. این به شما کمک می کند تا ضمن به روز کردن برنامه ، محرومیت های خود را حفظ کنید.",
+    "Ignore extension patterns" : "الگوهای پسوند را نادیده بگیرید",
+    "Exclude note file patterns" : "الگوهای پرونده یادداشت را حذف کنید",
+    "Ignore note file patterns" : "الگوهای پرونده توجه را نادیده بگیرید",
+    "Protection is currently active" : "حمایت در حال حاضر فعال است",
+    "Protection is currently paused until: <strong>%s</strong>" : "محافظت در حال حاضر متوقف شده است: <strong>%s</strong>",
+    "Re-enable protection now" : "اکنون دوباره محافظت کنید",
+    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "این برنامه مانع بارگذاری پرونده ها با پایان نامه های معروف ransomware می شود.\n\n⚠️ نه توسعه دهنده و نه نکست کلود GmbH هیچ تضمینی در مورد اینکه پرونده های شما تحت تأثیر قرار نمی گیرند ، تضمین نمی کنند."
+},"pluralForm" :"nplurals=2; plural=(n > 1);"
+}

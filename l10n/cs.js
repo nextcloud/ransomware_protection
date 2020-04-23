@@ -10,7 +10,7 @@ OC.L10N.register(
     "User %s may be infected with ransomware and is asking for your help." : "Uživatel %s může být infikován(a) ransomwarem a žádá vás o pomoc.",
     "I will help" : "Pomohu",
     "This app prevents uploading files with known ransomware file endings" : "Tato aplikace brání nahrání souborů s koncovkami, u kterých je známo, že značí software, používaný pro kybernetické vydírání",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Tato aplikace zabraňuje nahrávání souborů o příponách kterých je známo, že obsahují vyděračský software (ransomware).\n\n⚠️ Ani vývojář, ani společnost Nextcloud GmbH nezaručuje, že vaše soubory nemohou být postiženy jiným způsobem.",
+    "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Tato aplikace brání Nextcloud synchronizačním klientům v nahrávání souborů s koncovkami, o kterých je známo, že by mohli obsahovat  ransomware.\n\n⚠️ Tato aplikace nenahrazuje pravidelné zálohování. Konkrétně proto, že pouze zabraňuje nakaženým klientům v nahrávání a přepisování souborů na vámi využívaném Nextcloud serveru. Nepomůže v případě, kdy je server ransomware nakažen přímo.\n\n⚠️ Ani vývojář, ani společnost Nextcloud GmbH nedává žádné záruky na to, že vaše soubory nemohou být ovlivněny jiným způsobem.",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Zahrnout soubory s poznámkami, které mají neobvyklé názvy, jako např. ReadMe.TxT, info.html",
     "Additional extension patterns" : "Další vzory přípon",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Jeden vzor na řádek. Pokud je vzor regulárním výrazem je třeba, aby začínal na ^ nebo končil na $. Úvodní tečka nebo podtržítko u vzorů, které nejsou regulárními výrazy znamená, že že název má končit na daný řetězec.",
@@ -23,6 +23,7 @@ OC.L10N.register(
     "Ignore note file patterns" : "Vzor souboru pro ignorování poznámky",
     "Protection is currently active" : "Ochrana je v současné době aktivní",
     "Protection is currently paused until: <strong>%s</strong>" : "Ochrana je nyní pozastavena dokud: <strong>%s</strong>",
-    "Re-enable protection now" : "Opětovné zapnutí ochrany"
+    "Re-enable protection now" : "Opětovné zapnutí ochrany",
+    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Tato aplikace zabraňuje nahrávání souborů o příponách kterých je známo, že obsahují vyděračský software (ransomware).\n\n⚠️ Ani vývojář, ani společnost Nextcloud GmbH nezaručuje, že vaše soubory nemohou být postiženy jiným způsobem."
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;");
