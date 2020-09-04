@@ -1,4 +1,6 @@
 <?php
+
+declare(strict_types=1);
 /**
  * @copyright Copyright (c) 2017 Joas Schilling <coding@schilljs.com>
  *
@@ -21,16 +23,15 @@
  *
  */
 
-namespace OCA\RansomwareProtection\Controller;
+namespace OCA\RansomwareProtection\Settings;
 
-use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\AppFramework\Utility\ITimeFactory;
 use OCP\IConfig;
 use OCP\IL10N;
-use OCP\IRequest;
+use OCP\Settings\ISettings;
 
-class PersonalController extends Controller {
+class Personal implements ISettings {
 
 	/** @var IConfig */
 	protected $config;
@@ -44,36 +45,17 @@ class PersonalController extends Controller {
 	/** @var string */
 	protected $userId;
 
-	/**
-	 * constructor of the controller
-	 *
-	 * @param string $appName
-	 * @param IRequest $request
-	 * @param IConfig $config
-	 * @param ITimeFactory $time
-	 * @param IL10N $l10n
-	 * @param string $userId
-	 */
-	public function __construct($appName,
-								IRequest $request,
-								IConfig $config,
+	public function __construct(IConfig $config,
 								ITimeFactory $time,
 								IL10N $l10n,
-								$userId) {
-		parent::__construct($appName, $request);
+								string $userId) {
 		$this->config = $config;
 		$this->time = $time;
 		$this->l10n = $l10n;
 		$this->userId = $userId;
 	}
 
-	/**
-	 * @NoAdminRequired
-	 * @NoCSRFRequired
-	 *
-	 * @return TemplateResponse
-	 */
-	public function displayPanel() {
+	public function getForm(): TemplateResponse {
 		$disabledUntil = (int) $this->config->getUserValue($this->userId, 'ransomware_protection', 'disabled_until', 0);
 		if ($disabledUntil < $this->time->getTime()) {
 			$disabledUntil = 0;
@@ -82,7 +64,16 @@ class PersonalController extends Controller {
 
 		return new TemplateResponse('ransomware_protection', 'personal', [
 			'disabledUntil'			=> $disabledUntil,
-		], '');
+		], TemplateResponse::RENDER_AS_BLANK);
 	}
 
+	public function getSection(): string {
+		// FIXME after https://github.com/nextcloud/server/pull/22589 is merged
+		// return 'additional';
+		return 'personal-info';
+	}
+
+	public function getPriority(): int {
+		return 10;
+	}
 }

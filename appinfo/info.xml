@@ -42,5 +42,6 @@
 
 	<settings>
 		<admin>OCA\RansomwareProtection\Settings\Admin</admin>
+		<personal>OCA\RansomwareProtection\Settings\Personal</personal>
 	</settings>
 </info>
