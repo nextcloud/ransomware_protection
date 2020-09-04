@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ## 1.8.0 - 2020-09-04
 ### Added
-- Nextcloud 19 support
+- Nextcloud 20 support
 
 ## 1.7.0 - 2020-06-03
 ### Added
