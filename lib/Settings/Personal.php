@@ -68,9 +68,7 @@ class Personal implements ISettings {
 	}
 
 	public function getSection(): string {
-		// FIXME after https://github.com/nextcloud/server/pull/22589 is merged
-		// return 'additional';
-		return 'personal-info';
+		return 'additional';
 	}
 
 	public function getPriority(): int {
