@@ -1,4 +1,6 @@
 <?php
+
+declare(strict_types=1);
 /**
  * @copyright Copyright (c) 2017 Joas Schilling <coding@schilljs.com>
  *
@@ -28,22 +30,26 @@ use OCA\RansomwareProtection\Analyzer;
 use OCA\RansomwareProtection\Notification\Notifier;
 use OCA\RansomwareProtection\StorageWrapper;
 use OCP\AppFramework\App;
+use OCP\AppFramework\Bootstrap\IBootContext;
+use OCP\AppFramework\Bootstrap\IBootstrap;
+use OCP\AppFramework\Bootstrap\IRegistrationContext;
 use OCP\Files\Storage\IStorage;
+use OCP\Notification\IManager;
 use OCP\Util;
 
-class Application extends App {
+class Application extends App implements IBootstrap {
 
 	public function __construct() {
 		parent::__construct('ransomware_protection');
 	}
 
-	/**
-	 * Register all hooks and listeners
-	 */
-	public function register() {
+	public function register(IRegistrationContext $context): void {
+	}
+
+	public function boot(IBootContext $context): void {
 		Util::connectHook('OC_Filesystem', 'preSetup', $this, 'addStorageWrapper');
 		\OCP\App::registerPersonal('ransomware_protection', 'personal');
-		$this->registerNotificationNotifier();
+		$context->injectFn(\Closure::fromCallable([$this, 'registerNotificationNotifier']));
 	}
 
 	/**
@@ -74,7 +80,7 @@ class Application extends App {
 		return $storage;
 	}
 
-	protected function registerNotificationNotifier() {
-		$this->getContainer()->getServer()->getNotificationManager()->registerNotifierService(Notifier::class);
+	protected function registerNotificationNotifier(IManager $manager) {
+		$manager->registerNotifierService(Notifier::class);
 	}
 }
