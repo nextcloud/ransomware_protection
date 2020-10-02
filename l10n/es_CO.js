@@ -9,6 +9,7 @@ OC.L10N.register(
     "I need help!" : "¡Necesito ayuda!",
     "User %s may be infected with ransomware and is asking for your help." : "El usuario %s puede estar infectado con ransomware y está pidiendo tu ayuda.",
     "I will help" : "Ayudaré",
+    "This app prevents uploading files with known ransomware file endings" : "Esta aplicación previene la carga de archivos con extensiones conocidas de tipo ransomware",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Incluir archivos de notas con nombres no-obvios, ej Leerme.TxT, info.html",
     "Additional extension patterns" : "Patrones de extensiones adicionales",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Un patrón por línea. Si el patrón es una expresión reglular debe iniciar con ^ o terminar con $. Un punto o guión bajo al inicio en un patrón que no sea una expresión regular significa que el nombre tiene que terminar con esa cadena. ",
