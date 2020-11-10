@@ -22,7 +22,7 @@ OC.L10N.register(
     "Exclude note file patterns" : "Notizdatei-Muster ausschließen",
     "Ignore note file patterns" : "Notizdatei-Muster ignorieren",
     "Protection is currently active" : "Schutz ist derzeit aktiv",
-    "Protection is currently paused until: <strong>%s</strong>" : "Schutz ist derzeit pausiert bis:<strong>%s</strong>",
+    "Protection is currently paused until: <strong>%s</strong>" : "Schutz ist derzeit pausiert bis: <strong>%s</strong>",
     "Re-enable protection now" : "Schutz jetzt wieder aktivieren",
     "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Dieses App verhindert das Hochladen von Dateien mit für Erpressungssoftware bekannten Dateiendungen.\n\n⚠️ Weder der Entwickler noch Nextcloud geben eine Garantie dafür ab, dass Deine Dateien nicht anderweitig geschädigt werden können."
 },
