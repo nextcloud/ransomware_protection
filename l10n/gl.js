@@ -17,7 +17,7 @@ OC.L10N.register(
     "Additional note file patterns" : "Patróns dos ficheiros de notas adicionais",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "Un patrón por liña. Se o patrón é unha expresión regular ten que comezar con ^ ou rematar con $ polo contrario o nome debe ser unha coincidencia completa.",
     "Exclude extension patterns" : "Excluír os patróns de extensión",
-    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Un patrón por liña. Copie a cadea exacta do ficheiro do recurso. Isto axuda a manter as súas exclusións mentres actualiza a aplicación.",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Un patrón por liña. Copie a cadea exacta do ficheiro do recurso. Isto axuda a conservar as súas exclusións mentres actualiza a aplicación.",
     "Ignore extension patterns" : "Ignorar os patróns de extensión",
     "Exclude note file patterns" : "Excluír os patróns dos ficheiros de notas",
     "Ignore note file patterns" : "Ignorar os patróns dos ficheiros de notas",
