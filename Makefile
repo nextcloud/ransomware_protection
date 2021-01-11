@@ -28,6 +28,7 @@ appstore: clean
 	rsync -a \
 	--exclude=/build \
 	--exclude=/docs \
+	--exclude=/generate-list \
 	--exclude=/translationfiles \
 	--exclude=/.tx \
 	--exclude=/tests \
