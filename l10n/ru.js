@@ -23,7 +23,6 @@ OC.L10N.register(
     "Ignore note file patterns" : "Шаблоны игнорируемых имён информационных файлов",
     "Protection is currently active" : "Защита активна",
     "Protection is currently paused until: <strong>%s</strong>" : "Защита временно отключена до <strong>%s</strong>",
-    "Re-enable protection now" : "Повторно активировать защиту",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Это приложение предотвращает загрузку файлов с известными расширениями, присущими программам-вымогателям(шантажистам).\n\n⚠️ Ни разработчик, ни Nextcloud GmbH не дают никаких гарантий, что ваши файлы не могут быть затронуты другим способом."
+    "Re-enable protection now" : "Повторно активировать защиту"
 },
 "nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);");

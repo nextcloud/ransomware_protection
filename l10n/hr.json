@@ -21,7 +21,6 @@
     "Ignore note file patterns" : "Zanemari obrasce datoteka bilješki",
     "Protection is currently active" : "Zaštita je trenutno aktivna",
     "Protection is currently paused until: <strong>%s</strong>" : "Zaštita je trenutno pauzirana do: <strong>%s</strong>",
-    "Re-enable protection now" : "Ponovno omogućite zaštitu",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Ova aplikacija sprječava otpremanje datoteka koje imaju poznate završetke, nalik ransomwareu.\n\n⚠ Ni razvojni programeri ni Nextcloud GmbH ne daju nikakvo jamstvo da vaše datoteke neće biti zahvaćene na neki drugi način."
+    "Re-enable protection now" : "Ponovno omogućite zaštitu"
 },"pluralForm" :"nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;"
 }

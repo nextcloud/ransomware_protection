@@ -21,7 +21,6 @@
     "Ignore note file patterns" : "Αγνόηση των μοτίβων αρχείων σημειώσεων",
     "Protection is currently active" : "Η προστασία είναι ενεργοποιημένη",
     "Protection is currently paused until: <strong>%s</strong>" : "Η προστασία είναι προς το παρόν σε παύση έως: <strong>%s</strong>",
-    "Re-enable protection now" : "Ενεργοποιήστε ξανά την προστασία τώρα",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Η εφαρμογή αποτρέπει τον διαμοιρασμό αρχείων με γνωστά ransomware\n\n⚠️ Κανείς από τους προγραμματιστές ή την Nextcloud Gmbh δεν μπορεί να εγγυηθεί πως τα αρχεία σας δεν θα μολυνθούν από άλλο τρόπο."
+    "Re-enable protection now" : "Ενεργοποιήστε ξανά την προστασία τώρα"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
