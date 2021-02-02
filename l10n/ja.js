@@ -23,7 +23,6 @@ OC.L10N.register(
     "Ignore note file patterns" : "無視するノートファイルパターン",
     "Protection is currently active" : "保護は現在動作中です",
     "Protection is currently paused until: <strong>%s</strong>" : "保護は現在一時停止中です: <strong>%s</strong> まで",
-    "Re-enable protection now" : "今すぐ保護を有効化する",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "このアプリは、既知のランサムウェアファイルの拡張子を持つファイルがアップロードされることを防ぎます。\n\n⚠️ ファイルが他の方法で侵害されないことを開発者または Nextcloud GmbH が保証するものではありません。"
+    "Re-enable protection now" : "今すぐ保護を有効化する"
 },
 "nplurals=1; plural=0;");

@@ -23,7 +23,6 @@ OC.L10N.register(
     "Ignore note file patterns" : "Ignora els patrons de fitxers de notes",
     "Protection is currently active" : "La protecció està activa",
     "Protection is currently paused until: <strong>%s</strong>" : "La protecció està actualment en pausa fins: <strong>%s</strong>",
-    "Re-enable protection now" : "Reactiva la protecció ara",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Aquesta aplicació impedeix carregar fitxers amb terminacions conegudes de fitxers ransomware\n\n⚠️ Ni el desenvolupador ni Nextcloud GmbH garanteixen que els vostres fitxers no es poden veure afectats d'una altra manera."
+    "Re-enable protection now" : "Reactiva la protecció ara"
 },
 "nplurals=2; plural=(n != 1);");

@@ -22,7 +22,6 @@ OC.L10N.register(
     "Ignore note file patterns" : "Ignorar patrones de archivo de notas",
     "Protection is currently active" : "La protección está actualmente activa",
     "Protection is currently paused until: <strong>%s</strong>" : "La protección esta actualmente suspendida hasta: <strong>%s</strong>",
-    "Re-enable protection now" : "Volver a habilitar la protección ahora",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Esta aplicación evita cargar archivos que tienen terminaciones identificadas como ransomware.\n\n⚠️ Ni el desarrollador o Nextcloud GmbH dan una garantia de que tus archivos no puedan ser afectados de algun otro modo."
+    "Re-enable protection now" : "Volver a habilitar la protección ahora"
 },
 "nplurals=2; plural=(n != 1);");

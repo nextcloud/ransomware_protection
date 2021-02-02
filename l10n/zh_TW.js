@@ -23,7 +23,6 @@ OC.L10N.register(
     "Ignore note file patterns" : "忽略的文字檔案格式",
     "Protection is currently active" : "防護正在運作",
     "Protection is currently paused until: <strong>%s</strong>" : "暫停防護直到<strong>%s</strong>為止",
-    "Re-enable protection now" : "現在已重新啟動防護",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "此應用程式會阻止上傳帶有已知垃圾病毒檔案結尾的檔案。\n\n⚠️ 開發者與 Nextcloud GmbH 均不保證您的檔案不會受其他形式的影響。"
+    "Re-enable protection now" : "現在已重新啟動防護"
 },
 "nplurals=1; plural=0;");

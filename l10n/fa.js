@@ -22,7 +22,6 @@ OC.L10N.register(
     "Ignore note file patterns" : "الگوهای پرونده توجه را نادیده بگیرید",
     "Protection is currently active" : "حمایت در حال حاضر فعال است",
     "Protection is currently paused until: <strong>%s</strong>" : "محافظت در حال حاضر متوقف شده است: <strong>%s</strong>",
-    "Re-enable protection now" : "اکنون دوباره محافظت کنید",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "این برنامه مانع بارگذاری پرونده ها با پایان نامه های معروف ransomware می شود.\n\n⚠️ نه توسعه دهنده و نه نکست کلود GmbH هیچ تضمینی در مورد اینکه پرونده های شما تحت تأثیر قرار نمی گیرند ، تضمین نمی کنند."
+    "Re-enable protection now" : "اکنون دوباره محافظت کنید"
 },
 "nplurals=2; plural=(n > 1);");

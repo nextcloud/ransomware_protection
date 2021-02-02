@@ -12,7 +12,6 @@ OC.L10N.register(
     "This app prevents uploading files with known ransomware file endings" : "Þetta forrit kemur í veg fyrir innsendingu skráa með þekktum skráaendingum fjárkúgunaróværu (ransomware)",
     "Protection is currently active" : "Varnir eru núna virkar",
     "Protection is currently paused until: <strong>%s</strong>" : "Varnir eru núna í bið þar til: <strong>%s</strong>",
-    "Re-enable protection now" : "Endurvirkja varnir núna",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Þetta forrit kemur í veg fyrir innsendingu skráa með þekktum skráaendingum fjárkúgunaróværu (ransomware).\n\n⚠️ Hvorki forritarar né Nextcloud GmbH taka neina ábyrgð á því að skrárnar þínar séu ekki smitaðar á einhvern annan hátt."
+    "Re-enable protection now" : "Endurvirkja varnir núna"
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");
