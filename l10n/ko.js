@@ -22,7 +22,6 @@ OC.L10N.register(
     "Ignore note file patterns" : "무시할 메모 파일 패턴",
     "Protection is currently active" : "보호 기능이 활성화됨",
     "Protection is currently paused until: <strong>%s</strong>" : "다음 시간까지 보호 기능이 일시 정지됨: <strong>%s</strong>",
-    "Re-enable protection now" : "지금 보호 다시 시작",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "이 앱은 알려진 랜섬웨어 파일 형식 업로드를 방지합니다.\n\n⚠️ 앱 개발자 및 Nextcloud GmbH는 파일 손상을 책임지지 않습니다."
+    "Re-enable protection now" : "지금 보호 다시 시작"
 },
 "nplurals=1; plural=0;");

@@ -21,7 +21,6 @@
     "Ignore note file patterns" : "忽略笔记文件格式",
     "Protection is currently active" : "保护已激活",
     "Protection is currently paused until: <strong>%s</strong>" : "保护已被暂停直到：<strong>%s</strong>",
-    "Re-enable protection now" : "重新启用保护",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "此应用能阻止带有已知勒索软件文件后缀的文件上传。\n\n⚠️开发者和Nextcloud GmbH均无法保证您的文件不会以其他方式被感染。"
+    "Re-enable protection now" : "重新启用保护"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

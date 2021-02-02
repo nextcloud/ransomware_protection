@@ -23,7 +23,6 @@ OC.L10N.register(
     "Ignore note file patterns" : "Игнориши шаблоне фајлова белешки",
     "Protection is currently active" : "Заштита је тренутно укључена",
     "Protection is currently paused until: <strong>%s</strong>" : "Заштита је тренутно паузирана до: <strong>%s</strong>",
-    "Re-enable protection now" : "Поново сад укључи заштиту",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Ова апликација не дозвољава отпремање фајлова са завршетком имена фајла који је познат као софтвер за уцењивање.\n\n⚠️ Ни програмер ни Nextcloud GmbH не даје гаранције да Ваши фајлови неће бити утицано на неки други начин."
+    "Re-enable protection now" : "Поново сад укључи заштиту"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);");

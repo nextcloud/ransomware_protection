@@ -21,7 +21,6 @@
     "Ignore note file patterns" : "Ignora modelli di file di note",
     "Protection is currently active" : "La protezione è attualmente attiva",
     "Protection is currently paused until: <strong>%s</strong>" : "La protezione è attualmente sospesa fino a: <strong>%s</strong>",
-    "Re-enable protection now" : "Riabilita la protezione subito",
-    "This app prevents uploading files with known ransomware file endings.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Questa applicazione impedisce il caricamento di file con ransomware conosciuti.\n\n⚠️ Né lo sviluppatore, né Nextcloud GmbH fornisce alcuna garanzia che i tuoi file non possano essere infettati in altro modo."
+    "Re-enable protection now" : "Riabilita la protezione subito"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
