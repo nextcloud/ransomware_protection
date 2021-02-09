@@ -9,7 +9,7 @@
 ⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.
 
 ⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way.]]></description>
-	<version>1.9.0</version>
+	<version>1.10.0</version>
 	<licence>agpl</licence>
 	<author>Joas Schilling</author>
 	<namespace>RansomwareProtection</namespace>
@@ -33,7 +33,7 @@
 	<screenshot>https://github.com/nextcloud/ransomware_protection/raw/master/docs/user-paused-protection.png</screenshot>
 
 	<dependencies>
-		<nextcloud min-version="21" max-version="21" />
+		<nextcloud min-version="22" max-version="22" />
 	</dependencies>
 
 	<commands>
