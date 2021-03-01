@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.9.0 - 2021-03-01
+### Added
+- Nextcloud 21 support
+
 ## 1.8.0 - 2020-09-04
 ### Added
 - Nextcloud 20 support
@@ -80,7 +84,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Add extension `.ykcol` against Locky 
   [#15](https://github.com/nextcloud/ransomware_protection/issues/15)
- 
+
 ## 1.0.3 – 2017-09-01
 ### Fixed
 - Correctly remove old strikes and block the client after 5 new strikes
@@ -99,7 +103,7 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - Removed some extensions from the list: `.bin`, `.css`, `.dll`, `.exe` and `.mp3` [#4](https://github.com/nextcloud/ransomware_protection/issues/4)
- 
+
 ### Fixed
 - Blocking now only affects sync clients, because ransomware doesn't upload via the browser
   [#5](https://github.com/nextcloud/ransomware_protection/issues/5)
