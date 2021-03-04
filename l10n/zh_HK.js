@@ -7,7 +7,7 @@ OC.L10N.register(
     "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "您嘗試上傳的檔案「%1$s」其檔名的格式與勒索軟體或病毒「%2$s」相符，如果你確定你的裝置並未被感染，你可以暫時停止防護，否則請向您的管理員尋求必要協助。",
     "Pause protection" : "防護暫停",
     "I need help!" : "我要求救！",
-    "User %s may be infected with ransomware and is asking for your help." : "使用者%s可能被感染勒索軟體，且請求您的協助。",
+    "User %s may be infected with ransomware and is asking for your help." : "用戶%s可能被感染勒索軟體，且請求您的協助。",
     "I will help" : "我要求救",
     "This app prevents uploading files with known ransomware file endings" : "此應用程式可以避免上傳有已知勒索病毒檔案結尾的檔案",
     "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "此應用程式會阻止 Nextcloud 同步客戶端上傳帶有已知垃圾病毒檔案結尾的檔案。\n\n⚠️ 此應用程式不能替代一般的備份。特別是因為其僅阻止被感染的客戶端上傳並覆寫您 Nextcloud 伺服器上的檔案。萬一您的伺服器直接被勒索病毒感染，這就無濟於事了。\n\n⚠️ 開發者與 Nextcloud GmbH 均不保證您的檔案不會受其他形式的影響。",
