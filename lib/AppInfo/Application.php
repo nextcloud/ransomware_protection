@@ -48,7 +48,6 @@ class Application extends App implements IBootstrap {
 
 	public function boot(IBootContext $context): void {
 		Util::connectHook('OC_Filesystem', 'preSetup', $this, 'addStorageWrapper');
-		\OCP\App::registerPersonal('ransomware_protection', 'personal');
 		$context->injectFn(\Closure::fromCallable([$this, 'registerNotificationNotifier']));
 	}
 
