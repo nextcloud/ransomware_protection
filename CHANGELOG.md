@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.10.0 - 2021-03-19
+### Changed
+- The app version now supports Nextcloud 21 and Nextcloud 20
+  
+### Fixed
+- Fix "Failed opening 'ransomware_protection/personal.php' for inclusion"
+  [#88](https://github.com/nextcloud/ransomware_protection/issues/88)
+
 ## 1.9.0 - 2021-03-01
 ### Added
 - Nextcloud 21 support
