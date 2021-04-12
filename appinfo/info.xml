@@ -8,7 +8,7 @@
 
 ⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.
 
-⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way.]]></description>
+⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files cannot be affected by another way.]]></description>
 	<version>1.10.0</version>
 	<licence>agpl</licence>
 	<author>Joas Schilling</author>
