@@ -8,7 +8,6 @@
     "User %s may be infected with ransomware and is asking for your help." : "User %s may be infected with ransomware and is asking for your help.",
     "I will help" : "I will help",
     "This app prevents uploading files with known ransomware file endings" : "This app prevents uploading files with known ransomware file endings",
-    "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way.",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html",
     "Additional extension patterns" : "Additional extension patterns",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string.",
@@ -21,6 +20,7 @@
     "Ignore note file patterns" : "Ignore note file patterns",
     "Protection is currently active" : "Protection is currently active",
     "Protection is currently paused until: <strong>%s</strong>" : "Protection is currently paused until: <strong>%s</strong>",
-    "Re-enable protection now" : "Re-enable protection now"
+    "Re-enable protection now" : "Re-enable protection now",
+    "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
