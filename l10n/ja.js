@@ -10,7 +10,6 @@ OC.L10N.register(
     "User %s may be infected with ransomware and is asking for your help." : "ユーザー %s はランサムウェアに感染している可能性があり、あなたの助けを求めています。",
     "I will help" : "助ける",
     "This app prevents uploading files with known ransomware file endings" : "このアプリは、既知のランサムウェアファイルの拡張子を持つファイルがアップロードされることを防ぎます",
-    "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "このアプリは、Nextcloud Syncクライアントが既知のランサムウェアファイルが末尾にあるファイルをアップロードするのを防ぎます。\n\n⚠️ このアプリは定期的なバックアップの代わりにはなりません。特に、感染したクライアントがNextcloudサーバー上にファイルをアップロードしたり、上書きしたりするのを防ぐだけです。お使いのサーバーがランサムウェアに直接感染している場合には役立ちません。\n\n⚠️ 開発者もNextcloud GmbHも、あなたのファイルが何らかの方法で影響を受けないことを保証するものではありません。",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "明らかではない名前のノートファイルを含める、例えば ReadMe.TxT, info.html など",
     "Additional extension patterns" : "追加の拡張子パターン",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "1 行ごとに 1 パターン。パターンが正規表現の場合は、 ^ で始まるか $ で終わる必要があります。正規表現ではないパターンでは、先頭のドットまたはアンダースコアは、与えられた文字列で名前が終わる必要があることを意味します。",
@@ -23,6 +22,7 @@ OC.L10N.register(
     "Ignore note file patterns" : "無視するノートファイルパターン",
     "Protection is currently active" : "保護は現在動作中です",
     "Protection is currently paused until: <strong>%s</strong>" : "保護は現在一時停止中です: <strong>%s</strong> まで",
-    "Re-enable protection now" : "今すぐ保護を有効化する"
+    "Re-enable protection now" : "今すぐ保護を有効化する",
+    "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "このアプリは、Nextcloud Syncクライアントが既知のランサムウェアファイルが末尾にあるファイルをアップロードするのを防ぎます。\n\n⚠️ このアプリは定期的なバックアップの代わりにはなりません。特に、感染したクライアントがNextcloudサーバー上にファイルをアップロードしたり、上書きしたりするのを防ぐだけです。お使いのサーバーがランサムウェアに直接感染している場合には役立ちません。\n\n⚠️ 開発者もNextcloud GmbHも、あなたのファイルが何らかの方法で影響を受けないことを保証するものではありません。"
 },
 "nplurals=1; plural=0;");

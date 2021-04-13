@@ -10,7 +10,6 @@ OC.L10N.register(
     "User %s may be infected with ransomware and is asking for your help." : "用戶%s可能被感染勒索軟體，且請求您的協助。",
     "I will help" : "我要求救",
     "This app prevents uploading files with known ransomware file endings" : "此應用程式可以避免上傳有已知勒索病毒檔案結尾的檔案",
-    "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "此應用程式會阻止 Nextcloud 同步客戶端上傳帶有已知垃圾病毒檔案結尾的檔案。\n\n⚠️ 此應用程式不能替代一般的備份。特別是因為其僅阻止被感染的客戶端上傳並覆寫您 Nextcloud 伺服器上的檔案。萬一您的伺服器直接被勒索病毒感染，這就無濟於事了。\n\n⚠️ 開發者與 Nextcloud GmbH 均不保證您的檔案不會受其他形式的影響。",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "包含不明顯的名稱的純文字檔案，例如 ReadMe。TxT， info。html",
     "Additional extension patterns" : "額外的附檔名格式",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "一行一個格式。如果透過正規表示法表示，則必須以^開頭或者以$結尾。以點或底線符號開頭的非正規表示法格式，則表示必須以同樣符號作為格式名稱的結尾。",
@@ -23,6 +22,7 @@ OC.L10N.register(
     "Ignore note file patterns" : "忽略的文字檔案格式",
     "Protection is currently active" : "防護正在運作",
     "Protection is currently paused until: <strong>%s</strong>" : "暫停防護直到<strong>%s</strong>為止",
-    "Re-enable protection now" : "現在已重新啟動防護"
+    "Re-enable protection now" : "現在已重新啟動防護",
+    "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "此應用程式會阻止 Nextcloud 同步客戶端上傳帶有已知垃圾病毒檔案結尾的檔案。\n\n⚠️ 此應用程式不能替代一般的備份。特別是因為其僅阻止被感染的客戶端上傳並覆寫您 Nextcloud 伺服器上的檔案。萬一您的伺服器直接被勒索病毒感染，這就無濟於事了。\n\n⚠️ 開發者與 Nextcloud GmbH 均不保證您的檔案不會受其他形式的影響。"
 },
 "nplurals=1; plural=0;");
