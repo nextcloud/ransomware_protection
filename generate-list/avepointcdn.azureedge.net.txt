@@ -1,0 +1,954 @@
+micro
+	
+
+TeslaCrypt 3.0 ransomware encrypted data
+
+zepto
+	
+
+Locky ransomware affected data
+
+locky
+	
+
+Locky ransomware affected data
+
+cerber
+	
+
+Cerber ransomware affected data
+
+cerber3
+	
+
+Cerber 3 ransomware affected data
+
+cryp1
+	
+
+CryptXXX ransomware affected data
+
+mole
+	
+
+CryptoMix (variant) ransomware affected data
+
+onion
+	
+
+Dharma ransomware affected data
+
+axx
+	
+
+AxCrypt encrypted data
+
+osiris
+	
+
+Locky (variant) ransomware affected data
+
+crypz
+	
+
+CryptXXX ransomware affected data
+
+crypt
+	
+
+Scatter ransomware affected data
+
+locked
+	
+
+Various ransomware affected data
+
+odin
+	
+
+Locky ransomware affected file
+
+ccc
+	
+
+TeslaCrypt or Cryptowall encrypted data
+
+cerber2
+	
+
+Cerber 2 ransomware affected file
+
+sage
+	
+
+Sage ransomware affected data
+
+globe
+	
+
+Globe ransomware affected file
+
+exx
+	
+
+Alpha Crypt encrypted file
+
+good
+	
+
+Scatter ransomware affected file
+
+wallet
+	
+
+Globe 3 (variant) ransomware affected file
+
+1txt
+	
+
+Enigma ransomware affected file
+
+decrypt2017
+	
+
+Globe 3 ransomware affected file
+
+encrypt
+	
+
+Alpha ransomware affected file
+
+ezz
+	
+
+Alpha Crypt virus encrypted data
+
+zzzzz
+	
+
+Locky ransomware affected file
+
+MERRY
+	
+
+Merry X-Mas ransomware affected file
+
+enciphered
+	
+
+Malware (ransomware) encoded file
+
+r5a
+	
+
+7ev3n ransomware affected file
+
+aesir
+	
+
+Locky ransomware affected file
+
+ecc
+	
+
+Cryptolocker or TeslaCrypt virus encrypted file
+
+enigma
+	
+
+Coverton ransomware affected file
+
+cryptowall
+	
+
+Encrypted file by Cryptowall ransomware
+
+encrypted
+	
+
+Various ransomware affected file
+
+loli
+	
+
+LOLI RanSomeWare ransomware affected file
+
+breaking_bad
+	
+
+Files1147@gmail(.)com ransomware affected file
+
+coded
+	
+
+Anubis ransomware affected file
+
+ha3
+	
+
+El-Polocker affected file
+
+damage
+	
+
+Damage ransomware affected file
+
+wcry
+	
+
+WannaCry ransomware affected file
+
+lol!
+	
+
+GPCode ransomware affected file
+
+cryptolocker
+	
+
+CryptoLocker encrypted file
+
+dharma
+	
+
+CrySiS ransomware affected file
+
+MRCR1
+	
+
+Merry X-Mas ransomware affected file
+
+sexy
+	
+
+PayDay ransomware affected files
+
+crjoker
+	
+
+CryptoJoker ransomware affected file
+
+fantom
+	
+
+Fantom ransomware affected file
+
+keybtc@inbox_com
+	
+
+KeyBTC ransomware affected file
+
+rrk
+	
+
+Radamant v2 ransomware affected file
+
+legion
+	
+
+Legion ransomware affected file
+
+kratos
+	
+
+KratosCrypt ransomware affected file
+
+LeChiffre
+	
+
+LeChiffre ransomware affected file
+
+kraken
+	
+
+Rakhni ransomware affected file
+
+zcrypt
+	
+
+ZCRYPT ransomware affected file
+
+maya
+	
+
+HiddenTear (variant) ransomware affected file
+
+enc
+	
+
+TorrentLocker ransomware affected file
+
+file0locked
+	
+
+Evil ransomware affected file
+
+crinf
+	
+
+DecryptorMax or CryptInfinite ransomware affected file
+
+serp
+	
+
+Serpent (variant) ransomware affected file
+
+potato
+	
+
+Potato ransomware affected file
+
+ytbl
+	
+
+Troldesh (variant) ransomware affected file
+
+surprise
+	
+
+Surprise ransomware affected file
+
+angelamerkel
+	
+
+Angela Merkel ransomware affected file
+
+windows10
+	
+
+Shade ransomware affected file
+
+lesli
+	
+
+CryptoMix ransomware affected file
+
+serpent
+	
+
+Serpent ransomware affected file
+
+PEGS1
+	
+
+Merry X-Mas ransomware affected file
+
+dale
+	
+
+Chip ransomware affected file
+
+pdcr
+	
+
+PadCrypt Ransomware script
+
+zzz
+	
+
+TeslaCrypt ransomware encrypted file
+
+xyz
+	
+
+TeslaCrypt ransomware encrypted file
+
+1cbu1
+	
+
+Princess Locker ransomware affected file
+
+venusf
+	
+
+Venus Locker ransomware affected file
+
+coverton
+	
+
+Coverton ransomware affected file
+
+thor
+	
+
+Locky ransomware affected file
+
+rnsmwr
+	
+
+Gremit ransomware affected file
+
+evillock
+	
+
+Evil-JS (variant) ransomware affected file
+
+R16m01d05
+	
+
+Ransomware affected data
+
+wflx
+	
+
+WildFire ransomware affected file
+
+nuclear55
+	
+
+Nuke ransomware affected file
+
+darkness
+	
+
+Rakhni ransomware affected file
+
+encr
+	
+
+FileLocker ransomware affected file
+
+rekt
+	
+
+HiddenTear (variant) ransomware affected file
+
+kernel_time
+	
+
+KeRanger OS X ransomware
+
+zyklon
+	
+
+ZYKLON ransomware affected file
+
+Dexter
+	
+
+Troldesh (variant) ransomware affected file
+
+locklock
+	
+
+LockLock ransomware affected file
+
+cry
+	
+
+CryLocker ransomware affected file
+
+VforVendetta
+	
+
+Samsam (variant) ransomware affected file
+
+btc
+	
+
+Jigsaw Ransomware affected file
+
+raid10
+	
+
+Globe [variant] ransomware affected file
+
+dCrypt
+	
+
+DummyLocker ransomware affected file
+
+zorro
+	
+
+Zorro ransomware affected file
+
+AngleWare
+	
+
+HiddenTear/MafiaWare (variant) ransomware affected file
+
+EnCiPhErEd
+	
+
+Xorist Ransomware affected file
+
+purge
+	
+
+Globe ransomware affected file
+
+realfs0ciety@sigaint.org.fs0ciety
+	
+
+Fsociety ransomware affected file
+
+shit
+	
+
+Locky ransomware affected file
+
+atlas
+	
+
+Atlas ransomware affected file
+
+exotic
+	
+
+Exotic ransomware affected file
+
+crypted
+	
+
+Nemucod ransomware affected file
+
+padcrypt
+	
+
+PadCrypt ransomware affected file
+
+xxx
+	
+
+TeslaCrypt 3.0 ransomware encrypted file
+
+hush
+	
+
+Jigsaw ransomware affected file
+
+bin
+	
+
+Alpha/Alfa ransomware affected file
+
+vbransom
+	
+
+VBRansom 7 ransomware affected file
+
+RMCM1
+	
+
+Merry X-Mas ransomware affected file
+
+cryeye
+	
+
+DoubleLocker ransomware affected data
+
+unavailable
+	
+
+Al-Namrood ransomware affected file
+
+braincrypt
+	
+
+Braincrypt ransomware affected file
+
+fucked
+	
+
+Manifestus ransomware affected file
+
+crypte
+	
+
+Jigsaw (variant) ransomware affected file
+
+_AiraCropEncrypted
+	
+
+AiraCrop Ransomware affecte file
+
+stn
+	
+
+Satan ransomware affected file
+
+paym
+	
+
+Jigsaw Ransomware affected file
+
+spora
+	
+
+Spora ransomware affected file
+
+dll
+	
+
+FSociety ransomware affected file
+
+RARE1
+	
+
+Merry X-Mas ransomware affected file
+
+alcatraz
+	
+
+Alcatraz Locker ransomware affected file
+
+pzdc
+	
+
+Scatter ransomware affected file
+
+aaa
+	
+
+TeslaCrypt ransomware encrypted file
+
+encrypted
+	
+
+Donald Trump ransomware affected file
+
+ttt
+	
+
+TeslaCrypt 3.0 ransomware encrypted file
+
+odcodc
+	
+
+ODCODC ransomware affected file
+
+vvv
+	
+
+TeslaCrypt 3.0 ransomware encrypted file
+
+ruby
+	
+
+Ruby ransomware affected file
+
+pays
+	
+
+Jigsaw Ransomware affected file
+
+comrade
+	
+
+Comrade ransomware affected file
+
+enc
+	
+
+Cryptorium ransomware affected file
+
+abc
+	
+
+TeslaCrypt ransomware encrypted file
+
+xxx
+	
+
+help_dcfile ransomware affected file
+
+antihacker2017
+	
+
+Xorist (variant) Ransomware affected file
+
+herbst
+	
+
+Herbst ransomware affacted file
+
+szf
+	
+
+SZFLocker ransomware affected file
+
+rekt
+	
+
+RektLocker ransomware affected file
+
+bript
+	
+
+BadEncriptor ransomware affected file
+
+crptrgr
+	
+
+CryptoRoger ransomware affected file
+
+kkk
+	
+
+Jigsaw Ransomware affected file
+
+rdm
+	
+
+Radamant ransomware affected file
+
+BarRax
+	
+
+BarRax (HiddenTear variant) ransomware affected file
+
+vindows
+	
+
+Vindows Locker ransomware affected file
+
+helpmeencedfiles
+	
+
+Samas/SamSam ransomware affected file
+
+hnumkhotep
+	
+
+Globe 3 ransomware affected file
+
+CCCRRRPPP
+	
+
+Unlock92 ransomware affected file
+
+kyra
+	
+
+Globe ransomware affected file
+
+fun
+	
+
+Jigsaw Ransomware affected file
+
+rip
+	
+
+KillLocker ransomware affected file
+
+73i87A
+	
+
+Xorist Ransomware affected file
+
+bitstak
+	
+
+Bitstak ransomware affected file
+
+kernel_complete
+	
+
+KeRanger OS X ransomware file
+
+payrms
+	
+
+Jigsaw Ransomware affected file
+
+a5zfn
+	
+
+Alma Locker ransomware affected file
+
+perl
+	
+
+Bart ransomware affected file
+
+noproblemwedecfiles​
+	
+
+Samas/SamSam ransomware affected file
+
+lcked
+	
+
+Jigsaw (variant) ransomware affected file
+
+p5tkjw
+	
+
+Xorist Ransomware affected file
+
+paymst
+	
+
+Jigsaw Ransomware affected file
+
+magic
+	
+
+Magic ransomware affected file
+
+payms
+	
+
+Jigsaw Ransomware affected file
+
+d4nk
+	
+
+PyL33T ransomware affected file
+
+SecureCrypted
+	
+
+Apocalypse ransomware affected file
+
+paymts
+	
+
+Jigsaw Ransomware affected file
+
+kostya
+	
+
+Kostya ransomware affected file
+
+lovewindows
+	
+
+Globe (variant) ransomware affected file
+
+madebyadam
+	
+
+Roga ransomware affected file
+
+powerfulldecrypt
+	
+
+Samas/SamSam ransomware affected file
+
+gefickt
+	
+
+Jigsaw (variant) ransomware affected file
+
+kernel_pid
+	
+
+KeRanger OS X ransomware file
+
+ifuckedyou
+	
+
+SerbRansom ransomware affected file
+
+grt
+	
+
+Karmen HiddenTear (variant) ransomware affected file
+
+conficker
+	
+
+Conficker ransomware affected file
+
+edgel
+	
+
+EdgeLocker ransomware affected file
+
+PoAr2w
+	
+
+Xorist Ransomware affected file
+
+oops
+	
+
+Marlboro ransomware affected file
+
+adk
+	
+
+Angry Duck ransomware affected file
+
+encrypted
+	
+
+KeRanger OS X ransomware affected file
+
+Whereisyourfiles
+	
+
+Samas/SamSam ransomware affected file
+
+czvxce
+	
+
+Coverton ransomware affected file
+
+theworldisyours
+	
+
+Samas/SamSam ransomware affected file
+
+info
+	
+
+PizzaCrypts Ransomware affected file
+
+razy
+	
+
+Razy ransomware affected file
+
+rmd
+	
+
+Zeta ransomware affected file
+
+fun
+	
+
+Jigsaw (variant) ransomware affected file
+
+kimcilware
+	
+
+KimcilWare ransomware affected file
+
+paymrss
+	
+
+Jigsaw Ransomware affected file
+
+dxxd
+	
+
+DXXD ransomware affected file
+
+pec
+	
+
+PEC 2017 ransomware affected file
+
+rokku
+	
+
+Rokku ransomware affected file
+
+lock93
+	
+
+Lock93 ransomware affected file
+
+vxlock
+	
+
+vxLock ransomware affected file
+
+pubg
+	
+
+PUBG ransomware affected data
