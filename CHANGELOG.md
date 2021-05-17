@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.10.1 - 2021-05-17
+### Added
+- Add [AvePoint](https://avepointcdn.azureedge.net/assets/webhelp/compliance_guardian_installation_and_administration/index.htm#!Documents/ransomwareencryptedfileextensionlist.htm) as second source list for ransomware extensions
+
 ## 1.7.1 - 2021-05-17
 ### Added
 - Add [AvePoint](https://avepointcdn.azureedge.net/assets/webhelp/compliance_guardian_installation_and_administration/index.htm#!Documents/ransomwareencryptedfileextensionlist.htm) as second source list for ransomware extensions
