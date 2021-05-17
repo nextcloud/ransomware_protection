@@ -1,6 +1,33 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.7.1 - 2021-05-17
+### Added
+- Add [AvePoint](https://avepointcdn.azureedge.net/assets/webhelp/compliance_guardian_installation_and_administration/index.htm#!Documents/ransomwareencryptedfileextensionlist.htm) as second source list for ransomware extensions
+
+## 1.7.0 - 2020-06-03
+### Added
+- Nextcloud 19 support
+
+## 1.6.1 - 2020-03-24
+### Added
+- Fix an issue with exceptions being thrown in nested calls 
+  [#64](https://github.com/nextcloud/ransomware_protection/issues/64)
+
+## 1.5.2 - 2020-03-24
+### Added
+- Fix an issue with exceptions being thrown in nested calls 
+  [#65](https://github.com/nextcloud/ransomware_protection/issues/65)
+
+## 1.4.2 - 2020-03-24
+### Added
+- Fix an issue with exceptions being thrown in nested calls 
+  [#66](https://github.com/nextcloud/ransomware_protection/issues/66)
+
+## 1.6.0 - 2020-01-17
+### Added
+- Nextcloud 18 support
+
 ## 1.5.0 - 2019-08-26
 ### Added
   - Nextcloud 17 support
