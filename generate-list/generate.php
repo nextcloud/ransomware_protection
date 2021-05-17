@@ -8,7 +8,8 @@ declare(strict_types=1);
  *
  * 1. Store the content of the "Extensions" column in extensions.txt
  * 2. Store the content of the "Extension Pattern" column in extension-patterns.txt
- * 3. Execute this file and commit the results
+ * 3. Store the table from https://avepointcdn.azureedge.net/assets/webhelp/compliance_guardian_installation_and_administration/index.htm#!Documents/ransomwareencryptedfileextensionlist.htm in avepointcdn.azureedge.net.txt
+ * 4. Execute this file and commit the results
  */
 
 $content = file_get_contents('extensions.txt');
@@ -105,6 +106,8 @@ $extensions[] = '.wkgdiba';
 $extensions[] = '.NEXTCRY';
 
 $extensions = array_unique($extensions);
+
+echo '[OK]     Added ' . count($extensions) . ' extensions from spreadsheet' . "\n";
 
 file_put_contents('../resources/extensions.txt', implode("\n", $extensions));
 
@@ -221,7 +224,40 @@ foreach ($extensionPatterns as $pattern) {
 		continue;
 	}
 
-	var_dump($pattern);
+	echo '[Error] Unhandled pattern: ' . $pattern . "\n";
 }
 
 file_put_contents('../resources/extensions.txt', "\n" . implode("\n", $patterns) . "\n", FILE_APPEND);
+
+echo '[OK]     Added ' . count($patterns) . ' patterns from spreadsheet' . "\n";
+
+
+
+$content = file_get_contents('avepointcdn.azureedge.net.txt');
+$extensionsPerRW = explode("\n", $content);
+
+$knownExtensionsAsKey = array_flip($extensions);
+
+$azureedgeExtensions = [];
+foreach ($extensionsPerRW as $extension) {
+	if (trim($extension) === '') {
+		continue;
+	}
+	if (trim($extension) === 'Encrypted file by Cryptowall ransomware') {
+		continue;
+	}
+	if (trim($extension) === 'KeRanger OS X ransomware') {
+		continue;
+	}
+	if (preg_match('/(aff[ae]cted?|encrypted|ransomware|encoded) (data|files?|script)$/i', $extension)) {
+		continue;
+	}
+
+	if (!isset($knownExtensionsAsKey['.' . $extension])) {
+		$azureedgeExtensions[] = '.' . $extension;
+	}
+}
+
+file_put_contents('../resources/extensions.txt', implode("\n", $azureedgeExtensions) . "\n", FILE_APPEND);
+
+echo '[OK]     Added ' . count($azureedgeExtensions) . ' extensions from avepointcdn.azureedge.net' . "\n";
