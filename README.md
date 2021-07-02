@@ -20,7 +20,7 @@ The user receives a notification with 2 options:
 >
 > [ Pause protection ]  [ I need help! ]
 
-If you want to exclude the problematic pattern, you can copy it from this notification and ask your admin to add it to the exclude list. Admins can also see the pattern in the log when it is set to level Warning or lower.
+If you want to exclude the problematic pattern, you can copy it from this notification and ask your admin to add it to the exclude list. **Hint:** You can find the apps admin settings in the security tab of your Nextcloud instance. Admins can also see the pattern in the log when it is set to level Warning or lower.
 
 If the user presses "I need help!" admins of the instance receive the following notification:
 
