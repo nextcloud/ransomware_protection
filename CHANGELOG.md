@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.11.0 - 2021-07-09
+### Added
+- Nextcloud 22 support
+
 ## 1.10.1 - 2021-05-17
 ### Added
 - Add [AvePoint](https://avepointcdn.azureedge.net/assets/webhelp/compliance_guardian_installation_and_administration/index.htm#!Documents/ransomwareencryptedfileextensionlist.htm) as second source list for ransomware extensions
