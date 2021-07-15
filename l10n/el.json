@@ -20,7 +20,6 @@
     "Ignore note file patterns" : "Αγνόηση των μοτίβων αρχείων σημειώσεων",
     "Protection is currently active" : "Η προστασία είναι ενεργοποιημένη",
     "Protection is currently paused until: <strong>%s</strong>" : "Η προστασία είναι προς το παρόν σε παύση έως: <strong>%s</strong>",
-    "Re-enable protection now" : "Ενεργοποιήστε ξανά την προστασία τώρα",
-    "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Αυτή η εφαρμογή εμποδίζει τους υπολογιστές να ανεβάζουν στο Nextcloud αρχεία με γνωστά αρχεία ransomware.\n\n⚠️ Αυτή η εφαρμογή δεν αντικαθιστά αντίγραφα ασφαλείας. Αποτρέπει μόνο τους υπολογιστές τη μεταφόρτωση και την αντικατάσταση αρχείων στο διακομιστή Nextcloud με μολυσμένα αρχεία. Δεν βοηθά σε περίπτωση που ο διακομιστής σας έχει ήδη μολυνθεί από ransomware.\n\n⚠️ Ούτε ο κάτοχος του έργου ούτε η Nextcloud GmbH παρέχουν καμία εγγύηση ότι τα αρχεία σας δεν μπορούν να επηρεαστούν από άλλο τρόπο."
+    "Re-enable protection now" : "Ενεργοποιήστε ξανά την προστασία τώρα"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
