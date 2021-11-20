@@ -1,0 +1,28 @@
+OC.L10N.register(
+    "ransomware_protection",
+    {
+    "Ransomware protection" : "Защита от рансъмуер/злонамерен софтуер/",
+    "File “%1$s” could not be uploaded!" : "Файлът „%1$s“ не можа да бъде качен!",
+    "Your sync clients are currently blocked from further uploads" : "Вашите клиенти за синхронизиране в момента са блокирани от по-нататъшни качвания",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "Файлът „%1$s“, който се опитахте да качите, съответства на модела на именуване на рансъмуер/вирус „%2$s“. Ако сте сигурни, че вашето устройство не е засегнато, можете временно да изключите защитата. В противен случай можете да поискате помощ от вашия администратор, така че той да се свърже с вас.",
+    "Pause protection" : "Защита на пауза",
+    "I need help!" : "Имам нужда от помощ!",
+    "User %s may be infected with ransomware and is asking for your help." : "Потребителят %s, може да е заразен с рансъмуер и моли за вашата помощ.",
+    "I will help" : "Ще помогна",
+    "This app prevents uploading files with known ransomware file endings" : "Това приложение предотвратява качването на файлове с известни окончания на файлове за рансъмуер",
+    "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files cannot be affected by another way." : "Това приложение не позволява на клиентите на Nextcloud Sync да качват файлове с известни окончания на файлове за рансъмуер.\n\n⚠️ Това приложение не замества редовното архивиране. Специално, защото то просто не позволява на заразените клиенти да качват и презаписват файлове на вашия Nextcloud сървър. Това не помага в случай, че сървърът ви е заразен директно от рансъмуер.\n\n⚠️ Нито разработчикът, нито Nextcloud GmbH дават някаква гаранция, че вашите файлове не могат да бъдат засегнати по друг начин.",
+    "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Включеване на файлове с бележки с неочевидни имена, напр. ReadMe.TxT, info.html",
+    "Additional extension patterns" : "Допълнителни модели на разширение",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Един модел на ред. Ако шаблонът е регулярен израз, той трябва да започва с ^ или да завършва с $. Водеща точка или долна черта при нерегулярни изразни модели означават, че името трябва да завършва с дадения низ.",
+    "Additional note file patterns" : "Допълнителни модели на файл за бележки",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "Един модел на ред. Ако шаблонът е регулярен израз, той трябва да започва с ^ или да завършва с $, в противен случай името трябва да е пълно съвпадение.",
+    "Exclude extension patterns" : "Изключеване на модели на разширения",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Един модел на ред. Копирайте точния низ от ресурсния файл. Това помага да запазите изключенията си, докато актуализирате приложението.",
+    "Ignore extension patterns" : "Игнориране на моделите за разширение",
+    "Exclude note file patterns" : "Изключване на шаблони на файл за бележки",
+    "Ignore note file patterns" : "Игнориране на шаблоните на файла за бележки ",
+    "Protection is currently active" : "Защитата в момента е активна",
+    "Protection is currently paused until: <strong>%s</strong>" : "Защитата в момента е на пауза до: <strong>%s</strong>",
+    "Re-enable protection now" : "Сега активирайте защитата отново"
+},
+"nplurals=2; plural=(n != 1);");
