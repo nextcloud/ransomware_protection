@@ -1,0 +1,28 @@
+OC.L10N.register(
+    "ransomware_protection",
+    {
+    "Ransomware protection" : "Protetzione ramsomware",
+    "File “%1$s” could not be uploaded!" : "S'archìviu \"%1$s\" non faghet a ddu carrigare!",
+    "Your sync clients are currently blocked from further uploads" : "Is clientes tuos de sincronizatzione immoe sunt blocados dae àteros carrigamentos.",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "S'archìviu \"%1$s\" chi as proadu a carrigare currispondet a su modellu de nùmene de unu  ransomware/virus \"%2$s\". Si ses seguru chi su dispositivu tuo non est infetadu, podes disativare pro unu tempus sa protetzione. Sinunca, podes pedire agiudu a s'amministradore tuo.",
+    "Pause protection" : "Firma sa protetzione",
+    "I need help!" : "Mi bisòngiat agiudu!",
+    "User %s may be infected with ransomware and is asking for your help." : "S'utente %s diat pòdere èssere infetadu cun unu ransomware e pedire agiudu.",
+    "I will help" : "L'apo a agiudare",
+    "This app prevents uploading files with known ransomware file endings" : "Custa aplicatzione impedit de carrigare archìvios de ramsonware connotos",
+    "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files cannot be affected by another way." : "Custa aplicatzione impedit a is clientes Nextcloud Sync de carrigare archìvios cun agabbos de archìvios de ransomware connotos.\n\n⚠️ Custa aplicatzione non est in logu de còpias de seguresa regulares. Mescamente ca impedit a is clientes infetados de carrigare e subraiscrìere is archìvios in su serbidore tuo de Nextcloud. No agiudat in su casu chi su serbidore tuo siat infetadu deretu dae unu ransomware.\n\n⚠️ Nen s'isvilupadore, nen Nextcloud GmbH oferint peruna garantzia chi is archìvios non potzant èssere interessados in un'àtera manera.",
+    "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Include archìvios de notas cun nùmenes non òvios, pro nàrrere ReadMe.TxT, info.html",
+    "Additional extension patterns" : "Modellos de estensione in prus",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Unu modellu cada riga. Si su modellu est un'espressione regulare devet cumintzare cun ^ o finire cun $. Su puntu a su cumintzu o unu tretigheddu in modellos de espressione non regulare cherent nàrrere chi su nùmene depet tèrminare cun istringa ispetzificada.",
+    "Additional note file patterns" : "Modellos de archìvios de notas in prus",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "Unu modellu cada riga. Si su modellu est un'espressione regulare depet cumintzare cun ^ o terminare cun $, sinunca su nùmene depet èssere una currispondèntzia cumpleta.",
+    "Exclude extension patterns" : "Lassa in fora modellos de estensione",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Unu modellu cada rifa. Còpia un'istringa esatta dae s'archìviu de is risorsas. Custu t'at a agiudare a mantènnere is esclusiones tuas in su tempus chi s'aplicatzione s'est agiornende.",
+    "Ignore extension patterns" : "Ignora modellos de estensione",
+    "Exclude note file patterns" : "Esclude modellos de archìvios de notas",
+    "Ignore note file patterns" : "Ignora modellos de archìvios de notas",
+    "Protection is currently active" : "Sa protetzione immoe est ativa",
+    "Protection is currently paused until: <strong>%s</strong>" : "Sa protetzione est immoe suspèndida finas a: <strong>%s</strong>",
+    "Re-enable protection now" : "Torra a ativare deretu sa protetzione"
+},
+"nplurals=2; plural=(n != 1);");

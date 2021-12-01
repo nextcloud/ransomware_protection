@@ -23,7 +23,6 @@ OC.L10N.register(
     "Ignore note file patterns" : "Mellőzendő feljegyzésfájl-minták",
     "Protection is currently active" : "A védelem jelenleg aktív",
     "Protection is currently paused until: <strong>%s</strong>" : "A védelem szüneteltetve eddig: <strong>%s</strong>",
-    "Re-enable protection now" : "A védelem újraengedélyezése",
-    "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Az alkalmazás megakadályozza, hogy a Nextcloud szinkronizálási kliensek olyan fájlokat töltsenek fel, melyek ismert zsarolóvírus-fájlvégződéssel rendelkeznek.\n\n⚠️ Az alkalmazás nem helyettesíti a rendszeres biztonsági mentést. Különösképp azért, mert csak azt akadályozza meg, hogy a fertőzött kliensek feltöltsék és felülírják a Nextcloud kiszolgálón található fájlokat. Hatástalan, ha közvetlenül a kiszolgálót fertőzi meg egy zsarolóvírus.\n\n⚠️ Sem a fejlesztő, sem a Nextcloud GmbH nem vállal semmiféle garanciát, hogy a fájlok más módokon nem lehetnek érintettek."
+    "Re-enable protection now" : "A védelem újraengedélyezése"
 },
 "nplurals=2; plural=(n != 1);");

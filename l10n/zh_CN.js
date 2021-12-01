@@ -22,7 +22,6 @@ OC.L10N.register(
     "Ignore note file patterns" : "忽略笔记文件格式",
     "Protection is currently active" : "保护已激活",
     "Protection is currently paused until: <strong>%s</strong>" : "保护已被暂停直到：<strong>%s</strong>",
-    "Re-enable protection now" : "重新启用保护",
-    "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "这个应用可防止 Nextcloud 同步客户端上传已知的勒索软件的文件结尾。\n\n⚠️此应用不能替代常规备份。 特别是因为它仅阻止受感染的客户端在 Nextcloud 服务器上上载和覆盖文件。 万一您的服务器直接被勒索软件感染，这将无济于事。\n\n⚠️开发人员和 Nextcloud GmbH 都不保证您的文件不会受到其他方式的影响。"
+    "Re-enable protection now" : "重新启用保护"
 },
 "nplurals=1; plural=0;");

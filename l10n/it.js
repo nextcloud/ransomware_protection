@@ -23,7 +23,6 @@ OC.L10N.register(
     "Ignore note file patterns" : "Ignora modelli di file di note",
     "Protection is currently active" : "La protezione è attualmente attiva",
     "Protection is currently paused until: <strong>%s</strong>" : "La protezione è attualmente sospesa fino a: <strong>%s</strong>",
-    "Re-enable protection now" : "Riabilita la protezione subito",
-    "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files can not be affected by another way." : "Questa applicazione impedisce ai client Nextcloud Sync di caricare file con terminazioni di file ransomware conosciute.\n\n⚠️ Questa applicazione non sostituisce i backup regolari. Soprattutto perché impedisce ai client infetti di caricare e sovrascrivere i file sul tuo server Nextcloud. Non aiuta nel caso in cui il tuo server sia infetto direttamente da un ransomware.\n\n⚠️ Né lo sviluppatore né Nextcloud GmbH offrono alcuna garanzia che i file non possano essere interessati in altro modo."
+    "Re-enable protection now" : "Riabilita la protezione subito"
 },
 "nplurals=2; plural=(n != 1);");
