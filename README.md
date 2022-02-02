@@ -36,7 +36,7 @@ After 5 "infected" uploads within 30 minutes, the clients of the user get blocke
 
 Configuration is managed on the **Settings » Security** page under the heading **Ransomware protection**.
 
-You can choose to ignore extensions from the [resources/extensions.txt file](https://github.com/nextcloud/ransomware_protection/blob/master/resources/extensions.txt "Link to the latest version of this file on Github. This may differ from your locally installed version.") by entering the pattern in to the 'Exclude extension patterns' field. You must enter patterns *exactly* as found in the extensions.txt file; entering something that is not a line in that file has no effect.
+You can choose to ignore extensions from the [resources/extensions.txt file](https://github.com/nextcloud/ransomware_protection/blob/master/resources/extensions.txt "Link to the latest version of this file on Github. This may differ from your locally installed version.") by entering the pattern into the 'Exclude extension patterns' field. You must enter patterns *exactly* as found in the extensions.txt file; entering something that is not a line in that file has no effect.
 
 **Example:** if you entered `.lock` in the Exclude extension patterns configuration field, then files that end in `.lock` will be allowed to sync without suspicion. i.e. you will no longer be protected from attacks that rename/create files called `<anything>.lock`.
 
