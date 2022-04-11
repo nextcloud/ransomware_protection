@@ -35,14 +35,15 @@ appstore: clean
 	--exclude=/.git \
 	--exclude=/.github \
 	--exclude=/l10n/l10n.pl \
-	--exclude=/CONTRIBUTING.md \
-	--exclude=/issue_template.md \
 	--exclude=/README.md \
 	--exclude=/.gitattributes \
 	--exclude=/.gitignore \
-	--exclude=/.scrutinizer.yml \
-	--exclude=/.travis.yml \
+	--exclude=/.php-cs-fixer.cache \
+	--exclude=/.php-cs-fixer.dist.php \
+	--exclude=/composer.json \
+	--exclude=/composer.lock \
 	--exclude=/Makefile \
+	--exclude=/psalm.xml \
 	$(project_dir)/ $(sign_dir)/$(app_name)
 	@if [ -f $(cert_dir)/$(app_name).key ]; then \
 		echo "Signing app files…"; \
