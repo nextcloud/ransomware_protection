@@ -89,13 +89,13 @@ class Block extends Command {
 			return 1;
 		}
 
-		$this->config->setUserValue($userId, 'ransomware_protection', 'clients_blocked', $this->time->getTime() + 3600);
+		$this->config->setUserValue($userId, 'ransomware_protection', 'clients_blocked', (string) ($this->time->getTime() + 3600));
 
 		$notification = $this->notifications->createNotification();
 
 		$notification->setApp('ransomware_protection')
 			->setDateTime(new \DateTime())
-			->setObject('strike', Striker::EXTERNAL_STRIKE)
+			->setObject('strike', (string) Striker::EXTERNAL_STRIKE)
 			->setSubject('clients_blocked', [
 				'',
 				'external script',

@@ -18,4 +18,13 @@
 			<directory name="vendor/phpunit/php-code-coverage" />
 		</ignoreFiles>
 	</extraFiles>
+	<issueHandlers>
+		<UndefinedClass>
+			<errorLevel type="suppress">
+				<referencedClass name="OC" />
+				<referencedClass name="OC\Files\Filesystem" />
+				<referencedClass name="OC\Files\Storage\Wrapper\Wrapper" />
+			</errorLevel>
+		</UndefinedClass>
+	</issueHandlers>
 </psalm>

@@ -221,6 +221,7 @@ class Analyzer {
 				$this->checkNotes($mode, $fileName, $userPath, $this->notesBiasedPlain, $this->notesBiasedRegex);
 			}
 		} catch (ForbiddenException $e) {
+			/** @var IStorage $storage */
 			if ($storage->getMimeType($path) !== 'httpd/unix-directory') {
 				$this->nestingLevel--;
 				throw $e;
@@ -314,15 +315,15 @@ class Analyzer {
 	 *
 	 * @param IStorage $storage
 	 * @param string $path
-	 * @return bool
+	 * @return string
 	 */
-	protected function translatePath(IStorage $storage, $path) {
+	protected function translatePath(IStorage $storage, string $path): string {
 		if (substr_count($path, '/') < 1) {
 			return $path;
 		}
 
 		// 'files', 'path/to/file.txt'
-		list($folder, $innerPath) = explode('/', $path, 2);
+		[$folder, $innerPath] = explode('/', $path, 2);
 
 		if ($folder === 'files_versions') {
 			$innerPath = substr($innerPath, 0, strrpos($innerPath, '.v'));
@@ -330,8 +331,8 @@ class Analyzer {
 		}
 
 		if ($folder === 'thumbnails') {
-			list($fileId, ) = explode('/', $innerPath, 2);
-			$innerPath = $storage->getCache()->getPathById($fileId);
+			[$fileId,] = explode('/', $innerPath, 2);
+			$innerPath = $storage->getCache()->getPathById((int) $fileId);
 
 			if ($innerPath !== null) {
 				return 'files/' . $innerPath;
@@ -343,9 +344,8 @@ class Analyzer {
 
 	/**
 	 * Check if we are in the LoginController and if so, ignore the firewall
-	 * @return bool
 	 */
-	protected function isCreatingSkeletonFiles() {
+	protected function isCreatingSkeletonFiles(): bool {
 		$exception = new \Exception();
 		$trace = $exception->getTrace();
 

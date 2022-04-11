@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <files psalm-version="4.20.0@f82a70e7edfc6cf2705e9374c8a0b6a974a779ed">
+  <file src="lib/Analyzer.php">
+    <MissingDependency occurrences="2">
+      <code>$filePath</code>
+      <code>$fullPath</code>
+    </MissingDependency>
+  </file>
+  <file src="lib/AppInfo/Application.php">
+    <MissingDependency occurrences="1">
+      <code>StorageWrapper|IStorage</code>
+    </MissingDependency>
+  </file>
+  <file src="lib/CacheWrapper.php">
+    <UndefinedClass occurrences="1">
+      <code>Wrapper</code>
+    </UndefinedClass>
+  </file>
 </files>

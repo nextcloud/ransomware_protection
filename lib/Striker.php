@@ -92,7 +92,7 @@ class Striker {
 		if ($mode === Analyzer::WRITING) {
 			if ($strikeType === self::FIFTH_STRIKE) {
 				// Block the user for 1 hour
-				$this->config->setUserValue($this->userId, 'ransomware_protection', 'clients_blocked', $this->time->getTime() + 3600);
+				$this->config->setUserValue($this->userId, 'ransomware_protection', 'clients_blocked', (string) ($this->time->getTime() + 3600));
 				$this->notifyUser($path, $pattern, $strikeType);
 			}
 

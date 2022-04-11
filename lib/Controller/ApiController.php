@@ -82,7 +82,7 @@ class ApiController extends OCSController {
 			return new DataResponse([], Http::STATUS_FORBIDDEN);
 		}
 
-		$this->config->setUserValue($user->getUID(), 'ransomware_protection', 'disabled_until', $this->time->getTime() + 3600);
+		$this->config->setUserValue($user->getUID(), 'ransomware_protection', 'disabled_until', (string) ($this->time->getTime() + 3600));
 
 		// Delete the original notification
 		$notification = $this->notificationManager->createNotification();
@@ -111,7 +111,7 @@ class ApiController extends OCSController {
 			return new DataResponse([], Http::STATUS_FORBIDDEN);
 		}
 
-		$this->config->setUserValue($user->getUID(), 'ransomware_protection', 'disabled_until', 0);
+		$this->config->setUserValue($user->getUID(), 'ransomware_protection', 'disabled_until', '0');
 
 		return new DataResponse();
 	}
