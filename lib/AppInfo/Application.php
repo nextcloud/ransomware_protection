@@ -38,7 +38,6 @@ use OCP\Notification\IManager;
 use OCP\Util;
 
 class Application extends App implements IBootstrap {
-
 	public function __construct() {
 		parent::__construct('ransomware_protection');
 	}

@@ -21,7 +21,6 @@
 
 namespace OCA\RansomwareProtection;
 
-
 use OCP\App\IAppManager;
 use OCP\AppFramework\Utility\ITimeFactory;
 use OCP\Files\ForbiddenException;
@@ -31,10 +30,9 @@ use OCP\ILogger;
 use OCP\IRequest;
 
 class Analyzer {
-
-	const READING = 1;
-	const WRITING = 2;
-	const DELETE = 3;
+	public const READING = 1;
+	public const WRITING = 2;
+	public const DELETE = 3;
 
 	/** @var string[] */
 	protected $extensionsPlain = [];
@@ -249,7 +247,7 @@ class Analyzer {
 				if (isset($plainLengths[$ext]) && substr($name, 0 - $plainLengths[$ext]) === $ext) {
 					$this->striker->handleMatch($mode, 'extension', $path, $ext);
 				}
-			} else if (strpos($name, $ext) !== false) {
+			} elseif (strpos($name, $ext) !== false) {
 				$this->striker->handleMatch($mode, 'extension', $path, $ext);
 			}
 		}
@@ -332,7 +330,7 @@ class Analyzer {
 		}
 
 		if ($folder === 'thumbnails') {
-			list($fileId,) = explode('/', $innerPath, 2);
+			list($fileId, ) = explode('/', $innerPath, 2);
 			$innerPath = $storage->getCache()->getPathById($fileId);
 
 			if ($innerPath !== null) {

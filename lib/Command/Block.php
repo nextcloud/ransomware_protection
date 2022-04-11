@@ -82,7 +82,6 @@ class Block extends Command {
 	 * @throws \InvalidArgumentException
 	 */
 	protected function execute(InputInterface $input, OutputInterface $output) {
-
 		$userId = $input->getArgument('user-id');
 
 		if (!$this->userManager->userExists($userId)) {

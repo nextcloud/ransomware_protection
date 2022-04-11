@@ -63,7 +63,7 @@ class Personal implements ISettings {
 		$disabledUntil = $disabledUntil === 0 ? '' : $this->l10n->l('datetime', $disabledUntil, ['width' => 'medium*|short']);
 
 		return new TemplateResponse('ransomware_protection', 'personal', [
-			'disabledUntil'			=> $disabledUntil,
+			'disabledUntil' => $disabledUntil,
 		], TemplateResponse::RENDER_AS_BLANK);
 	}
 
