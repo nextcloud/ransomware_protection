@@ -32,6 +32,7 @@ appstore: clean
 	--exclude=/translationfiles \
 	--exclude=/.tx \
 	--exclude=/tests \
+	--exclude=/vendor \
 	--exclude=/.git \
 	--exclude=/.github \
 	--exclude=/l10n/l10n.pl \
