@@ -21,21 +21,17 @@
 
 namespace OCA\RansomwareProtection;
 
-
-use OCP\App\IAppManager;
 use OCP\AppFramework\Utility\ITimeFactory;
 use OCP\Files\ForbiddenException;
-use OCP\Files\Storage\IStorage;
 use OCP\IConfig;
 use OCP\ILogger;
 use OCP\Notification\IManager;
 
 class Striker {
-
-	const FIRST_STRIKE = 1;
-	const ALREADY_STRIKED = 2;
-	const FIFTH_STRIKE = 3;
-	const EXTERNAL_STRIKE = 4;
+	public const FIRST_STRIKE = 1;
+	public const ALREADY_STRIKED = 2;
+	public const FIFTH_STRIKE = 3;
+	public const EXTERNAL_STRIKE = 4;
 
 	/** @var IConfig */
 	protected $config;
@@ -75,7 +71,6 @@ class Striker {
 	 * @throws ForbiddenException
 	 */
 	public function handleMatch($mode, $case, $path, $pattern) {
-
 		$lastStrikes = $this->config->getUserValue($this->userId, 'ransomware_protection', 'last_strikes', '[]');
 		$lastStrikes = json_decode($lastStrikes, true);
 
@@ -97,7 +92,7 @@ class Striker {
 		if ($mode === Analyzer::WRITING) {
 			if ($strikeType === self::FIFTH_STRIKE) {
 				// Block the user for 1 hour
-				$this->config->setUserValue($this->userId, 'ransomware_protection', 'clients_blocked', $this->time->getTime() + 3600);
+				$this->config->setUserValue($this->userId, 'ransomware_protection', 'clients_blocked', (string) ($this->time->getTime() + 3600));
 				$this->notifyUser($path, $pattern, $strikeType);
 			}
 
@@ -137,7 +132,7 @@ class Striker {
 	protected function updateLastStrikes(array $lastStrikes, $newStrike) {
 		$thirtyMinutesAgo = $this->time->getTime() - 30 * 60;
 
-		$lastStrikes = array_filter($lastStrikes, function($strike) use ($thirtyMinutesAgo) {
+		$lastStrikes = array_filter($lastStrikes, function ($strike) use ($thirtyMinutesAgo) {
 			return $strike['time'] > $thirtyMinutesAgo;
 		});
 

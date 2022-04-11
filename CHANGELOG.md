@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.13.0 - 2022-04-11
+### Added
+- Nextcloud 24 support
+
 ## 1.12.0 - 2021-12-02
 ### Added
 - Nextcloud 23 support

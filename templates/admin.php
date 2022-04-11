@@ -35,7 +35,9 @@ script('ransomware_protection', 'ransomware_protection_admin');
 	<p>
 		<input id="ransomware_protection_notes_include_biased" name="notes_include_biased"
 			   type="checkbox" class="checkbox" value="1"
-			<?php if ($_['notesIncludeBiased']) { print_unescaped('checked="checked"'); } ?> />
+			<?php if ($_['notesIncludeBiased']) {
+	print_unescaped('checked="checked"');
+} ?> />
 		<label for="ransomware_protection_notes_include_biased"><?php p($l->t('Include note files with non-obvious names, e.g. ReadMe.TxT, info.html')); ?></label><br/>
 	</p>
 

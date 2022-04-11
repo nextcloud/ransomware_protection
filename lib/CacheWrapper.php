@@ -27,7 +27,7 @@ use OCP\Files\Cache\ICache;
 use OCP\Files\ForbiddenException;
 use OCP\Files\Storage\IStorage;
 
-class CacheWrapper extends Wrapper  {
+class CacheWrapper extends Wrapper {
 	/** @var Analyzer */
 	protected $analyzer;
 	/** @var StorageWrapper */

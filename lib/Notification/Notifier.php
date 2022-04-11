@@ -23,7 +23,6 @@
 
 namespace OCA\RansomwareProtection\Notification;
 
-
 use OCP\IURLGenerator;
 use OCP\IUser;
 use OCP\IUserManager;
