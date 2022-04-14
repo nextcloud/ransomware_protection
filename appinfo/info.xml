@@ -33,7 +33,7 @@
 	<screenshot>https://github.com/nextcloud/ransomware_protection/raw/master/docs/user-paused-protection.png</screenshot>
 
 	<dependencies>
-		<nextcloud min-version="22" max-version="24" />
+		<nextcloud min-version="22" max-version="25" />
 	</dependencies>
 
 	<commands>
