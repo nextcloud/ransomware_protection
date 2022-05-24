@@ -13,4 +13,4 @@ OC.L10N.register(
     "Protection is currently paused until: <strong>%s</strong>" : "A proteção está pausada até:<strong>%s</strong>",
     "Re-enable protection now" : "Reativar a proteção agora"
 },
-"nplurals=2; plural=(n != 1);");
+"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
