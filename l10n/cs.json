@@ -3,7 +3,7 @@
     "File “%1$s” could not be uploaded!" : "Soubor „%1$s“ se nedaří nahrát!",
     "Your sync clients are currently blocked from further uploads" : "Další nahrávání z vašich synchronizačních klientů je nyní blokováno",
     "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "Soubor „%1$s“, který jste se pokusili nahrát, odpovídá vzorcům ransomware/viru „%2$s“. Pokud jste si naprosto jistí, že vaše zařízení není infikováno, můžete ochranu dočasně vypnout. V opačném případě požádejte o pomoc svého správce systémů.",
-    "Pause protection" : "Pozastavení ochrany",
+    "Pause protection" : "Pozastavit ochranu",
     "I need help!" : "Potřebuji pomoc!",
     "User %s may be infected with ransomware and is asking for your help." : "Uživatel(ka) %s může být infikován(a) ransomwarem a žádá vás o pomoc.",
     "I will help" : "Pomohu",
@@ -19,8 +19,8 @@
     "Ignore extension patterns" : "Vzory ignorovaných přípon",
     "Exclude note file patterns" : "Vzor souboru pro vynechání poznámky",
     "Ignore note file patterns" : "Vzor souboru pro ignorování poznámky",
-    "Protection is currently active" : "Ochrana je v současné době aktivní",
+    "Protection is currently active" : "Ochrana je nyní aktivní",
     "Protection is currently paused until: <strong>%s</strong>" : "Ochrana je nyní pozastavena dokud: <strong>%s</strong>",
-    "Re-enable protection now" : "Opětovné zapnutí ochrany"
+    "Re-enable protection now" : "Opět zapnout ochranu"
 },"pluralForm" :"nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;"
 }
