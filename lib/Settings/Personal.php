@@ -70,7 +70,7 @@ class Personal implements ISettings {
 	/**
 	 * @return string the section ID, e.g. 'sharing'
 	 */
-	public function getSection() {
+	public function getSection(): string {
 		return 'security';
 	}
 
@@ -81,7 +81,7 @@ class Personal implements ISettings {
 	 *
 	 * E.g.: 70
 	 */
-	public function getPriority() {
+	public function getPriority(): int {
 		return 50;
 	}
 }
