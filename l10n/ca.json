@@ -1,8 +1,8 @@
 { "translations": {
-    "Ransomware protection" : "Protecció contra ransomware (programari maliciós de rescat)",
+    "Ransomware protection" : "Protecció contra programari maliciós de segrest (ransomware)",
     "File “%1$s” could not be uploaded!" : "El fitxer “%1$s” no s'ha pogut carregar!",
     "Your sync clients are currently blocked from further uploads" : "Els vostres clients de sincronització estan blocats per impedir carregar fitxers",
-    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "El fitxer \"%1$s\" que heu intentat carregar coincideix amb el patró de denominació d’un ransomware/virus \"%2$s\". Si esteu segur que el vostre dispositiu no ha estat afectat, podeu desactivar temporalment la protecció. En cas contrari, podeu sol·licitar ajuda del vostre administrador.",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "El fitxer \"%1$s\" que heu intentat carregar coincideix amb el patró de denominació d’un ransomware/virus \"%2$s\". Si esteu segur que el vostre dispositiu no ha estat afectat, podeu inhabilitar temporalment la protecció. En cas contrari, podeu sol·licitar ajuda del vostre administrador.",
     "Pause protection" : "Atura la protecció",
     "I need help!" : "Necessito ajuda!",
     "User %s may be infected with ransomware and is asking for your help." : "L'usuari %s pot estar infectat amb ransomware i està demanant la vostra ajuda.",
