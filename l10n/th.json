@@ -1,0 +1,12 @@
+{ "translations": {
+    "Ransomware protection" : "การป้องกันแรนซัมแวร์",
+    "File “%1$s” could not be uploaded!" : "ไม่สามารถอัปโหลดไฟล์ “%1$s”!",
+    "Your sync clients are currently blocked from further uploads" : "ไคลเอ็นต์ซิงค์ของคุณถูกปิดกั้นไม่ให้อัปโหลดต่อไปอีก",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "ไฟล์ “%1$s” ที่คุณพยายามอัปโหลดตรงกับรูปแบบชื่อของแรนซัมแวร์/ไวรัส “%2$s” หากคุณมั่นใจว่าอุปกรณ์ของคุณไม่ได้รับผลกระทบ คุณสามารถปิดการป้องกันชั่วคราวได้ หรือคุณสามารถขอความช่วยเหลือจากผู้ดูแลระบบ เพื่อให้พวกเขาเข้ามาช่วยเหลือคุณ",
+    "Pause protection" : "หยุดพักการป้องกัน",
+    "I need help!" : "ฉันต้องการความช่วยเหลือ!",
+    "User %s may be infected with ransomware and is asking for your help." : "ผู้ใช้ %s อาจติดแรนซัมแวร์และกำลังขอความช่วยเหลือจากคุณ",
+    "I will help" : "ฉันจะช่วย",
+    "This app prevents uploading files with known ransomware file endings" : "แอปนี้ป้องกันการอัปโหลดไฟล์ที่มีชื่อลงท้ายไฟล์ของแรนซัมแวร์ที่รู้จัก"
+},"pluralForm" :"nplurals=1; plural=0;"
+}
