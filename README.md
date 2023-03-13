@@ -1,3 +1,17 @@
+### **🛠️ State of maintenance**
+
+While there are many things that could be done to further improve this app, this app is currently not maintained. This means:
+
+- We assess the main functionality as done
+- We are not updating this app for future releases
+- We are welcoming anyone who would like to take over this app.
+
+We would be more than excited, if you would like to collaborate with us. We would love to welcome co-maintainers.
+
+If there is a strong business case for any development of this app, we will consider your wishes for our roadmap. Please [contact your account manager](https://nextcloud.com/enterprise/) to talk about the possibilities.
+
+---
+
 # Ransomware protection app
 
 This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.
