@@ -3,9 +3,20 @@ OC.L10N.register(
     {
     "Ransomware protection" : "Захист від ransomware",
     "File “%1$s” could not be uploaded!" : "Файл \"%1$s\" неможливо завантажити!",
+    "Your sync clients are currently blocked from further uploads" : "Зараз заблоковано можливість завантаження даних через ваші клієнти синхронізації",
     "Pause protection" : "Призупинити захист",
     "I need help!" : "Мені потрібна допомога!",
     "User %s may be infected with ransomware and is asking for your help." : "Користувач %s може бути інфікований здирницьким програмним забезпеченням і просить по допомогу.",
-    "I will help" : "Я допоможу"
+    "I will help" : "Я допоможу",
+    "This app prevents uploading files with known ransomware file endings" : "Цей застосунок не дозволяє завантажувати файли, які містять файлові розширення, що можуть бути програмами з викрадачення даних (ransomware).",
+    "Additional extension patterns" : "Додаткові шаблони розширень",
+    "Additional note file patterns" : "Додаткові шаблони файлу нотаток",
+    "Exclude extension patterns" : "Виключити шаблони розширень",
+    "Ignore extension patterns" : "Ігнорувати шаблони розширень",
+    "Exclude note file patterns" : "Виключити шаблони файлу нотаток",
+    "Ignore note file patterns" : "Ігнорувати шаблони файлу нотаток",
+    "Protection is currently active" : "Захист увімкнено",
+    "Protection is currently paused until: <strong>%s</strong>" : "Захист тимчасово вимкнено до: <strong>%s</strong>",
+    "Re-enable protection now" : "Увімкнути захист знову"
 },
 "nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);");
