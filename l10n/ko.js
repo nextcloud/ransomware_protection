@@ -9,7 +9,7 @@ OC.L10N.register(
     "I need help!" : "도움이 필요합니다!",
     "User %s may be infected with ransomware and is asking for your help." : "%s 사용자가 랜섬웨어에 감염되었을 수도 있으며 귀하의 도움이 필요합니다.",
     "I will help" : "도와 줄 수 있습니다",
-    "This app prevents uploading files with known ransomware file endings" : "이 앱은 알려진 랜섬웨어 파일 형식 업로드를 방지합니다",
+    "This app prevents uploading files with known ransomware file endings" : "이 앱은 알려진 랜섬웨어 파일 형식 업로드를 방지합니다.",
     "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "특이한 이름을 사용하는 메모 파일 포함, 예: ReadMe.TxT, info.html",
     "Additional extension patterns" : "추가 확장자 패턴",
     "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "한 줄에 하나씩 입력하십시오. 패턴이 정규 표현식이라면 ^ 문자로 시작하거나 $ 문자로 끝나야 합니다. 정규 표현식이 아닌 패턴의 맨 첫 글자가 점이나 밑줄이라면 해당 문자열로 끝나는 이름과 일치합니다.",
