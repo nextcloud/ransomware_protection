@@ -1,6 +1,6 @@
 { "translations": {
     "Ransomware protection" : "Protection contre les logiciels d'extorsion",
-    "File “%1$s” could not be uploaded!" : "Le fichier \"%1$s\" n'a pas pu être téléversé!",
+    "File “%1$s” could not be uploaded!" : "Le fichier \"%1$s\" n'a pas pu être téléversé !",
     "Your sync clients are currently blocked from further uploads" : "Vos clients de synchronisation sont actuellement bloqués et ne peuvent plus effectuer de téléversement",
     "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "Le fichier \"%1$s\" que vous avez essayé de téléverser correspond au modèle de nommage d'un logiciel d'extorsion/virus \"%2$s\". Si vous êtes sûr que votre appareil n'est pas affecté, vous pouvez temporairement désactiver la protection. Sinon, vous pouvez demander de l'aide à votre administrateur, afin qu'il vous recontacte.",
     "Pause protection" : "Suspendre la protection",
