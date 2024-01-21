@@ -4,7 +4,7 @@
     "Your sync clients are currently blocked from further uploads" : "Зараз заблоковано можливість завантаження даних через ваші клієнти синхронізації",
     "Pause protection" : "Призупинити захист",
     "I need help!" : "Мені потрібна допомога!",
-    "User %s may be infected with ransomware and is asking for your help." : "Користувач %s може бути інфікований здирницьким програмним забезпеченням і просить по допомогу.",
+    "User %s may be infected with ransomware and is asking for your help." : "Користувача %s може бути інфіковано здирницьким програмним забезпеченням, він/вона просить по допомогу.",
     "I will help" : "Я допоможу",
     "This app prevents uploading files with known ransomware file endings" : "Цей застосунок не дозволяє завантажувати файли, які містять файлові розширення, що можуть бути програмами з викрадачення даних (ransomware).",
     "Additional extension patterns" : "Додаткові шаблони розширень",
