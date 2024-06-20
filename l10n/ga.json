@@ -1,0 +1,26 @@
+{ "translations": {
+    "Ransomware protection" : "Cosaint ransomware",
+    "File “%1$s” could not be uploaded!" : "Níorbh fhéidir comhad “%1$s” a uaslódáil!",
+    "Your sync clients are currently blocked from further uploads" : "Tá do chliaint sioncronaithe bactha ó uaslódálacha breise a dhéanamh faoi láthair",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "Meaitseálann an comhad “%1$s” a rinne tú iarracht a uaslódáil agus patrún ainmnithe earraí ransomware/víreas “%2$s”. Má tá tú cinnte nach ndéantar difear do do ghléas, is féidir leat an chosaint a dhíchumasú go sealadach. Seachas sin is féidir leat cabhair a iarraidh ó do riarthóir, ionas go ndéanann siad teagmháil leat.",
+    "Pause protection" : "Cosaint sos",
+    "I need help!" : "Teastaíonn cúnamh uaim!",
+    "User %s may be infected with ransomware and is asking for your help." : "Seans go bhfuil úsáideoir %s ionfhabhtaithe le hearraí ransom agus tá do chabhair á lorg aige.",
+    "I will help" : "Cabhróidh mé",
+    "This app prevents uploading files with known ransomware file endings" : "Cuireann an aip seo cosc ​​ar chomhaid a uaslódáil a bhfuil deirí comhaid ransomware aitheanta acu",
+    "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files cannot be affected by another way." : "Cuireann an aip seo cosc ​​ar chliaint Nextcloud Sync comhaid a uaslódáil le deirí comhaid ransomware atá ar eolas.\n\n⚠️ Ní thagann an aip seo in ionad cúltacaí rialta. Go háirithe ós rud é nach gcuireann sé cosc ​​​​ar chliaint ionfhabhtaithe ach comhaid a uaslódáil agus a fhorscríobh ar do fhreastalaí Nextcloud. Ní chabhraíonn sé ar eagla go bhfuil do fhreastalaí ionfhabhtaithe go díreach ag earraí ransom.\n\n⚠️ Ní thugann an forbróir ná Nextcloud GmbH aon ráthaíocht nach féidir cur isteach ar do chomhaid ar bhealach eile.",
+    "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Áirigh comhaid nótaí a bhfuil ainmneacha neamhshoiléir orthu, e.g. LéighMe.TxT, eolas.html",
+    "Additional extension patterns" : "Patrúin síneadh breise",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Patrún amháin in aghaidh an líne. Más slonn rialta é an patrún caithfidh sé tosú le ^ nó críochnú le $. Ciallaíonn pointe tosaigh nó béim ar phatrúin slonn neamhrialta go gcaithfidh an t-ainm críochnú leis an téad a thugtar.",
+    "Additional note file patterns" : "Patrúin comhaid nótaí breise",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "Patrún amháin in aghaidh an líne. Más slonn rialta é an patrún caithfidh sé tosú le ^ nó críochnú le $ nó ní mór don ainm a bheith ina mheaitseáil iomlán.",
+    "Exclude extension patterns" : "Fág patrúin sínte as an áireamh",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Patrún amháin in aghaidh an líne. Cóipeáil an teaghrán cruinn ón gcomhad acmhainne. Cuidíonn sé seo le d’eisiaimh a choinneáil agus an aip á nuashonrú.",
+    "Ignore extension patterns" : "Déan neamhaird de phatrúin sínte",
+    "Exclude note file patterns" : "Fág patrúin comhaid nótaí as an áireamh",
+    "Ignore note file patterns" : "Déan neamhaird de phatrúin comhaid nótaí",
+    "Protection is currently active" : "Tá cosaint gníomhach faoi láthair",
+    "Protection is currently paused until: <strong>%s</strong>" : "Tá an chosaint ar sos faoi láthair go dtí: 1%s1",
+    "Re-enable protection now" : "Athchumasaigh cosaint anois"
+},"pluralForm" :"nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);"
+}
