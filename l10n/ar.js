@@ -22,7 +22,7 @@ OC.L10N.register(
     "Exclude note file patterns" : "إستثن أنماط ملف الملاحظات",
     "Ignore note file patterns" : "تجاهل أنماط ملف الملاحظات",
     "Protection is currently active" : "الحماية مُفعّلة حاليّاً",
-    "Protection is currently paused until: <strong>%s</strong>" : "الحماية موقوفة حاليّاً حتّى: <strong>%s</strong>",
+    "Protection is currently paused until: <strong>%s</strong>" : "الحماية معطلة  حاليّاً حتّى: <strong>%s</strong>",
     "Re-enable protection now" : "أعد تفعيل الحماية الآن"
 },
 "nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;");
