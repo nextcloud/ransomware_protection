@@ -2,7 +2,7 @@
     "Ransomware protection" : "Ransomware koruması",
     "File “%1$s” could not be uploaded!" : "\"%1$s\" dosyası yüklenemedi!",
     "Your sync clients are currently blocked from further uploads" : "Eşitleme istemcilerinizin yükleme yapması engellendi",
-    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "Yüklemeye çalıştığınız “%1$s” dosyası \"%2$s\" ransomware/virus ile aynı adlandırma örüntüsünü içeriyor. Aygıtınızın etkilenmeyeceğinden eminseniz korumayı geçici olarak devre dışı bırakabilirsiniz. Yoksa sorununuz ile ilgilenmesi için yöneticiden yardım isteyebilirsiniz.",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "Yüklemeye çalıştığınız “%1$s” dosyasında \"%2$s\" ransomware/virus ile aynı adlandırma modeli bulunuyor. Aygıtınızın etkilenmeyeceğinden eminseniz korumayı geçici olarak kullanımdan kaldırabilirsiniz. Yoksa sorununuz ile ilgilenmesi için yöneticiden yardım isteyebilirsiniz.",
     "Pause protection" : "Korumayı duraklat",
     "I need help!" : "Yardım gerekli!",
     "User %s may be infected with ransomware and is asking for your help." : "%s kullanıcısı ramsomware bulaşmış olabileceğinden yardımınızı istiyor.",
@@ -21,6 +21,6 @@
     "Ignore note file patterns" : "Not dosyası örüntüleri yok sayılsın",
     "Protection is currently active" : "Koruma etkin",
     "Protection is currently paused until: <strong>%s</strong>" : "Koruma şu zamana kadar duraklatıldı: <strong>%s</strong>",
-    "Re-enable protection now" : "Korumayı yeniden etkinleştir"
+    "Re-enable protection now" : "Korumayı yeniden kullanıma al"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }
