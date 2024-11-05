@@ -2,7 +2,7 @@
     "Ransomware protection" : "Ransomware aizsargs",
     "File “%1$s” could not be uploaded!" : "Datni “%1$s” nevar augšupielādēt!",
     "Your sync clients are currently blocked from further uploads" : "Jūsu sinhronizācijas klients šobrīd ir bloķēts no turpmākas augšupielādes",
-    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "Jūs mēģinājāt augšupielādēt datni “%1$s”, kurai nosakuma daļa sakrīt ar ransomware/virus “%2$s”. Ja esiet pārliecināts, ka jūsu ierīce nav skarta, jūs īslaicīgi variet atslēgt aizsardzību vai sazinieties ar jūsu IS administratoru.",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "Datne \"%1$s\", kuru tika mēģināts augšupielādēt, atbilst izspiedēprogrammatūras/vīrusa \"%2$s\" nosaukuma paraugam. Ja ir pāliecība, ka ierīces nav ietekmētas, ir iespējams īslaicīgi atspējot aizsardzību. Pretējā gadījumā var pieprasīt palīdzību no pārvaldītājiem.",
     "Pause protection" : "Apturēt aizsardzību",
     "I need help!" : "Man nepieciešama palīdzība!",
     "User %s may be infected with ransomware and is asking for your help." : "Lietotājs %s iespējams ir inficēts ar ransomware un lūdz pēc palīdzības.",
