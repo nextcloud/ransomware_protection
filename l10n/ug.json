@@ -1,8 +1,8 @@
 { "translations": {
     "Ransomware protection" : "تۆلەم پۇلىنى قوغداش",
-    "File “%1$s” could not be uploaded!" : "«% 1 $ s» ھۆججىتىنى يۈكلەشكە بولمىدى!",
+    "File “%1$s” could not be uploaded!" : "«%1 $ s» ھۆججىتىنى يۈكلەشكە بولمىدى!",
     "Your sync clients are currently blocked from further uploads" : "ماس قەدەملىك خېرىدارلىرىڭىز نۆۋەتتە داۋاملىق يوللاشتىن چەكلەنگەن",
-    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "سىز يۈكلىمەكچى بولغان «% 1 $ s» ھۆججىتى تۆلەم يۇمشاق دېتالى / ۋىرۇس «% 2 $ s» نىڭ ئىسىم قويۇش ئەندىزىسىگە ماس كېلىدۇ. ئەگەر ئۈسكۈنىڭىزنىڭ تەسىرگە ئۇچرىمىغانلىقىغا كاپالەتلىك قىلسىڭىز ، قوغداشنى ۋاقتىنچە چەكلىيەلەيسىز. بولمىسا باشقۇرغۇچىڭىزدىن ياردەم تەلەپ قىلسىڭىز بولىدۇ ، شۇڭا ئۇلار سىز بىلەن ئالاقىلىشىدۇ.",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "سىز يۈكلىمەكچى بولغان «%1 $ s» ھۆججىتى تۆلەم يۇمشاق دېتالى / ۋىرۇس «%2 $ s» نىڭ ئىسىم قويۇش ئەندىزىسىگە ماس كېلىدۇ. ئەگەر ئۈسكۈنىڭىزنىڭ تەسىرگە ئۇچرىمىغانلىقىغا كاپالەتلىك قىلسىڭىز ، قوغداشنى ۋاقتىنچە چەكلىيەلەيسىز. بولمىسا باشقۇرغۇچىڭىزدىن ياردەم تەلەپ قىلسىڭىز بولىدۇ ، شۇڭا ئۇلار سىز بىلەن ئالاقىلىشىدۇ.",
     "Pause protection" : "قوغداشنى توختىتىڭ",
     "I need help!" : "ماڭا ياردەم كېرەك!",
     "User %s may be infected with ransomware and is asking for your help." : "ئىشلەتكۈچى% s تۆلەم يۇمشاق دېتالى بىلەن يۇقۇملانغان بولۇشى مۇمكىن ۋە ياردەم سوراۋاتىدۇ.",
