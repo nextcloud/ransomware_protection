@@ -4,7 +4,7 @@ OC.L10N.register(
     "Ransomware protection" : "Schutz vor Ransomware",
     "File “%1$s” could not be uploaded!" : "Die Datei \"%1$s\" konnte nicht hochgeladen werden!",
     "Your sync clients are currently blocked from further uploads" : "Ihre Sync-Clients sind derzeit blockiert und können keine weiteren Dateien hochladen",
-    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "Die Datei \"%1$s\", die Sie versucht haben hochzuladen, stimmt mit dem Namensmuster einer Ransomware oder eines Virus \"%2$s\" überein. Wenn Sie sicher sind, dass Ihr Gerät nicht infiziert ist, können Sie den Schutz kurzzeitig pausieren. Andernfalls können Sie den Administrator bitten, Ihnen zu helfen und Sie zu kontaktieren.",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "Die Datei \"%1$s\", die Sie versucht haben hochzuladen, stimmt mit dem Namensmuster einer Ransomware oder eines Virus \"%2$s\" überein. Wenn Sie sicher sind, dass Ihr Gerät nicht infiziert ist, können Sie den Schutz kurzzeitig pausieren. Andernfalls können Sie die Administration bitten, Ihnen zu helfen und Sie zu kontaktieren.",
     "Pause protection" : "Schutz pausieren",
     "I need help!" : "Ich brauche Hilfe!",
     "User %s may be infected with ransomware and is asking for your help." : "Benutzer %s könnte mit Ransomware infiziert sein und fragt nach Ihrer Hilfe.",
