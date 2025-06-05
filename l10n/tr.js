@@ -23,6 +23,6 @@ OC.L10N.register(
     "Ignore note file patterns" : "Not dosyası örüntüleri yok sayılsın",
     "Protection is currently active" : "Koruma etkin",
     "Protection is currently paused until: <strong>%s</strong>" : "Koruma şu zamana kadar duraklatıldı: <strong>%s</strong>",
-    "Re-enable protection now" : "Korumayı yeniden kullanıma al"
+    "Re-enable protection now" : "Korumayı yeniden etkinleştir"
 },
 "nplurals=2; plural=(n > 1);");
