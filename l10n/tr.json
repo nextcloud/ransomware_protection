@@ -21,6 +21,6 @@
     "Ignore note file patterns" : "Not dosyası örüntüleri yok sayılsın",
     "Protection is currently active" : "Koruma etkin",
     "Protection is currently paused until: <strong>%s</strong>" : "Koruma şu zamana kadar duraklatıldı: <strong>%s</strong>",
-    "Re-enable protection now" : "Korumayı yeniden etkinleştir"
+    "Re-enable protection now" : "Korumayı yeniden aç"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }
