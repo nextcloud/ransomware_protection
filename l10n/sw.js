@@ -1,0 +1,28 @@
+OC.L10N.register(
+    "ransomware_protection",
+    {
+    "Ransomware protection" : "Ulinzi wa ransomware",
+    "File “%1$s” could not be uploaded!" : "Faili “%1$s” haukuweza kupakiwa!",
+    "Your sync clients are currently blocked from further uploads" : "Wateja wako wa usawazishaji kwa sasa wamezuiwa kupakia zaidi",
+    "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "Faili ya \"%1$s\" uliyojaribu kupakia inalingana na muundo wa jina la programu ya ukombozi/virusi \"%2$s\". Ikiwa una uhakika kuwa kifaa chako hakijaathirika, unaweza kuzima ulinzi kwa muda. Vinginevyo unaweza kuomba usaidizi kutoka kwa msimamizi wako, ili awasiliane nawe.",
+    "Pause protection" : "Sitisha ulinzi",
+    "I need help!" : "Ninahitaji msaada!",
+    "User %s may be infected with ransomware and is asking for your help." : "Mtumiaji %s anaweza kuwa ameambukizwa ransomware na anaomba usaidizi wako.",
+    "I will help" : "Nitasaidia",
+    "This app prevents uploading files with known ransomware file endings" : "Programu hii inazuia upakiaji wa faili zilizo na miisho ya faili ya ransomware inayojulikana",
+    "This app prevents the Nextcloud Sync clients from uploading files with known ransomware file endings.\n\n⚠️ This app does not replace regular backups. Especially since it only prevents infected clients from uploading and overwriting files on your Nextcloud server. It does not help in case your server is infected directly by a ransomware.\n\n⚠️ Neither the developer nor Nextcloud GmbH give any guarantee that your files cannot be affected by another way." : "Programu hii huzuia viteja vya Nextcloud Sync kupakia faili zenye miisho ya faili ya ransomware inayojulikana.\n\n⚠️ Programu hii haichukui nafasi ya hifadhi rudufu za kawaida. Hasa kwa vile inazuia tu wateja walioambukizwa kupakia na kubatilisha faili kwenye seva yako ya Nextcloud. Haisaidii ikiwa seva yako imeambukizwa moja kwa moja na programu ya uokoaji.",
+    "Include note files with non-obvious names, e.g. ReadMe.TxT, info.html" : "Jumuisha faili za dokezo zilizo na majina yasiyo dhahiri, k.m. ReadMe.TxT, info.html",
+    "Additional extension patterns" : "Mifumo ya nyongeza ya upanuzi",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $. Leading dot or underscore on non-regular expression patterns mean that the name has to end with the given string." : "Mchoro mmoja kwa kila mstari. Ikiwa muundo ni usemi wa kawaida lazima uanze na ^ au umalizie na $. Nukta inayoongoza au alama chini kwenye ruwaza zisizo za kawaida za usemi inamaanisha kuwa jina lazima liishe na mfuatano uliotolewa.",
+    "Additional note file patterns" : "Mifumo ya faili ya maelezo ya ziada",
+    "One pattern per line. If the pattern is a regular expression it has to start with ^ or end with $ otherwise the name must be a complete match." : "Mfumo mmoja kwa kila mstari. Ikiwa mfumo ni usemi wa kawaida lazima uanze na ^ au kumalizika na $ vinginevyo jina lazima lifanane kabisa.",
+    "Exclude extension patterns" : "Usijumuishe ruwaza za viendelezi",
+    "One pattern per line. Copy the exact string from the resource file. This helps keeping your exclusions while updating the app." : "Mchoro mmoja kwa kila mstari. Nakili kamba halisi kutoka kwa faili ya rasilimali. Hii husaidia kuweka vizuizi vyako wakati wa kusasisha programu.",
+    "Ignore extension patterns" : "Puuza mifumo ya viendelezi",
+    "Exclude note file patterns" : "Ondoa mifumo ya faili za maelezo",
+    "Ignore note file patterns" : "Puuza mifumo ya faili za kumbukumbu",
+    "Protection is currently active" : "Ulinzi unatumika kwa sasa",
+    "Protection is currently paused until: <strong>%s</strong>" : "Ulinzi umesitishwa kwa sasa hadi: <strong>%s</strong>",
+    "Re-enable protection now" : "Washa ulinzi tena sasa"
+},
+"nplurals=2; plural=(n != 1);");
