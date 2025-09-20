@@ -3,7 +3,7 @@ OC.L10N.register(
     {
     "Ransomware protection" : "Protección contra  o secuestro de ficheiros (ransomware) ",
     "File “%1$s” could not be uploaded!" : "Non foi posíbel enviar o ficheiro «%1$s»!",
-    "Your sync clients are currently blocked from further uploads" : "Neste momento, os seus clientes de sincronización están bloqueados para que non poida facer novos envíos",
+    "Your sync clients are currently blocked from further uploads" : "Neste momento, os seus clientes de sincronización están bloqueados para que non poidan facer novos envíos",
     "The file “%1$s” you tried to upload matches the naming pattern of a ransomware/virus “%2$s”. If you are sure that your device is not affected, you can temporarily disable the protection. Otherwise you can request help from your admin, so they reach out to you." : "O ficheiro «»%1$s que tentou enviar coincide co padrón de nomeamento dun programa de secuestro/virus «%2$s». Se ten certeza de que o seu dispositivo non está afectado, pode desactivar a protección temporalmente. Se non, pode solicitar axuda do seu administrador, para que se comunique con Vde.",
     "Pause protection" : "Deter a protección",
     "I need help!" : "Necesito axuda!",
