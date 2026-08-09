@@ -81,7 +81,7 @@ class Block extends Command {
 	 * @throws \OCP\PreConditionNotMetException
 	 * @throws \InvalidArgumentException
 	 */
-	protected function execute(InputInterface $input, OutputInterface $output) {
+	protected function execute(InputInterface $input, OutputInterface $output): int {
 		$userId = $input->getArgument('user-id');
 
 		if (!$this->userManager->userExists($userId)) {
